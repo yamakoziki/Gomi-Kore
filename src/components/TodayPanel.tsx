@@ -53,6 +53,7 @@ export function TodayPanel({ calendar, categoriesData, areaColumnName, now, onSp
               calendar={calendar}
               areaColumnName={areaColumnName}
               fromDate={targetDate}
+              today={now}
             />
           ))}
         </div>

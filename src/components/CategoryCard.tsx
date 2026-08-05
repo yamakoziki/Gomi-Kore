@@ -11,11 +11,19 @@ type Props = {
   calendar: CalendarData;
   areaColumnName: string;
   fromDate: Date;
+  /**
+   * The real current date, used only to decide whether the next collection
+   * date should be labeled "today". Defaults to `fromDate`, but callers that
+   * shift `fromDate` forward (e.g. TodayPanel switching to tomorrow's view
+   * after the collection cutoff) must pass the true current date here so
+   * "today" isn't mislabeled onto a future date.
+   */
+  today?: Date;
   /** Skips the tap-to-reveal interaction and shows the details immediately, e.g. for item search results. */
   defaultExpanded?: boolean;
 };
 
-export function CategoryCard({ category, calendar, areaColumnName, fromDate, defaultExpanded = false }: Props) {
+export function CategoryCard({ category, calendar, areaColumnName, fromDate, today, defaultExpanded = false }: Props) {
   const { t, i18n } = useTranslation();
   const [nextDate, setNextDate] = useState<Date | null | undefined>(undefined);
   const [expanded, setExpanded] = useState(defaultExpanded);
@@ -76,7 +84,7 @@ export function CategoryCard({ category, calendar, areaColumnName, fromDate, def
           {t("category.nextDate", {
             date: nextDate ? formatShortDate(nextDate, language) : t("category.undetermined"),
           })}
-          {nextDate && toDateKey(nextDate) === toDateKey(fromDate) ? t("category.todaySuffix") : ""}
+          {nextDate && toDateKey(nextDate) === toDateKey(today ?? fromDate) ? t("category.todaySuffix") : ""}
         </p>
       )}
     </div>
