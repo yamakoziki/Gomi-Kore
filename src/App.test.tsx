@@ -200,10 +200,10 @@ describe("App", () => {
     const heading = await screen.findByText("これ何ゴミ？");
     const panel = heading.closest("section") as HTMLElement;
 
-    await user.type(within(panel).getByPlaceholderText("例: スプレー缶"), "蛍光灯");
+    await user.type(within(panel).getByPlaceholderText("例: スプレー缶"), "ピアノ");
     await user.click(within(panel).getByText("検索"));
 
-    expect(await within(panel).findByText("「蛍光灯」は見つかりませんでした。")).toBeInTheDocument();
+    expect(await within(panel).findByText("「ピアノ」は見つかりませんでした。")).toBeInTheDocument();
     const link = within(panel).getByText("札幌市公式の「家庭ごみ50音分別辞典」で調べる");
     expect(link).toHaveAttribute("href", "https://www.city.sapporo.jp/seiso/bunbetsu/index.html");
   });
