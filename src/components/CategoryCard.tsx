@@ -1,7 +1,9 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import type { CalendarData, Category } from "../types";
 import { getNextCollectionDate } from "../logic/collection";
 import { toDateKey } from "../logic/date";
+import { formatShortDate, pickLocalized } from "../i18n/localized";
 import { FeeBadge } from "./FeeBadge";
 
 type Props = {
@@ -11,15 +13,13 @@ type Props = {
   fromDate: Date;
 };
 
-function formatDate(date: Date): string {
-  return `${date.getMonth() + 1}/${date.getDate()}（${["日", "月", "火", "水", "木", "金", "土"][date.getDay()]}）`;
-}
-
 export function CategoryCard({ category, calendar, areaColumnName, fromDate }: Props) {
+  const { t, i18n } = useTranslation();
   const [nextDate, setNextDate] = useState<Date | null | undefined>(undefined);
   const [expanded, setExpanded] = useState(false);
 
   const isOnRequest = category.scheduleType === "on_request";
+  const language = i18n.resolvedLanguage ?? "ja";
 
   const handleTap = () => {
     setExpanded((prev) => !prev);
@@ -31,34 +31,39 @@ export function CategoryCard({ category, calendar, areaColumnName, fromDate }: P
   return (
     <button type="button" className="category-card" onClick={handleTap} aria-expanded={expanded}>
       <div className="category-card__header">
-        <span className="category-card__name">{category.name.ja}</span>
+        <span className="category-card__name">{pickLocalized(category.name, language)}</span>
         <FeeBadge feeType={category.feeType} />
       </div>
       {expanded && (
         <div className="category-card__details">
-          {category.feeNote && <p className="category-card__fee-note">{category.feeNote.ja}</p>}
+          {category.feeNote && <p className="category-card__fee-note">{pickLocalized(category.feeNote, language)}</p>}
           {category.subItem && (
             <p className="category-card__sub-item">
-              ※ {category.subItem.name.ja}（{category.subItem.feeType === "free" ? "無料" : "有料"}）も同時収集
-              {category.subItem.feeNote ? `：${category.subItem.feeNote.ja}` : ""}
+              {t("category.subItemNote", {
+                name: pickLocalized(category.subItem.name, language),
+                fee: t(`fee.${category.subItem.feeType}`),
+                feeNoteSuffix: category.subItem.feeNote ? `: ${pickLocalized(category.subItem.feeNote, language)}` : "",
+              })}
             </p>
           )}
           {isOnRequest ? (
             <div className="category-card__contact">
-              <p>事前申込が必要です。</p>
-              {category.contact?.phone && <p>電話: {category.contact.phone}</p>}
+              <p>{t("category.contactRequired")}</p>
+              {category.contact?.phone && <p>{t("category.phoneLabel", { phone: category.contact.phone })}</p>}
               {category.contact?.webUrl && (
                 <p>
                   <a href={category.contact.webUrl} target="_blank" rel="noreferrer">
-                    インターネット申込はこちら
+                    {t("category.onlineApply")}
                   </a>
                 </p>
               )}
             </div>
           ) : (
             <p className="category-card__next-date">
-              次回収集日: {nextDate ? formatDate(nextDate) : "未定（データ範囲外）"}
-              {nextDate && toDateKey(nextDate) === toDateKey(fromDate) ? "（本日）" : ""}
+              {t("category.nextDate", {
+                date: nextDate ? formatShortDate(nextDate, language) : t("category.undetermined"),
+              })}
+              {nextDate && toDateKey(nextDate) === toDateKey(fromDate) ? t("category.todaySuffix") : ""}
             </p>
           )}
         </div>

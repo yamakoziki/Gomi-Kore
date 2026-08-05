@@ -52,6 +52,8 @@ export type AreaMappingData = {
   municipalityCode: string;
   note: string;
   wards: string[];
+  /** JIS municipality code (5 digits) -> ward name, used to resolve geolocation to a ward. */
+  wardMuniCodes: Record<string, string>;
   areas: AreaInfo[];
 };
 
@@ -79,7 +81,9 @@ export type SourceData = {
   creditText: string;
   officialUrl: string;
   datasetUrl: string;
+  datasetSlug: string;
   apiBaseUrl: string;
+  packageShowUrl: string;
   categoryTableResourceId: string;
   calendarResourceId: string;
   calendarPeriod: { start: string; end: string };

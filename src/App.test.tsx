@@ -1,9 +1,13 @@
 import { cleanup, render, screen, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
+import type { UserEvent } from "@testing-library/user-event";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import App from "./App";
+import i18n from "./i18n";
 
 const AREA = "中央区1";
+const WARD = "中央区";
+const SUB_AREA_NUMBER = "1";
 
 function mockCkanResponse() {
   const records = [
@@ -16,6 +20,11 @@ function mockCkanResponse() {
     status: 200,
     json: async () => ({ success: true, result: { records, total: records.length } }),
   } as Response;
+}
+
+async function selectArea(user: UserEvent, wardLabel = "お住まいの区", districtLabel = "地区番号") {
+  await user.selectOptions(await screen.findByLabelText(wardLabel), WARD);
+  await user.selectOptions(await screen.findByLabelText(districtLabel), SUB_AREA_NUMBER);
 }
 
 beforeEach(() => {
@@ -33,6 +42,7 @@ beforeEach(() => {
   vi.stubGlobal("speechSynthesis", { speak: vi.fn(), cancel: vi.fn() });
 
   localStorage.clear();
+  void i18n.changeLanguage("ja");
 });
 
 afterEach(() => {
@@ -42,14 +52,13 @@ afterEach(() => {
 });
 
 describe("App", () => {
-  it("loads the calendar, lets the user pick an area, and shows tomorrow's collection", async () => {
+  it("loads the calendar, lets the user pick a ward and district, and shows tomorrow's collection", async () => {
     const user = userEvent.setup({ delay: null });
     render(<App />);
 
     expect(await screen.findByText(/上の欄からお住まいの地区を選択してください/)).toBeInTheDocument();
 
-    const select = screen.getByLabelText("お住まいの地区を選択してください");
-    await user.selectOptions(select, AREA);
+    await selectArea(user);
 
     const heading = await screen.findByText("明日（8/6）のごみ");
     const todayPanel = heading.closest("section") as HTMLElement;
@@ -61,8 +70,7 @@ describe("App", () => {
     const user = userEvent.setup({ delay: null });
     render(<App />);
 
-    const select = await screen.findByLabelText("お住まいの地区を選択してください");
-    await user.selectOptions(select, AREA);
+    await selectArea(user);
     const allCategoriesHeading = await screen.findByText("品目から調べる");
     const allCategoriesPanel = allCategoriesHeading.closest("section") as HTMLElement;
 
@@ -78,8 +86,7 @@ describe("App", () => {
     const user = userEvent.setup({ delay: null });
     render(<App />);
 
-    const select = await screen.findByLabelText("お住まいの地区を選択してください");
-    await user.selectOptions(select, AREA);
+    await selectArea(user);
     await screen.findByText("🔊 読み上げる");
 
     await user.click(screen.getByText("🔊 読み上げる"));
@@ -105,12 +112,79 @@ describe("App", () => {
     const user = userEvent.setup({ delay: null });
     render(<App />);
 
-    const select = await screen.findByLabelText("お住まいの地区を選択してください");
-    await user.selectOptions(select, AREA);
+    await selectArea(user);
 
     expect(await screen.findByText(/保存済みデータを表示中/)).toBeInTheDocument();
     const heading = screen.getByText("明日（8/6）のごみ");
     const todayPanel = heading.closest("section") as HTMLElement;
     expect(within(todayPanel).getByText("雑がみ")).toBeInTheDocument();
+  });
+
+  it("switches the UI and speech language to English when selected", async () => {
+    const user = userEvent.setup({ delay: null });
+    render(<App />);
+
+    await selectArea(user);
+    await screen.findByText("🔊 読み上げる");
+
+    await user.selectOptions(screen.getByLabelText("言語"), "en");
+
+    const heading = await screen.findByText("Tomorrow's garbage (8/6)");
+    const todayPanel = heading.closest("section") as HTMLElement;
+    expect(within(todayPanel).getByText("Plastic containers & packaging")).toBeInTheDocument();
+    expect(within(todayPanel).getByText("Free")).toBeInTheDocument();
+
+    await user.click(within(todayPanel).getByText("🔊 Read aloud"));
+    const utterance = (window.speechSynthesis.speak as ReturnType<typeof vi.fn>).mock.calls[0][0];
+    expect(utterance.lang).toBe("en-US");
+    expect(utterance.text).toContain("Plastic containers & packaging");
+  });
+
+  it("auto-detects the ward from geolocation and leaves the district for manual selection", async () => {
+    const getCurrentPosition = vi.fn((success: PositionCallback) => {
+      success({
+        coords: { latitude: 43.0618, longitude: 141.3545 } as GeolocationCoordinates,
+      } as GeolocationPosition);
+    });
+    vi.stubGlobal("navigator", { ...navigator, geolocation: { getCurrentPosition } });
+    vi.stubGlobal(
+      "fetch",
+      vi.fn((url: string | URL) => {
+        const href = String(url);
+        if (href.includes("mreversegeocoder.gsi.go.jp")) {
+          return Promise.resolve({
+            ok: true,
+            status: 200,
+            json: async () => ({ results: { muniCd: "01101", lv01Nm: "北一条西二丁目" } }),
+          } as Response);
+        }
+        return Promise.resolve(mockCkanResponse());
+      }),
+    );
+
+    const user = userEvent.setup({ delay: null });
+    render(<App />);
+
+    await user.click(await screen.findByText("📍 現在地から区を自動判定"));
+
+    expect(await screen.findByText("中央区を検出しました。地区番号を選択してください。")).toBeInTheDocument();
+    expect(screen.getByLabelText("お住まいの区")).toHaveValue(WARD);
+
+    await user.selectOptions(screen.getByLabelText("地区番号"), SUB_AREA_NUMBER);
+    expect(await screen.findByText("明日（8/6）のごみ")).toBeInTheDocument();
+  });
+
+  it("shows a manual-selection message when location access is denied", async () => {
+    const getCurrentPosition = vi.fn((_success: PositionCallback, error?: PositionErrorCallback) => {
+      error?.({ code: 1, PERMISSION_DENIED: 1, POSITION_UNAVAILABLE: 2, TIMEOUT: 3 } as GeolocationPositionError);
+    });
+    vi.stubGlobal("navigator", { ...navigator, geolocation: { getCurrentPosition } });
+
+    const user = userEvent.setup({ delay: null });
+    render(<App />);
+
+    await user.click(await screen.findByText("📍 現在地から区を自動判定"));
+
+    expect(await screen.findByText("位置情報の利用が許可されていません。区を手動で選択してください。")).toBeInTheDocument();
   });
 });

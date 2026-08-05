@@ -17,6 +17,14 @@ export function getCollectionCodeForDate(
   return code ? code : null;
 }
 
+/**
+ * Codes not present in categories.json are treated the same as "no
+ * collection" rather than thrown/crashed on. This matters in practice: the
+ * live Sapporo data contains at least one undocumented code ("0", seen
+ * scattered on winter dates, absent from the official code table) that
+ * fetch-sapporo-calendar.mjs warns about on every run but can't safely
+ * auto-map without knowing what it actually means.
+ */
 export function resolveCategoryByCode(
   categoriesData: CategoriesData,
   code: string | null,

@@ -1,11 +1,15 @@
 import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 import "./App.css";
 import { areaMappingData, categoriesData, loadCalendar, sourceData } from "./adapters/sapporo";
 import { AboutFooter } from "./components/AboutFooter";
 import { AllCategoriesPanel } from "./components/AllCategoriesPanel";
 import { AreaSelector } from "./components/AreaSelector";
+import { LanguageSwitcher } from "./components/LanguageSwitcher";
 import { TodayPanel } from "./components/TodayPanel";
+import { UpdateToast } from "./components/UpdateToast";
 import { useLocalStorageState } from "./hooks/useLocalStorageState";
+import { useNow } from "./hooks/useNow";
 import { useSpeech } from "./hooks/useSpeech";
 import type { CalendarData } from "./types";
 
@@ -23,6 +27,7 @@ function formatDateTime(iso: string): string {
 }
 
 function App() {
+  const { t } = useTranslation();
   const [selectedAreaCode, setSelectedAreaCode] = useLocalStorageState<string | null>(
     "gomi-kore:sapporo:areaCode",
     null,
@@ -44,13 +49,16 @@ function App() {
   }, []);
 
   const selectedArea = areaMappingData.areas.find((area) => area.areaCode === selectedAreaCode) ?? null;
-  const now = new Date();
+  const now = useNow();
 
   return (
     <div className="app">
       <header className="app__header">
-        <h1>ごみコレ</h1>
-        <p className="app__tagline">今日のゴミ、聞かなくても分かる。（{sourceData.municipalityName}版）</p>
+        <div className="app__header-row">
+          <h1>ごみコレ</h1>
+          <LanguageSwitcher />
+        </div>
+        <p className="app__tagline">{t("app.tagline", { municipality: sourceData.municipalityName })}</p>
       </header>
 
       <main className="app__main">
@@ -60,13 +68,13 @@ function App() {
           onChange={setSelectedAreaCode}
         />
 
-        {loadState.status === "loading" && <p className="app__status">カレンダーを読み込んでいます…</p>}
+        {loadState.status === "loading" && <p className="app__status">{t("app.loading")}</p>}
 
         {loadState.status === "error" && (
           <div className="app__status app__status--error">
-            <p>データの取得に失敗しました: {loadState.message}</p>
+            <p>{t("app.errorPrefix", { message: loadState.message })}</p>
             <button type="button" onClick={fetchCalendar}>
-              再試行
+              {t("app.retry")}
             </button>
           </div>
         )}
@@ -74,15 +82,11 @@ function App() {
         {loadState.status === "ready" && selectedArea && (
           <>
             <div className="app__meta">
-              <span>この情報は {formatDateTime(loadState.calendar.fetchedAt)} 時点のものです。</span>
-              {loadState.source === "cache" && (
-                <span className="app__meta-cache">（通信に失敗したため保存済みデータを表示中）</span>
-              )}
-              {loadState.source === "bundled" && (
-                <span className="app__meta-cache">（この端末での最新データ取得に失敗したため、アプリに同梱のデータを表示中）</span>
-              )}
+              <span>{t("app.lastUpdated", { datetime: formatDateTime(loadState.calendar.fetchedAt) })}</span>
+              {loadState.source === "cache" && <span className="app__meta-cache">{t("app.fromCache")}</span>}
+              {loadState.source === "bundled" && <span className="app__meta-cache">{t("app.fromBundled")}</span>}
               <button type="button" className="app__refresh" onClick={fetchCalendar}>
-                更新
+                {t("app.refresh")}
               </button>
             </div>
 
@@ -103,12 +107,11 @@ function App() {
           </>
         )}
 
-        {loadState.status === "ready" && !selectedArea && (
-          <p className="app__status">上の欄からお住まいの地区を選択してください。</p>
-        )}
+        {loadState.status === "ready" && !selectedArea && <p className="app__status">{t("app.selectAreaPrompt")}</p>}
       </main>
 
       <AboutFooter source={sourceData} />
+      <UpdateToast />
     </div>
   );
 }
