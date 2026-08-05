@@ -8,6 +8,13 @@
   gap: 20px;
 }
 
+/* update-toast is fixed to the viewport bottom and can otherwise cover the
+   about-footer toggle, which app__main's flex:1 pushes flush to the bottom
+   edge of the screen. Reserve space for it whenever it's rendered. */
+.app:has(.update-toast) {
+  padding-bottom: 76px;
+}
+
 .app__header-row {
   display: flex;
   align-items: center;
