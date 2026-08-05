@@ -6,6 +6,7 @@
   "license": "CC-BY 4.0",
   "creditText": "本アプリのごみ収集データは、一般財団法人さっぽろ産業振興財団が提供するオープンデータ（DATA-SMART CITY SAPPORO、CC-BY 4.0）を利用しています。",
   "officialUrl": "https://www.city.sapporo.jp/seiso/gomi/calendar.html",
+  "sortingDictionaryUrl": "https://www.city.sapporo.jp/seiso/bunbetsu/index.html",
   "datasetUrl": "https://ckan.pf-sapporo.jp/dataset/garbage_collection_calendar",
   "datasetSlug": "garbage_collection_calendar",
   "apiBaseUrl": "https://ckan.pf-sapporo.jp/api/3/action/datastore_search",

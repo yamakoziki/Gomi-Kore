@@ -12,6 +12,8 @@ export type CategorySubItem = {
   name: LocalizedText;
   feeType: FeeType;
   feeNote?: LocalizedText;
+  /** Extra search aliases (item nicknames, synonyms) matched by the "何ゴミ？" item search, in addition to `name`. */
+  keywords?: string[];
 };
 
 export type CategoryContact = {
@@ -30,6 +32,8 @@ export type Category = {
   feeNote?: LocalizedText;
   subItem?: CategorySubItem;
   contact?: CategoryContact;
+  /** Extra search aliases (item nicknames, synonyms) matched by the "何ゴミ？" item search, in addition to `name`. */
+  keywords?: string[];
 };
 
 export type CategoriesData = {
@@ -80,6 +84,8 @@ export type SourceData = {
   license: string;
   creditText: string;
   officialUrl: string;
+  /** Official item-by-item sorting dictionary (50-on order). Copyrighted city content — link out to it, never reproduce it wholesale. */
+  sortingDictionaryUrl: string;
   datasetUrl: string;
   datasetSlug: string;
   apiBaseUrl: string;

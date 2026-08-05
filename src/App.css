@@ -12,7 +12,15 @@
    about-footer toggle, which app__main's flex:1 pushes flush to the bottom
    edge of the screen. Reserve space for it whenever it's rendered. */
 .app:has(.update-toast) {
-  padding-bottom: 76px;
+  padding-bottom: 96px;
+}
+
+/* The reserved padding above only keeps the closed toggle button clear.
+   Once the about panel is expanded, its content (official-site link, etc.)
+   can still scroll in underneath the fixed toast, so hide the toast while
+   the panel is open rather than trying to out-guess its height. */
+.app:has(.about-footer__content) .update-toast {
+  display: none;
 }
 
 .app__header-row {
@@ -294,6 +302,83 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+/* Item search panel */
+.item-search-panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 18px;
+}
+
+.item-search-panel h2 {
+  font-size: 20px;
+}
+
+.item-search-panel__hint {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin: 4px 0 14px;
+}
+
+.item-search-panel__form {
+  display: flex;
+  gap: 8px;
+}
+
+.item-search-panel__input {
+  flex: 1;
+  min-width: 0;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  font-size: 16px;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.item-search-panel__mic,
+.item-search-panel__submit {
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--bg);
+  font-size: 16px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.item-search-panel__mic--active {
+  background: var(--paid-bg);
+  border-color: var(--paid);
+}
+
+.item-search-panel__status {
+  margin-top: 10px;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.item-search-panel__status--error {
+  color: var(--paid);
+}
+
+.item-search-panel__result,
+.item-search-panel__not-found {
+  margin-top: 14px;
+}
+
+.category-card--static {
+  cursor: default;
+}
+
+.item-search-panel__not-found {
+  font-size: 14px;
+  color: var(--text-muted);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
 }
 
 /* About footer */

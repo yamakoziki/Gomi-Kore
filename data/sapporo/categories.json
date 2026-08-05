@@ -8,11 +8,13 @@
       "scheduleType": "regular",
       "feeType": "designated_bag",
       "feeNote": { "ja": "市指定の有料ごみ袋をご使用ください。", "en": "Use the city-designated paid garbage bag." },
+      "keywords": ["生ごみ", "紙くず", "ゴム", "皮革"],
       "subItem": {
         "id": "spray_can",
         "name": { "ja": "スプレー缶類", "en": "Spray cans" },
         "feeType": "free",
-        "feeNote": { "ja": "別袋（無料）で出してください。", "en": "Put out in a separate free bag." }
+        "feeNote": { "ja": "別袋（無料）で出してください。", "en": "Put out in a separate free bag." },
+        "keywords": ["スプレー", "カセットボンベ", "スプレー缶"]
       }
     },
     {
@@ -26,7 +28,8 @@
         "id": "heated_tobacco_lighter",
         "name": { "ja": "加熱式たばこ・ライター", "en": "Heated tobacco devices / lighters" },
         "feeType": "free",
-        "feeNote": { "ja": "別袋（無料）で出してください。", "en": "Put out in a separate free bag." }
+        "feeNote": { "ja": "別袋（無料）で出してください。", "en": "Put out in a separate free bag." },
+        "keywords": ["ライター", "iqos", "加熱式タバコ", "チャッカマン"]
       }
     },
     {
@@ -35,11 +38,13 @@
       "name": { "ja": "びん・缶・ペットボトル", "en": "Bottles, cans & PET bottles" },
       "scheduleType": "regular",
       "feeType": "free",
+      "keywords": ["缶", "びん", "瓶", "ペットボトル"],
       "subItem": {
         "id": "dry_batteries",
         "name": { "ja": "乾電池", "en": "Dry-cell batteries" },
         "feeType": "free",
-        "feeNote": { "ja": "別袋（無料）で出してください。", "en": "Put out in a separate free bag." }
+        "feeNote": { "ja": "別袋（無料）で出してください。", "en": "Put out in a separate free bag." },
+        "keywords": ["電池", "乾電池", "単三電池", "単四電池"]
       }
     },
     {
@@ -47,27 +52,31 @@
       "id": "plastic_containers",
       "name": { "ja": "容器包装プラスチック", "en": "Plastic containers & packaging" },
       "scheduleType": "regular",
-      "feeType": "free"
+      "feeType": "free",
+      "keywords": ["プラ", "容器包装", "プラマーク"]
     },
     {
       "code": "10",
       "id": "mixed_paper",
       "name": { "ja": "雑がみ", "en": "Mixed paper" },
       "scheduleType": "regular",
-      "feeType": "free"
+      "feeType": "free",
+      "keywords": ["紙", "古紙"]
     },
     {
       "code": "11",
       "id": "branches_leaves_grass",
       "name": { "ja": "枝・葉・草", "en": "Branches, leaves & grass" },
       "scheduleType": "regular",
-      "feeType": "free"
+      "feeType": "free",
+      "keywords": ["枝", "葉", "草", "剪定枝"]
     },
     {
       "id": "bulky_waste",
       "name": { "ja": "大型ごみ（粗大ごみ）", "en": "Bulky waste" },
       "scheduleType": "on_request",
       "feeType": "sticker_required",
+      "keywords": ["粗大ごみ", "大型ごみ"],
       "feeNote": {
         "ja": "事前申込制。品目ごとに処理手数料（シール）が必要です。",
         "en": "Advance application required. A paid disposal sticker is needed per item."

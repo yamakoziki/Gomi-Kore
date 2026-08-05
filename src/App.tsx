@@ -5,6 +5,7 @@ import { areaMappingData, categoriesData, loadCalendar, sourceData } from "./ada
 import { AboutFooter } from "./components/AboutFooter";
 import { AllCategoriesPanel } from "./components/AllCategoriesPanel";
 import { AreaSelector } from "./components/AreaSelector";
+import { ItemSearchPanel } from "./components/ItemSearchPanel";
 import { LanguageSwitcher } from "./components/LanguageSwitcher";
 import { TodayPanel } from "./components/TodayPanel";
 import { UpdateToast } from "./components/UpdateToast";
@@ -95,6 +96,15 @@ function App() {
               categoriesData={categoriesData}
               areaColumnName={selectedArea.columnName}
               now={now}
+              onSpeak={speak}
+            />
+
+            <ItemSearchPanel
+              categoriesData={categoriesData}
+              calendar={loadState.calendar}
+              areaColumnName={selectedArea.columnName}
+              now={now}
+              source={sourceData}
               onSpeak={speak}
             />
 

@@ -174,6 +174,40 @@ describe("App", () => {
     expect(await screen.findByText("明日（8/6）のごみ")).toBeInTheDocument();
   });
 
+  it("finds a category by item name in the item search and reads the answer aloud", async () => {
+    const user = userEvent.setup({ delay: null });
+    render(<App />);
+
+    await selectArea(user);
+    const heading = await screen.findByText("これ何ゴミ？");
+    const panel = heading.closest("section") as HTMLElement;
+
+    await user.type(within(panel).getByPlaceholderText("例: スプレー缶"), "スプレー缶");
+    await user.click(within(panel).getByText("検索"));
+
+    expect(await within(panel).findByText("燃やせるごみ")).toBeInTheDocument();
+    expect(window.speechSynthesis.speak).toHaveBeenCalledTimes(1);
+    const utterance = (window.speechSynthesis.speak as ReturnType<typeof vi.fn>).mock.calls[0][0];
+    expect(utterance.text).toContain("スプレー缶");
+    expect(utterance.text).toContain("スプレー缶類");
+  });
+
+  it("shows a link to the official sorting dictionary when an item isn't found", async () => {
+    const user = userEvent.setup({ delay: null });
+    render(<App />);
+
+    await selectArea(user);
+    const heading = await screen.findByText("これ何ゴミ？");
+    const panel = heading.closest("section") as HTMLElement;
+
+    await user.type(within(panel).getByPlaceholderText("例: スプレー缶"), "蛍光灯");
+    await user.click(within(panel).getByText("検索"));
+
+    expect(await within(panel).findByText("「蛍光灯」は見つかりませんでした。")).toBeInTheDocument();
+    const link = within(panel).getByText("札幌市公式の「家庭ごみ50音分別辞典」で調べる");
+    expect(link).toHaveAttribute("href", "https://www.city.sapporo.jp/seiso/bunbetsu/index.html");
+  });
+
   it("shows a manual-selection message when location access is denied", async () => {
     const getCurrentPosition = vi.fn((_success: PositionCallback, error?: PositionErrorCallback) => {
       error?.({ code: 1, PERMISSION_DENIED: 1, POSITION_UNAVAILABLE: 2, TIMEOUT: 3 } as GeolocationPositionError);

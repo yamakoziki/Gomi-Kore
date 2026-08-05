@@ -21,6 +21,11 @@ export function AboutFooter({ source }: { source: SourceData }) {
               {t("about.officialLink", { municipality: source.municipalityName })}
             </a>
           </p>
+          <p>
+            <a href={source.sortingDictionaryUrl} target="_blank" rel="noreferrer">
+              {t("about.sortingDictionaryLink", { municipality: source.municipalityName })}
+            </a>
+          </p>
           <h3>{t("about.creditHeading")}</h3>
           <p>{source.creditText}</p>
           <p>
