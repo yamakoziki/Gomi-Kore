@@ -8,7 +8,40 @@
       "scheduleType": "regular",
       "feeType": "designated_bag",
       "feeNote": { "ja": "市指定の有料ごみ袋をご使用ください。", "en": "Use the city-designated paid garbage bag." },
-      "keywords": ["生ごみ", "紙くず", "ゴム", "皮革"],
+      "keywords": [
+        "生ごみ",
+        "紙くず",
+        "ゴム",
+        "皮革",
+        "座布団",
+        "布団カバー",
+        "弁当箱",
+        "うちわ・扇子",
+        "ぬいぐるみ",
+        "ホース",
+        "じょうろ",
+        "靴",
+        "靴下",
+        "かばん",
+        "ベルト",
+        "ストロー",
+        "CD",
+        "DVD",
+        "ビデオテープ",
+        "カセットテープ",
+        "植木鉢（プラ製）",
+        "コップ（プラ製）",
+        "スプーン（木製・プラ製）",
+        "フォーク（木製・プラ製）",
+        "ざる（木製・プラ製）",
+        "ボウル（木製・プラ製）",
+        "洗濯バサミ",
+        "製氷皿",
+        "線香",
+        "タオル",
+        "カーテン",
+        "おもちゃ（木製・プラ製）"
+      ],
       "subItem": {
         "id": "spray_can",
         "name": { "ja": "スプレー缶類", "en": "Spray cans" },
@@ -24,6 +57,44 @@
       "scheduleType": "regular",
       "feeType": "designated_bag",
       "feeNote": { "ja": "市指定の有料ごみ袋をご使用ください。", "en": "Use the city-designated paid garbage bag." },
+      "keywords": [
+        "傘",
+        "鍋",
+        "フライパン",
+        "包丁",
+        "コップ（ガラス製・金属製）",
+        "スプーン（金属製）",
+        "フォーク（金属製）",
+        "ざる（金属製）",
+        "ボウル（金属製）",
+        "水筒",
+        "蛍光灯",
+        "蛍光管",
+        "電球",
+        "体温計",
+        "かみそり",
+        "電動歯ブラシ",
+        "扇風機",
+        "電子レンジ",
+        "トースター",
+        "掃除機",
+        "ドライヤー",
+        "アイロン",
+        "炊飯器",
+        "ホットプレート",
+        "携帯電話",
+        "スマートフォン",
+        "充電器",
+        "電卓",
+        "時計",
+        "カメラ",
+        "ゲーム機",
+        "鏡",
+        "クリップ",
+        "延長コード",
+        "植木鉢（プラ製以外）",
+        "おもちゃ（電池で動くもの）"
+      ],
       "subItem": {
         "id": "heated_tobacco_lighter",
         "name": { "ja": "加熱式たばこ・ライター", "en": "Heated tobacco devices / lighters" },
@@ -38,13 +109,13 @@
       "name": { "ja": "びん・缶・ペットボトル", "en": "Bottles, cans & PET bottles" },
       "scheduleType": "regular",
       "feeType": "free",
-      "keywords": ["缶", "びん", "瓶", "ペットボトル"],
+      "keywords": ["缶", "びん", "瓶", "ペットボトル", "一升びん", "アルミ缶", "一斗缶", "化粧品のびん"],
       "subItem": {
         "id": "dry_batteries",
         "name": { "ja": "乾電池", "en": "Dry-cell batteries" },
         "feeType": "free",
         "feeNote": { "ja": "別袋（無料）で出してください。", "en": "Put out in a separate free bag." },
-        "keywords": ["電池", "乾電池", "単三電池", "単四電池"]
+        "keywords": ["電池", "乾電池", "単三電池", "単四電池", "筒型乾電池"]
       }
     },
     {
@@ -53,7 +124,7 @@
       "name": { "ja": "容器包装プラスチック", "en": "Plastic containers & packaging" },
       "scheduleType": "regular",
       "feeType": "free",
-      "keywords": ["プラ", "容器包装", "プラマーク"]
+      "keywords": ["プラ", "容器包装", "プラマーク", "ポリ袋", "食品トレイ", "卵のパック", "シャンプーボトル"]
     },
     {
       "code": "10",
@@ -61,7 +132,7 @@
       "name": { "ja": "雑がみ", "en": "Mixed paper" },
       "scheduleType": "regular",
       "feeType": "free",
-      "keywords": ["紙", "古紙"]
+      "keywords": ["紙", "古紙", "紙袋", "封筒", "ティッシュペーパーの箱", "紙コップ", "紙皿"]
     },
     {
       "code": "11",
@@ -69,14 +140,29 @@
       "name": { "ja": "枝・葉・草", "en": "Branches, leaves & grass" },
       "scheduleType": "regular",
       "feeType": "free",
-      "keywords": ["枝", "葉", "草", "剪定枝"]
+      "keywords": ["枝", "葉", "草", "剪定枝", "落ち葉", "枯葉", "観葉植物"]
     },
     {
       "id": "bulky_waste",
       "name": { "ja": "大型ごみ（粗大ごみ）", "en": "Bulky waste" },
       "scheduleType": "on_request",
       "feeType": "sticker_required",
-      "keywords": ["粗大ごみ", "大型ごみ"],
+      "keywords": [
+        "粗大ごみ",
+        "大型ごみ",
+        "布団",
+        "こたつ",
+        "自転車",
+        "三輪車",
+        "ベビーカー",
+        "スーツケース",
+        "傘立て",
+        "すのこ",
+        "マットレス",
+        "カーペット",
+        "じゅうたん",
+        "草刈り機"
+      ],
       "feeNote": {
         "ja": "事前申込制。品目ごとに処理手数料（シール）が必要です。",
         "en": "Advance application required. A paid disposal sticker is needed per item."
