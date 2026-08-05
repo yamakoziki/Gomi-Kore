@@ -1,0 +1,18 @@
+{
+  "municipalityCode": "sapporo",
+  "municipalityName": "札幌市",
+  "provider": "一般財団法人さっぽろ産業振興財団",
+  "datasetName": "DATA-SMART CITY SAPPORO",
+  "license": "CC-BY 4.0",
+  "creditText": "本アプリのごみ収集データは、一般財団法人さっぽろ産業振興財団が提供するオープンデータ（DATA-SMART CITY SAPPORO、CC-BY 4.0）を利用しています。",
+  "officialUrl": "https://www.city.sapporo.jp/seiso/gomi/calendar.html",
+  "datasetUrl": "https://ckan.pf-sapporo.jp/dataset/garbage_collection_calendar",
+  "apiBaseUrl": "https://ckan.pf-sapporo.jp/api/3/action/datastore_search",
+  "categoryTableResourceId": "f13f6d71-1fde-433d-b5c5-c38631fde7ca",
+  "calendarResourceId": "94fe64f0-42b8-4748-a258-feb05ecb3491",
+  "calendarPeriod": {
+    "start": "2025-10-01",
+    "end": "2026-09-30"
+  },
+  "lastVerifiedAt": "2026-08-05"
+}

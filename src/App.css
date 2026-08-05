@@ -1,0 +1,255 @@
+.app {
+  max-width: 480px;
+  margin: 0 auto;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  gap: 20px;
+}
+
+.app__header h1 {
+  font-size: 28px;
+}
+
+.app__tagline {
+  color: var(--text-muted);
+  margin-top: 4px;
+  font-size: 15px;
+}
+
+.app__main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+}
+
+.app__status {
+  padding: 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+
+.app__status--error {
+  border-color: var(--error);
+  color: var(--error);
+}
+
+.app__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.app__meta-cache {
+  color: var(--paid);
+}
+
+.app__refresh {
+  margin-left: auto;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  border-radius: 999px;
+  padding: 4px 14px;
+  cursor: pointer;
+}
+
+/* Area selector */
+.area-selector {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 14px;
+}
+
+.area-selector label {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.area-selector select {
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+}
+
+.area-selector__hint {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+/* Today panel */
+.today-panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 18px;
+}
+
+.today-panel__heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.today-panel__heading h2 {
+  font-size: 22px;
+}
+
+.speak-button {
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  background: transparent;
+  border-radius: 999px;
+  padding: 8px 14px;
+  font-size: 14px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.today-panel__empty {
+  font-size: 16px;
+  color: var(--text-muted);
+}
+
+.today-panel__categories {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Category card */
+.category-card {
+  width: 100%;
+  text-align: left;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 14px;
+  cursor: pointer;
+}
+
+.category-card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.category-card__name {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.category-card__details {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px dashed var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 14px;
+  color: var(--text-muted);
+}
+
+.category-card__next-date {
+  font-weight: 600;
+  color: var(--text);
+}
+
+.category-card__contact a {
+  font-weight: 600;
+}
+
+.fee-badge {
+  font-size: 12px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+.fee-badge--free {
+  background: var(--free-bg);
+  color: var(--accent);
+}
+
+.fee-badge--paid {
+  background: var(--paid-bg);
+  color: var(--paid);
+}
+
+/* All categories panel */
+.all-categories-panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 18px;
+}
+
+.all-categories-panel h2 {
+  font-size: 20px;
+}
+
+.all-categories-panel__hint {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin: 4px 0 14px;
+}
+
+.all-categories-panel__list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* About footer */
+.about-footer {
+  border-top: 1px solid var(--border);
+  padding-top: 14px;
+  font-size: 13px;
+}
+
+.about-footer__toggle {
+  background: none;
+  border: none;
+  color: var(--accent);
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0;
+  font-size: 13px;
+}
+
+.about-footer__content {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: var(--text-muted);
+}
+
+.about-footer__content h3 {
+  font-size: 13px;
+  color: var(--text);
+  margin-top: 6px;
+}
+
+.about-footer__disclaimer {
+  color: var(--text);
+}
+
+.about-footer__last-verified {
+  font-size: 11px;
+}

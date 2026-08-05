@@ -1,0 +1,294 @@
+{
+  "municipalityCode": "sapporo",
+  "note": "Phase1 MVPでは住所からの自動判定は未実装。ユーザーが区+地区番号を手動選択する。columnNameは札幌市オープンデータのカレンダーCSV/APIの列名と一致する。",
+  "wards": [
+    "中央区",
+    "豊平区",
+    "清田区",
+    "北区",
+    "東区",
+    "白石区",
+    "厚別区",
+    "南区",
+    "西区",
+    "手稲区"
+  ],
+  "areas": [
+    {
+      "areaCode": "中央区1",
+      "wardName": "中央区",
+      "subAreaNumber": 1,
+      "columnName": "中央区1"
+    },
+    {
+      "areaCode": "中央区2",
+      "wardName": "中央区",
+      "subAreaNumber": 2,
+      "columnName": "中央区2"
+    },
+    {
+      "areaCode": "中央区3",
+      "wardName": "中央区",
+      "subAreaNumber": 3,
+      "columnName": "中央区3"
+    },
+    {
+      "areaCode": "中央区4",
+      "wardName": "中央区",
+      "subAreaNumber": 4,
+      "columnName": "中央区4"
+    },
+    {
+      "areaCode": "中央区5",
+      "wardName": "中央区",
+      "subAreaNumber": 5,
+      "columnName": "中央区5"
+    },
+    {
+      "areaCode": "中央区6",
+      "wardName": "中央区",
+      "subAreaNumber": 6,
+      "columnName": "中央区6"
+    },
+    {
+      "areaCode": "豊平区1",
+      "wardName": "豊平区",
+      "subAreaNumber": 1,
+      "columnName": "豊平区1"
+    },
+    {
+      "areaCode": "豊平区2",
+      "wardName": "豊平区",
+      "subAreaNumber": 2,
+      "columnName": "豊平区2"
+    },
+    {
+      "areaCode": "豊平区3",
+      "wardName": "豊平区",
+      "subAreaNumber": 3,
+      "columnName": "豊平区3"
+    },
+    {
+      "areaCode": "豊平区4",
+      "wardName": "豊平区",
+      "subAreaNumber": 4,
+      "columnName": "豊平区4"
+    },
+    {
+      "areaCode": "清田区1",
+      "wardName": "清田区",
+      "subAreaNumber": 1,
+      "columnName": "清田区1"
+    },
+    {
+      "areaCode": "清田区2",
+      "wardName": "清田区",
+      "subAreaNumber": 2,
+      "columnName": "清田区2"
+    },
+    {
+      "areaCode": "北区1",
+      "wardName": "北区",
+      "subAreaNumber": 1,
+      "columnName": "北区1"
+    },
+    {
+      "areaCode": "北区2",
+      "wardName": "北区",
+      "subAreaNumber": 2,
+      "columnName": "北区2"
+    },
+    {
+      "areaCode": "北区3",
+      "wardName": "北区",
+      "subAreaNumber": 3,
+      "columnName": "北区3"
+    },
+    {
+      "areaCode": "北区4",
+      "wardName": "北区",
+      "subAreaNumber": 4,
+      "columnName": "北区4"
+    },
+    {
+      "areaCode": "北区5",
+      "wardName": "北区",
+      "subAreaNumber": 5,
+      "columnName": "北区5"
+    },
+    {
+      "areaCode": "北区6",
+      "wardName": "北区",
+      "subAreaNumber": 6,
+      "columnName": "北区6"
+    },
+    {
+      "areaCode": "東区1",
+      "wardName": "東区",
+      "subAreaNumber": 1,
+      "columnName": "東区1"
+    },
+    {
+      "areaCode": "東区2",
+      "wardName": "東区",
+      "subAreaNumber": 2,
+      "columnName": "東区2"
+    },
+    {
+      "areaCode": "東区3",
+      "wardName": "東区",
+      "subAreaNumber": 3,
+      "columnName": "東区3"
+    },
+    {
+      "areaCode": "東区4",
+      "wardName": "東区",
+      "subAreaNumber": 4,
+      "columnName": "東区4"
+    },
+    {
+      "areaCode": "東区5",
+      "wardName": "東区",
+      "subAreaNumber": 5,
+      "columnName": "東区5"
+    },
+    {
+      "areaCode": "東区6",
+      "wardName": "東区",
+      "subAreaNumber": 6,
+      "columnName": "東区6"
+    },
+    {
+      "areaCode": "白石区1",
+      "wardName": "白石区",
+      "subAreaNumber": 1,
+      "columnName": "白石区1"
+    },
+    {
+      "areaCode": "白石区2",
+      "wardName": "白石区",
+      "subAreaNumber": 2,
+      "columnName": "白石区2"
+    },
+    {
+      "areaCode": "白石区3",
+      "wardName": "白石区",
+      "subAreaNumber": 3,
+      "columnName": "白石区3"
+    },
+    {
+      "areaCode": "白石区4",
+      "wardName": "白石区",
+      "subAreaNumber": 4,
+      "columnName": "白石区4"
+    },
+    {
+      "areaCode": "厚別区1",
+      "wardName": "厚別区",
+      "subAreaNumber": 1,
+      "columnName": "厚別区1"
+    },
+    {
+      "areaCode": "厚別区2",
+      "wardName": "厚別区",
+      "subAreaNumber": 2,
+      "columnName": "厚別区2"
+    },
+    {
+      "areaCode": "厚別区3",
+      "wardName": "厚別区",
+      "subAreaNumber": 3,
+      "columnName": "厚別区3"
+    },
+    {
+      "areaCode": "厚別区4",
+      "wardName": "厚別区",
+      "subAreaNumber": 4,
+      "columnName": "厚別区4"
+    },
+    {
+      "areaCode": "南区1",
+      "wardName": "南区",
+      "subAreaNumber": 1,
+      "columnName": "南区1"
+    },
+    {
+      "areaCode": "南区2",
+      "wardName": "南区",
+      "subAreaNumber": 2,
+      "columnName": "南区2"
+    },
+    {
+      "areaCode": "南区3",
+      "wardName": "南区",
+      "subAreaNumber": 3,
+      "columnName": "南区3"
+    },
+    {
+      "areaCode": "南区4",
+      "wardName": "南区",
+      "subAreaNumber": 4,
+      "columnName": "南区4"
+    },
+    {
+      "areaCode": "南区5",
+      "wardName": "南区",
+      "subAreaNumber": 5,
+      "columnName": "南区5"
+    },
+    {
+      "areaCode": "南区6",
+      "wardName": "南区",
+      "subAreaNumber": 6,
+      "columnName": "南区6"
+    },
+    {
+      "areaCode": "南区7",
+      "wardName": "南区",
+      "subAreaNumber": 7,
+      "columnName": "南区7"
+    },
+    {
+      "areaCode": "西区1",
+      "wardName": "西区",
+      "subAreaNumber": 1,
+      "columnName": "西区1"
+    },
+    {
+      "areaCode": "西区2",
+      "wardName": "西区",
+      "subAreaNumber": 2,
+      "columnName": "西区2"
+    },
+    {
+      "areaCode": "西区3",
+      "wardName": "西区",
+      "subAreaNumber": 3,
+      "columnName": "西区3"
+    },
+    {
+      "areaCode": "西区4",
+      "wardName": "西区",
+      "subAreaNumber": 4,
+      "columnName": "西区4"
+    },
+    {
+      "areaCode": "手稲区1",
+      "wardName": "手稲区",
+      "subAreaNumber": 1,
+      "columnName": "手稲区1"
+    },
+    {
+      "areaCode": "手稲区2",
+      "wardName": "手稲区",
+      "subAreaNumber": 2,
+      "columnName": "手稲区2"
+    },
+    {
+      "areaCode": "手稲区3",
+      "wardName": "手稲区",
+      "subAreaNumber": 3,
+      "columnName": "手稲区3"
+    }
+  ]
+}
