@@ -1,0 +1,37 @@
+name: Refresh Otaru calendar data
+
+on:
+  schedule:
+    # Every Monday 03:00 JST (Sunday 18:00 UTC). Frequent enough to catch the
+    # calendar-year filename rollover (e.g. 2026gomicalendar.csv ->
+    # 2027gomicalendar.csv) and any mid-year corrections without hammering
+    # the city's site.
+    - cron: "0 18 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - run: npm run fetch:otaru
+
+      - name: Commit changes if any
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- data/otaru/calendar.json data/otaru/source.json; then
+            echo "No data changes."
+            exit 0
+          fi
+          git add data/otaru/calendar.json data/otaru/source.json
+          git commit -m "chore: refresh Otaru calendar data"
+          git push

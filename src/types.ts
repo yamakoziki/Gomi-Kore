@@ -47,17 +47,22 @@ export type CategoriesData = {
 
 export type AreaInfo = {
   areaCode: string;
-  wardName: string;
-  subAreaNumber: number;
   columnName: string;
+  /** Ward name, for municipalities with a ward-level grouping (e.g. Sapporo). Omitted for flat municipalities. */
+  wardName?: string;
+  /** Sub-area number within a ward (e.g. Sapporo). Omitted for flat municipalities. */
+  subAreaNumber?: number;
+  /** Raw display label (e.g. a town/address name) for municipalities without ward grouping (e.g. Otaru). */
+  label?: string;
 };
 
 export type AreaMappingData = {
   municipalityCode: string;
   note: string;
-  wards: string[];
-  /** JIS municipality code (5 digits) -> ward name, used to resolve geolocation to a ward. */
-  wardMuniCodes: Record<string, string>;
+  /** Ward names, for municipalities with a ward-level grouping. Omitted for flat municipalities. */
+  wards?: string[];
+  /** JIS municipality code (5 digits) -> ward name, used to resolve geolocation to a ward. Omitted for flat municipalities. */
+  wardMuniCodes?: Record<string, string>;
   areas: AreaInfo[];
 };
 
@@ -87,11 +92,34 @@ export type SourceData = {
   /** Official item-by-item sorting dictionary (50-on order). Copyrighted city content — link out to it, never reproduce it wholesale. */
   sortingDictionaryUrl: string;
   datasetUrl: string;
-  datasetSlug: string;
-  apiBaseUrl: string;
-  packageShowUrl: string;
-  categoryTableResourceId: string;
-  calendarResourceId: string;
   calendarPeriod: { start: string; end: string };
   lastVerifiedAt: string;
+  // CKAN datastore_search API fields (Sapporo-style sources). Omitted for plain CSV-download sources.
+  datasetSlug?: string;
+  apiBaseUrl?: string;
+  packageShowUrl?: string;
+  categoryTableResourceId?: string;
+  calendarResourceId?: string;
+  // Plain CSV-download fields (Otaru-style sources). Omitted for CKAN API sources.
+  csvIndexUrl?: string;
+  calendarCsvUrl?: string;
+  areaMappingCsvUrl?: string;
+  itemDictionaryCsvUrl?: string;
+};
+
+export type LoadCalendarResult = {
+  calendar: CalendarData;
+  source: "network" | "cache" | "bundled";
+};
+
+export type MunicipalityManifestEntry = {
+  code: string;
+  name: string;
+  prefecture: string;
+  /** JIS municipality codes belonging to this municipality (multiple for ward-split cities like Sapporo). */
+  muniCodes: string[];
+};
+
+export type MunicipalityManifest = {
+  municipalities: MunicipalityManifestEntry[];
 };

@@ -18,7 +18,47 @@ function findAreaInfo(areaMapping: AreaMappingData, areaCode: string | null) {
 
 type GeoLookupState = "idle" | "loading" | "success" | "not_sapporo" | "error";
 
-export function AreaSelector({ areaMapping, selectedAreaCode, onChange }: Props) {
+export function AreaSelector(props: Props) {
+  const { areaMapping } = props;
+  if (!areaMapping.wards || areaMapping.wards.length === 0) {
+    return <FlatAreaSelector {...props} />;
+  }
+  return <WardAreaSelector {...props} />;
+}
+
+/** Single-level selector for municipalities without ward-level grouping (e.g. Otaru): pick an area directly by its label. */
+function FlatAreaSelector({ areaMapping, selectedAreaCode, onChange }: Props) {
+  const { t } = useTranslation();
+  const sortedAreas = [...areaMapping.areas].sort((a, b) => (a.label ?? a.areaCode).localeCompare(b.label ?? b.areaCode, "ja"));
+
+  return (
+    <div className="area-selector">
+      <div className="area-selector__row">
+        <label htmlFor="flat-area-select">{t("areaSelector.addressLabel")}</label>
+        <select
+          id="flat-area-select"
+          value={selectedAreaCode ?? ""}
+          onChange={(event) => {
+            if (event.target.value) onChange(event.target.value);
+          }}
+        >
+          <option value="" disabled>
+            {t("areaSelector.placeholder")}
+          </option>
+          {sortedAreas.map((area) => (
+            <option key={area.areaCode} value={area.areaCode}>
+              {area.label ?? area.areaCode}
+            </option>
+          ))}
+        </select>
+      </div>
+      <p className="area-selector__hint">{t("areaSelector.flatHint")}</p>
+    </div>
+  );
+}
+
+/** Two-level ward -> sub-area-number selector, used by municipalities with ward-level grouping (e.g. Sapporo). */
+function WardAreaSelector({ areaMapping, selectedAreaCode, onChange }: Props) {
   const { t } = useTranslation();
   const wardTranslations = t("wards", { returnObjects: true }) as Record<string, string>;
 
@@ -41,7 +81,7 @@ export function AreaSelector({ areaMapping, selectedAreaCode, onChange }: Props)
     lookupMunicipalityCode(geoState.latitude, geoState.longitude).then((result) => {
       if (cancelled) return;
       if (result.status === "found") {
-        const wardName = areaMapping.wardMuniCodes[result.muniCode];
+        const wardName = areaMapping.wardMuniCodes?.[result.muniCode];
         if (wardName) {
           setWard(wardName);
           setSubAreaNumber(null);
@@ -106,7 +146,7 @@ export function AreaSelector({ areaMapping, selectedAreaCode, onChange }: Props)
           <option value="" disabled>
             {t("areaSelector.placeholder")}
           </option>
-          {areaMapping.wards.map((wardName) => (
+          {(areaMapping.wards ?? []).map((wardName) => (
             <option key={wardName} value={wardName}>
               {pickWardName(wardTranslations, wardName)}
             </option>

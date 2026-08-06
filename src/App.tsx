@@ -1,18 +1,23 @@
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import "./App.css";
-import { areaMappingData, categoriesData, loadCalendar, sourceData } from "./adapters/sapporo";
+import { getAdapter, municipalityManifest } from "./adapters/registry";
+import type { AdapterModule } from "./adapters/registry";
 import { AboutFooter } from "./components/AboutFooter";
 import { AllCategoriesPanel } from "./components/AllCategoriesPanel";
 import { AreaSelector } from "./components/AreaSelector";
 import { ItemSearchPanel } from "./components/ItemSearchPanel";
 import { LanguageSwitcher } from "./components/LanguageSwitcher";
+import { MunicipalitySelector } from "./components/MunicipalitySelector";
 import { TodayPanel } from "./components/TodayPanel";
 import { UpdateToast } from "./components/UpdateToast";
 import { useLocalStorageState } from "./hooks/useLocalStorageState";
 import { useNow } from "./hooks/useNow";
 import { useSpeech } from "./hooks/useSpeech";
 import type { CalendarData } from "./types";
+
+const MUNICIPALITY_STORAGE_KEY = "gomi-kore:municipalityCode";
+const LEGACY_SAPPORO_AREA_CODE_KEY = "gomi-kore:sapporo:areaCode";
 
 type CalendarSource = "network" | "cache" | "bundled";
 
@@ -27,10 +32,62 @@ function formatDateTime(iso: string): string {
   return `${date.getFullYear()}/${pad(date.getMonth() + 1)}/${pad(date.getDate())} ${pad(date.getHours())}:${pad(date.getMinutes())}`;
 }
 
+/** Users who already had a Sapporo area selected before multi-municipality support existed keep that selection. */
+function readLegacySapporoAreaCode(): string | null {
+  try {
+    const raw = localStorage.getItem(LEGACY_SAPPORO_AREA_CODE_KEY);
+    return raw !== null ? (JSON.parse(raw) as string | null) : null;
+  } catch {
+    return null;
+  }
+}
+
 function App() {
+  const legacyAreaCode = readLegacySapporoAreaCode();
+  const [municipalityCode, setMunicipalityCode] = useLocalStorageState<string | null>(
+    MUNICIPALITY_STORAGE_KEY,
+    legacyAreaCode ? "sapporo" : null,
+  );
+
+  const adapter = municipalityCode ? getAdapter(municipalityCode) : null;
+
+  if (!adapter) {
+    return (
+      <div className="app">
+        <header className="app__header">
+          <div className="app__header-row">
+            <h1>ごみコレ</h1>
+            <LanguageSwitcher />
+          </div>
+        </header>
+        <main className="app__main">
+          <MunicipalitySelector manifest={municipalityManifest} onSelect={setMunicipalityCode} />
+        </main>
+      </div>
+    );
+  }
+
+  // Remounts the whole subtree (and its per-municipality localStorage-backed state) whenever the municipality changes.
+  return (
+    <MunicipalityApp
+      key={adapter.MUNICIPALITY_CODE}
+      adapter={adapter}
+      onChangeMunicipality={() => setMunicipalityCode(null)}
+    />
+  );
+}
+
+function MunicipalityApp({
+  adapter,
+  onChangeMunicipality,
+}: {
+  adapter: AdapterModule;
+  onChangeMunicipality: () => void;
+}) {
+  const { categoriesData, areaMappingData, sourceData, loadCalendar, MUNICIPALITY_CODE } = adapter;
   const { t } = useTranslation();
   const [selectedAreaCode, setSelectedAreaCode] = useLocalStorageState<string | null>(
-    "gomi-kore:sapporo:areaCode",
+    `gomi-kore:${MUNICIPALITY_CODE}:areaCode`,
     null,
   );
   const [loadState, setLoadState] = useState<LoadState>({ status: "loading" });
@@ -47,6 +104,7 @@ function App() {
 
   useEffect(() => {
     fetchCalendar();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const selectedArea = areaMappingData.areas.find((area) => area.areaCode === selectedAreaCode) ?? null;
@@ -60,6 +118,9 @@ function App() {
           <LanguageSwitcher />
         </div>
         <p className="app__tagline">{t("app.tagline", { municipality: sourceData.municipalityName })}</p>
+        <button type="button" className="app__change-municipality" onClick={onChangeMunicipality}>
+          {t("app.changeMunicipality")}
+        </button>
       </header>
 
       <main className="app__main">

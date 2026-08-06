@@ -42,6 +42,7 @@ beforeEach(() => {
   vi.stubGlobal("speechSynthesis", { speak: vi.fn(), cancel: vi.fn() });
 
   localStorage.clear();
+  localStorage.setItem("gomi-kore:municipalityCode", JSON.stringify("sapporo"));
   void i18n.changeLanguage("ja");
 });
 
@@ -220,5 +221,37 @@ describe("App", () => {
     await user.click(await screen.findByText("📍 現在地から区を自動判定"));
 
     expect(await screen.findByText("位置情報の利用が許可されていません。区を手動で選択してください。")).toBeInTheDocument();
+  });
+
+  it("migrates a pre-existing Sapporo-only area selection to the new municipality-aware storage", async () => {
+    localStorage.clear();
+    localStorage.setItem("gomi-kore:sapporo:areaCode", JSON.stringify(AREA));
+
+    render(<App />);
+
+    // No municipality picker shown — the legacy Sapporo selection is honored automatically,
+    // and the previously selected area is carried straight through to the calendar.
+    expect(screen.queryByText("お住まいの自治体を選択してください。")).not.toBeInTheDocument();
+    const heading = await screen.findByText("明日（8/6）のごみ");
+    const todayPanel = heading.closest("section") as HTMLElement;
+    expect(within(todayPanel).getByText("容器包装プラスチック")).toBeInTheDocument();
+  });
+
+  it("lets a first-time visitor pick Otaru and shows its collection calendar", async () => {
+    localStorage.clear();
+    vi.stubGlobal("fetch", vi.fn().mockRejectedValue(new Error("network down"))); // forces the bundled Otaru snapshot
+
+    const user = userEvent.setup({ delay: null });
+    render(<App />);
+
+    expect(await screen.findByText("お住まいの自治体を選択してください。")).toBeInTheDocument();
+    await user.selectOptions(screen.getByLabelText("自治体"), "otaru");
+
+    expect(await screen.findByText(/今日のゴミ、聞かなくても分かる。（小樽市版）/)).toBeInTheDocument();
+    await user.selectOptions(await screen.findByLabelText("お住まいの地区（町名）"), "相生町");
+
+    const heading = await screen.findByText("明日（8/6）のごみ");
+    const todayPanel = heading.closest("section") as HTMLElement;
+    expect(within(todayPanel).getByText("燃やすごみ")).toBeInTheDocument();
   });
 });

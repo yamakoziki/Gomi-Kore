@@ -60,6 +60,18 @@
   font-size: 15px;
 }
 
+.app__change-municipality {
+  align-self: flex-start;
+  margin-top: 8px;
+  border: none;
+  background: transparent;
+  color: var(--accent);
+  font-size: 13px;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 .app__main {
   display: flex;
   flex-direction: column;

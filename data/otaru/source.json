@@ -1,0 +1,20 @@
+{
+  "municipalityCode": "otaru",
+  "municipalityName": "小樽市",
+  "provider": "小樽市",
+  "datasetName": "小樽市 ごみ収集カレンダー・地区データ",
+  "license": "行政公表データ（CC-BY等の明示的なライセンス表示は未確認。事実情報の再構成として、出典明記・非公式アプリである旨の表示のもと利用）",
+  "creditText": "本アプリのごみ収集データは、小樽市が公開している「ごみ収集カレンダー」「ごみ収集地区データ」「ごみ・資源物分別区早見表」を基に作成しています。",
+  "officialUrl": "https://www.city.otaru.lg.jp/docs/2022070700107",
+  "sortingDictionaryUrl": "https://www.city.otaru.lg.jp/docs/2022070700107",
+  "datasetUrl": "https://www.city.otaru.lg.jp/docs/2022070700107",
+  "csvIndexUrl": "https://www.city.otaru.lg.jp/docs/2022070700107",
+  "calendarCsvUrl": "https://www.city.otaru.lg.jp/docs/2022070700107/file_contents/2026gomicalendar.csv",
+  "areaMappingCsvUrl": "https://www.city.otaru.lg.jp/docs/2022070700107/file_contents/chikudata.csv",
+  "itemDictionaryCsvUrl": "https://www.city.otaru.lg.jp/docs/2022070700107/file_contents/bunbetsu_hayamihyo2.csv",
+  "calendarPeriod": {
+    "start": "2026-01-01",
+    "end": "2026-12-31"
+  },
+  "lastVerifiedAt": "2026-08-06"
+}

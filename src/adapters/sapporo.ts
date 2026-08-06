@@ -1,4 +1,11 @@
-import type { CalendarData, CalendarDay, CategoriesData, AreaMappingData, SourceData } from "../types";
+import type {
+  CalendarData,
+  CalendarDay,
+  CategoriesData,
+  AreaMappingData,
+  SourceData,
+  LoadCalendarResult,
+} from "../types";
 import categoriesDataJson from "../../data/sapporo/categories.json";
 import areaMappingJson from "../../data/sapporo/area-mapping.json";
 import sourceDataJson from "../../data/sapporo/source.json";
@@ -29,7 +36,8 @@ type CkanDatastoreSearchResponse = {
 };
 
 function buildDatastoreUrl(resourceId: string, limit: number): string {
-  const url = new URL(sourceData.apiBaseUrl);
+  // Sapporo's source.json always populates the CKAN-specific fields (unlike CSV-download-style sources).
+  const url = new URL(sourceData.apiBaseUrl!);
   url.searchParams.set("resource_id", resourceId);
   url.searchParams.set("limit", String(limit));
   return url.toString();
@@ -47,7 +55,7 @@ function parseCalendarRecord(record: Record<string, unknown>): CalendarDay {
 }
 
 async function fetchCalendarFromApi(): Promise<CalendarData> {
-  const url = buildDatastoreUrl(sourceData.calendarResourceId, 400);
+  const url = buildDatastoreUrl(sourceData.calendarResourceId!, 400);
   const response = await fetch(url);
   if (!response.ok) {
     throw new Error(`Sapporo calendar API request failed: ${response.status}`);
@@ -83,11 +91,6 @@ function writeCachedCalendar(calendar: CalendarData): void {
     // Storage may be unavailable (private mode, quota exceeded); caching is best-effort.
   }
 }
-
-export type LoadCalendarResult = {
-  calendar: CalendarData;
-  source: "network" | "cache" | "bundled";
-};
 
 /**
  * Loads the Sapporo collection calendar: tries a fresh network fetch first,

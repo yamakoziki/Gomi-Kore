@@ -1,0 +1,501 @@
+{
+  "municipalityCode": "otaru",
+  "note": "小樽市オープンデータ「ごみ収集地区データ」(chikudata.csv、住所別地区番号データ)を元に生成。小樽市は札幌市と異なり区の区分けが無く、住所（町名・丁目・番地の一部）が直接ごみ収集地区番号(1〜17)に対応する。columnNameはカレンダーCSV(2026gomicalendar.csv)の列名（地区番号の数字文字列）と一致する。地区境界を示す公式デジタルデータは無いため、住所ごとの手動選択（この一覧からの選択）が基本となる。",
+  "areas": [
+    {
+      "areaCode": "相生町",
+      "columnName": "5",
+      "label": "相生町"
+    },
+    {
+      "areaCode": "赤岩2丁目9番10〜15番",
+      "columnName": "3",
+      "label": "赤岩2丁目9番10〜15番"
+    },
+    {
+      "areaCode": "赤岩(その他)",
+      "columnName": "12",
+      "label": "赤岩(その他)"
+    },
+    {
+      "areaCode": "朝里",
+      "columnName": "17",
+      "label": "朝里"
+    },
+    {
+      "areaCode": "朝里川温泉",
+      "columnName": "17",
+      "label": "朝里川温泉"
+    },
+    {
+      "areaCode": "有幌町",
+      "columnName": "15",
+      "label": "有幌町"
+    },
+    {
+      "areaCode": "石山町41番20〜22号",
+      "columnName": "11",
+      "label": "石山町41番20〜22号"
+    },
+    {
+      "areaCode": "石山町44番3〜12号",
+      "columnName": "11",
+      "label": "石山町44番3〜12号"
+    },
+    {
+      "areaCode": "石山町45番2号・4〜12号",
+      "columnName": "11",
+      "label": "石山町45番2号・4〜12号"
+    },
+    {
+      "areaCode": "石山町(その他)",
+      "columnName": "12",
+      "label": "石山町(その他)"
+    },
+    {
+      "areaCode": "稲穂",
+      "columnName": "1",
+      "label": "稲穂"
+    },
+    {
+      "areaCode": "入船1丁目3番15〜17号",
+      "columnName": "5",
+      "label": "入船1丁目3番15〜17号"
+    },
+    {
+      "areaCode": "入船2丁目5番8号",
+      "columnName": "15",
+      "label": "入船2丁目5番8号"
+    },
+    {
+      "areaCode": "入船2丁目6番1号",
+      "columnName": "15",
+      "label": "入船2丁目6番1号"
+    },
+    {
+      "areaCode": "入船2丁目17番1〜3号・10〜11号",
+      "columnName": "15",
+      "label": "入船2丁目17番1〜3号・10〜11号"
+    },
+    {
+      "areaCode": "入船2丁目18番1〜8号",
+      "columnName": "15",
+      "label": "入船2丁目18番1〜8号"
+    },
+    {
+      "areaCode": "入船(その他)",
+      "columnName": "7",
+      "label": "入船(その他)"
+    },
+    {
+      "areaCode": "色内",
+      "columnName": "1",
+      "label": "色内"
+    },
+    {
+      "areaCode": "梅ヶ枝町",
+      "columnName": "12",
+      "label": "梅ヶ枝町"
+    },
+    {
+      "areaCode": "奥沢3丁目1番17号の一部・18〜21号",
+      "columnName": "7",
+      "label": "奥沢3丁目1番17号の一部・18〜21号"
+    },
+    {
+      "areaCode": "奥沢3丁目2番2〜4号・20号",
+      "columnName": "7",
+      "label": "奥沢3丁目2番2〜4号・20号"
+    },
+    {
+      "areaCode": "奥沢3丁目3番7号の一部・27〜28号",
+      "columnName": "7",
+      "label": "奥沢3丁目3番7号の一部・27〜28号"
+    },
+    {
+      "areaCode": "奥沢3丁目6番",
+      "columnName": "7",
+      "label": "奥沢3丁目6番"
+    },
+    {
+      "areaCode": "奥沢4丁目1番",
+      "columnName": "7",
+      "label": "奥沢4丁目1番"
+    },
+    {
+      "areaCode": "奥沢4丁目2番1〜17号・25〜32号",
+      "columnName": "7",
+      "label": "奥沢4丁目2番1〜17号・25〜32号"
+    },
+    {
+      "areaCode": "奥沢4丁目3番1〜11号・37号",
+      "columnName": "7",
+      "label": "奥沢4丁目3番1〜11号・37号"
+    },
+    {
+      "areaCode": "奥沢4丁目4番11号・15〜16号",
+      "columnName": "10",
+      "label": "奥沢4丁目4番11号・15〜16号"
+    },
+    {
+      "areaCode": "奥沢5丁目3番4〜14号",
+      "columnName": "10",
+      "label": "奥沢5丁目3番4〜14号"
+    },
+    {
+      "areaCode": "奥沢5丁目6〜9番",
+      "columnName": "10",
+      "label": "奥沢5丁目6〜9番"
+    },
+    {
+      "areaCode": "奥沢(その他)",
+      "columnName": "4",
+      "label": "奥沢(その他)"
+    },
+    {
+      "areaCode": "忍路",
+      "columnName": "1",
+      "label": "忍路"
+    },
+    {
+      "areaCode": "オタモイ1丁目1番1号",
+      "columnName": "11",
+      "label": "オタモイ1丁目1番1号"
+    },
+    {
+      "areaCode": "オタモイ1丁目2番1〜2号",
+      "columnName": "11",
+      "label": "オタモイ1丁目2番1〜2号"
+    },
+    {
+      "areaCode": "オタモイ(その他)",
+      "columnName": "13",
+      "label": "オタモイ(その他)"
+    },
+    {
+      "areaCode": "勝納町",
+      "columnName": "15",
+      "label": "勝納町"
+    },
+    {
+      "areaCode": "桂岡町",
+      "columnName": "6",
+      "label": "桂岡町"
+    },
+    {
+      "areaCode": "幸",
+      "columnName": "13",
+      "label": "幸"
+    },
+    {
+      "areaCode": "堺町",
+      "columnName": "7",
+      "label": "堺町"
+    },
+    {
+      "areaCode": "桜3丁目26番",
+      "columnName": "17",
+      "label": "桜3丁目26番"
+    },
+    {
+      "areaCode": "桜（その他)",
+      "columnName": "16",
+      "label": "桜（その他)"
+    },
+    {
+      "areaCode": "潮見台1丁目17番26〜33号・18番",
+      "columnName": "15",
+      "label": "潮見台1丁目17番26〜33号・18番"
+    },
+    {
+      "areaCode": "潮見台2丁目6番1〜8号",
+      "columnName": "4",
+      "label": "潮見台2丁目6番1〜8号"
+    },
+    {
+      "areaCode": "潮見台2丁目6番10号の一部",
+      "columnName": "4",
+      "label": "潮見台2丁目6番10号の一部"
+    },
+    {
+      "areaCode": "潮見台2丁目6番11〜17号",
+      "columnName": "4",
+      "label": "潮見台2丁目6番11〜17号"
+    },
+    {
+      "areaCode": "潮見台(その他)",
+      "columnName": "14",
+      "label": "潮見台(その他)"
+    },
+    {
+      "areaCode": "塩谷",
+      "columnName": "1",
+      "label": "塩谷"
+    },
+    {
+      "areaCode": "東雲町",
+      "columnName": "5",
+      "label": "東雲町"
+    },
+    {
+      "areaCode": "清水町",
+      "columnName": "12",
+      "label": "清水町"
+    },
+    {
+      "areaCode": "祝津1丁目1番5〜6号・7号の一部",
+      "columnName": "2",
+      "label": "祝津1丁目1番5〜6号・7号の一部"
+    },
+    {
+      "areaCode": "祝津2丁目308番地の一部、344番地、354番地の一部、355番地",
+      "columnName": "2",
+      "label": "祝津2丁目308番地の一部、344番地、354番地の一部、355番地"
+    },
+    {
+      "areaCode": "祝津(その他)",
+      "columnName": "3",
+      "label": "祝津(その他)"
+    },
+    {
+      "areaCode": "新光",
+      "columnName": "17",
+      "label": "新光"
+    },
+    {
+      "areaCode": "新光町419〜470番地",
+      "columnName": "8",
+      "label": "新光町419〜470番地"
+    },
+    {
+      "areaCode": "新光町（その他)",
+      "columnName": "17",
+      "label": "新光町（その他)"
+    },
+    {
+      "areaCode": "新富町",
+      "columnName": "15",
+      "label": "新富町"
+    },
+    {
+      "areaCode": "末広町",
+      "columnName": "12",
+      "label": "末広町"
+    },
+    {
+      "areaCode": "住ノ江2丁目5番4〜7号",
+      "columnName": "4",
+      "label": "住ノ江2丁目5番4〜7号"
+    },
+    {
+      "areaCode": "住ノ江(その他)",
+      "columnName": "15",
+      "label": "住ノ江(その他)"
+    },
+    {
+      "areaCode": "住吉町",
+      "columnName": "15",
+      "label": "住吉町"
+    },
+    {
+      "areaCode": "銭函3丁目317〜323番地",
+      "columnName": "6",
+      "label": "銭函3丁目317〜323番地"
+    },
+    {
+      "areaCode": "銭函（その他)",
+      "columnName": "8",
+      "label": "銭函（その他)"
+    },
+    {
+      "areaCode": "高島4丁目15番",
+      "columnName": "12",
+      "label": "高島4丁目15番"
+    },
+    {
+      "areaCode": "高島(その他)",
+      "columnName": "2",
+      "label": "高島(その他)"
+    },
+    {
+      "areaCode": "築港",
+      "columnName": "16",
+      "label": "築港"
+    },
+    {
+      "areaCode": "手宮",
+      "columnName": "12",
+      "label": "手宮"
+    },
+    {
+      "areaCode": "天神",
+      "columnName": "10",
+      "label": "天神"
+    },
+    {
+      "areaCode": "富岡",
+      "columnName": "9",
+      "label": "富岡"
+    },
+    {
+      "areaCode": "豊川町",
+      "columnName": "12",
+      "label": "豊川町"
+    },
+    {
+      "areaCode": "長橋2丁目3番11〜18号",
+      "columnName": "1",
+      "label": "長橋2丁目3番11〜18号"
+    },
+    {
+      "areaCode": "長橋4丁目15番24〜26号",
+      "columnName": "13",
+      "label": "長橋4丁目15番24〜26号"
+    },
+    {
+      "areaCode": "長橋(その他)",
+      "columnName": "11",
+      "label": "長橋(その他)"
+    },
+    {
+      "areaCode": "錦町",
+      "columnName": "12",
+      "label": "錦町"
+    },
+    {
+      "areaCode": "信香町",
+      "columnName": "15",
+      "label": "信香町"
+    },
+    {
+      "areaCode": "花園3丁目25番9〜11号",
+      "columnName": "7",
+      "label": "花園3丁目25番9〜11号"
+    },
+    {
+      "areaCode": "花園(その他)",
+      "columnName": "5",
+      "label": "花園(その他)"
+    },
+    {
+      "areaCode": "張碓町",
+      "columnName": "8",
+      "label": "張碓町"
+    },
+    {
+      "areaCode": "春香町",
+      "columnName": "8",
+      "label": "春香町"
+    },
+    {
+      "areaCode": "船浜町",
+      "columnName": "16",
+      "label": "船浜町"
+    },
+    {
+      "areaCode": "望洋台",
+      "columnName": "16",
+      "label": "望洋台"
+    },
+    {
+      "areaCode": "星野町",
+      "columnName": "6",
+      "label": "星野町"
+    },
+    {
+      "areaCode": "真栄1丁目3番1号",
+      "columnName": "14",
+      "label": "真栄1丁目3番1号"
+    },
+    {
+      "areaCode": "真栄2丁目8番23〜29号",
+      "columnName": "14",
+      "label": "真栄2丁目8番23〜29号"
+    },
+    {
+      "areaCode": "真栄2丁目9番14号",
+      "columnName": "14",
+      "label": "真栄2丁目9番14号"
+    },
+    {
+      "areaCode": "真栄(その他)",
+      "columnName": "4",
+      "label": "真栄(その他)"
+    },
+    {
+      "areaCode": "松ヶ枝1丁目15番9〜14号",
+      "columnName": "7",
+      "label": "松ヶ枝1丁目15番9〜14号"
+    },
+    {
+      "areaCode": "松ヶ枝(その他)",
+      "columnName": "4",
+      "label": "松ヶ枝(その他)"
+    },
+    {
+      "areaCode": "緑5丁目1番",
+      "columnName": "4",
+      "label": "緑5丁目1番"
+    },
+    {
+      "areaCode": "緑(その他)",
+      "columnName": "9",
+      "label": "緑(その他)"
+    },
+    {
+      "areaCode": "港町",
+      "columnName": "1",
+      "label": "港町"
+    },
+    {
+      "areaCode": "見晴町",
+      "columnName": "6",
+      "label": "見晴町"
+    },
+    {
+      "areaCode": "最上1丁目5番20〜21号",
+      "columnName": "9",
+      "label": "最上1丁目5番20〜21号"
+    },
+    {
+      "areaCode": "最上1丁目6番1〜6号",
+      "columnName": "9",
+      "label": "最上1丁目6番1〜6号"
+    },
+    {
+      "areaCode": "最上(その他)",
+      "columnName": "4",
+      "label": "最上(その他)"
+    },
+    {
+      "areaCode": "桃内",
+      "columnName": "1",
+      "label": "桃内"
+    },
+    {
+      "areaCode": "山田町",
+      "columnName": "5",
+      "label": "山田町"
+    },
+    {
+      "areaCode": "蘭島",
+      "columnName": "1",
+      "label": "蘭島"
+    },
+    {
+      "areaCode": "若竹町20番",
+      "columnName": "16",
+      "label": "若竹町20番"
+    },
+    {
+      "areaCode": "若竹町(その他)",
+      "columnName": "15",
+      "label": "若竹町(その他)"
+    },
+    {
+      "areaCode": "若松",
+      "columnName": "15",
+      "label": "若松"
+    }
+  ]
+}

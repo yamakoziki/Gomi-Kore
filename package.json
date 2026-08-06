@@ -9,7 +9,8 @@
     "lint": "oxlint",
     "preview": "vite preview",
     "test": "vitest run",
-    "fetch:sapporo": "node scripts/fetch-sapporo-calendar.mjs"
+    "fetch:sapporo": "node scripts/fetch-sapporo-calendar.mjs",
+    "fetch:otaru": "node scripts/fetch-otaru-calendar.mjs"
   },
   "dependencies": {
     "i18next": "^26.3.6",
