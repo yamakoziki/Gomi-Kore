@@ -1,0 +1,16 @@
+{
+  "municipalityCode": "ebetsu",
+  "municipalityName": "江別市",
+  "provider": "江別市",
+  "datasetName": "江別市 地区別「ごみ・資源物の収集日カレンダー」（PDF、13地区）",
+  "license": "江別市の公式サイトの「ごみ・資源物の収集日カレンダー」PDF（13地区分）を出典として、日付・地区・収集品目という事実情報のみをアプリ独自の形式で再構成したもの。CC-BY等の明示的なオープンデータライセンスは付与されていない（サイト利用規約は複製・商用利用を原則禁止しているが、事実情報自体は著作権保護の対象外と解される）。PDFのデザイン・文言はそのまま複製せず、出典明記・非公式アプリである旨の表示のもとで利用している。",
+  "creditText": "本アプリのごみ収集データは、江別市が公開している地区別「ごみ・資源物の収集日カレンダー」を基に作成しています。",
+  "officialUrl": "https://www.city.ebetsu.hokkaido.jp/soshiki/seiso-haikibutsu/120614.html",
+  "sortingDictionaryUrl": "https://www.city.ebetsu.hokkaido.jp/site/gomi/2021.html",
+  "datasetUrl": "https://www.city.ebetsu.hokkaido.jp/soshiki/seiso-haikibutsu/120614.html",
+  "calendarPeriod": {
+    "start": "2025-10-01",
+    "end": "2026-09-30"
+  },
+  "lastVerifiedAt": "2026-08-06"
+}

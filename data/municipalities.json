@@ -22,6 +22,12 @@
       "name": "小樽市",
       "prefecture": "北海道",
       "muniCodes": ["01203"]
+    },
+    {
+      "code": "ebetsu",
+      "name": "江別市",
+      "prefecture": "北海道",
+      "muniCodes": ["01217"]
     }
   ]
 }

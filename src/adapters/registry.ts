@@ -2,6 +2,7 @@ import type { AreaMappingData, CategoriesData, LoadCalendarResult, MunicipalityM
 import municipalityManifestJson from "../../data/municipalities.json";
 import * as sapporo from "./sapporo";
 import * as otaru from "./otaru";
+import * as ebetsu from "./ebetsu";
 
 export type AdapterModule = {
   MUNICIPALITY_CODE: string;
@@ -16,6 +17,7 @@ export const municipalityManifest = municipalityManifestJson as MunicipalityMani
 export const adapters: Record<string, AdapterModule> = {
   sapporo,
   otaru,
+  ebetsu,
 };
 
 export function getAdapter(municipalityCode: string): AdapterModule | null {

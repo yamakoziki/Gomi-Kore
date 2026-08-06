@@ -1,0 +1,64 @@
+{
+  "municipalityCode": "ebetsu",
+  "categories": [
+    {
+      "code": "burnable",
+      "id": "burnable",
+      "name": { "ja": "燃やせるごみ・紙おむつ", "en": "Burnable waste, disposable diapers" },
+      "scheduleType": "regular",
+      "feeType": "designated_bag",
+      "feeNote": {
+        "ja": "市指定の有料ごみ袋（1リットルあたり3円、令和6年10月改定）をご使用ください。",
+        "en": "Use the city-designated paid garbage bag (3 yen per liter, revised October 2024)."
+      },
+      "keywords": ["燃えるごみ", "生ごみ", "紙おむつ", "おむつ"]
+    },
+    {
+      "code": "non_burnable",
+      "id": "non_burnable",
+      "name": { "ja": "燃やせないごみ", "en": "Non-burnable waste" },
+      "scheduleType": "regular",
+      "feeType": "designated_bag",
+      "feeNote": {
+        "ja": "市指定の有料ごみ袋（1リットルあたり3円、令和6年10月改定）をご使用ください。",
+        "en": "Use the city-designated paid garbage bag (3 yen per liter, revised October 2024)."
+      },
+      "keywords": ["燃えないごみ", "不燃ごみ"]
+    },
+    {
+      "code": "recyclable_hazardous_pet",
+      "id": "recyclable_hazardous_pet",
+      "name": { "ja": "資源物・危険ごみ、ペットボトル", "en": "Recyclables, hazardous waste, PET bottles" },
+      "scheduleType": "regular",
+      "feeType": "free",
+      "keywords": ["資源物", "危険ごみ", "びん", "缶", "古紙", "ペットボトル", "スプレー缶", "電池"]
+    },
+    {
+      "code": "pet_only",
+      "id": "pet_only",
+      "name": { "ja": "ペットボトル専用", "en": "PET bottles only" },
+      "scheduleType": "regular",
+      "feeType": "free",
+      "keywords": ["ペットボトル"]
+    },
+    {
+      "id": "bulky_waste",
+      "name": { "ja": "大型ごみ（粗大ごみ）", "en": "Bulky waste" },
+      "scheduleType": "on_request",
+      "feeType": "sticker_required",
+      "feeNote": {
+        "ja": "事前申込制。品目ごとに処理手数料（シール）が必要です。環境クリーンセンターへの直接搬入は10kgあたり150円。",
+        "en": "Advance application required. A paid disposal sticker is needed per item. Self-drop-off at the Environmental Clean Center costs 150 yen per 10kg."
+      },
+      "keywords": ["粗大ごみ", "大型ごみ", "布団", "こたつ", "自転車", "ベビーカー", "マットレス", "カーペット"],
+      "contact": {
+        "phone": "011-380-6000",
+        "infoUrl": "https://www.city.ebetsu.hokkaido.jp/site/gomi/82507.html"
+      }
+    }
+  ],
+  "noCollection": {
+    "code": "",
+    "label": { "ja": "収集のない日", "en": "No collection" }
+  }
+}
