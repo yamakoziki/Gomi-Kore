@@ -11,7 +11,8 @@
     "test": "vitest run",
     "fetch:sapporo": "node scripts/fetch-sapporo-calendar.mjs",
     "fetch:sapporo-dict": "node scripts/fetch-sapporo-item-dictionary.mjs",
-    "fetch:otaru": "node scripts/fetch-otaru-calendar.mjs"
+    "fetch:otaru": "node scripts/fetch-otaru-calendar.mjs",
+    "fetch:otaru-dict": "node scripts/fetch-otaru-item-dictionary.mjs"
   },
   "dependencies": {
     "i18next": "^26.3.6",

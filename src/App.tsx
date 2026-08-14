@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import "./App.css";
-import { getAdapter, municipalityManifest } from "./adapters/registry";
+import { getAdapter, getReferenceItemDictionary, municipalityManifest } from "./adapters/registry";
 import type { AdapterModule } from "./adapters/registry";
 import { AboutFooter } from "./components/AboutFooter";
 import { AllCategoriesPanel } from "./components/AllCategoriesPanel";
@@ -85,6 +85,7 @@ function MunicipalityApp({
   onChangeMunicipality: () => void;
 }) {
   const { categoriesData, areaMappingData, sourceData, loadCalendar, itemDictionaryData, MUNICIPALITY_CODE } = adapter;
+  const referenceItemDictionary = getReferenceItemDictionary(MUNICIPALITY_CODE);
   const { t } = useTranslation();
   const [selectedAreaCode, setSelectedAreaCode] = useLocalStorageState<string | null>(
     `gomi-kore:${MUNICIPALITY_CODE}:areaCode`,
@@ -167,6 +168,7 @@ function MunicipalityApp({
               now={now}
               source={sourceData}
               itemDictionaryData={itemDictionaryData}
+              referenceItemDictionary={referenceItemDictionary}
               onSpeak={speak}
             />
 

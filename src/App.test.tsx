@@ -277,4 +277,63 @@ describe("App", () => {
     const todayPanel = heading.closest("section") as HTMLElement;
     expect(within(todayPanel).getByText("燃やすごみ")).toBeInTheDocument();
   });
+
+  it("uses Otaru's own structured item dictionary (with per-item remarks) and shows no Sapporo reference block, now that Otaru has its own", async () => {
+    localStorage.clear();
+    vi.stubGlobal("fetch", vi.fn().mockRejectedValue(new Error("network down"))); // forces the bundled Otaru snapshot
+
+    const user = userEvent.setup({ delay: null });
+    render(<App />);
+
+    await user.selectOptions(await screen.findByLabelText("自治体"), "otaru");
+    await user.selectOptions(await screen.findByLabelText("お住まいの地区（町名）"), "相生町");
+
+    const heading = await screen.findByText("これ何ゴミ？");
+    const panel = heading.closest("section") as HTMLElement;
+
+    await user.type(within(panel).getByPlaceholderText("例: スプレー缶"), "アイスピック");
+    await user.click(within(panel).getByText("検索"));
+
+    expect(await within(panel).findByText("燃やさないごみ")).toBeInTheDocument();
+    expect(within(panel).getByText("紙などに包み「きけん」と表示して")).toBeInTheDocument();
+    expect(within(panel).queryByText(/参考:/)).not.toBeInTheDocument();
+  });
+
+  it("shows Sapporo's sorting as a labeled reference when an Ebetsu item isn't in Ebetsu's own (much smaller) keyword list", async () => {
+    localStorage.clear();
+
+    const user = userEvent.setup({ delay: null });
+    render(<App />);
+
+    await user.selectOptions(await screen.findByLabelText("自治体"), "ebetsu");
+    await user.selectOptions(await screen.findByLabelText("お住まいの地区（町名）"), "緑町（東・西）");
+
+    const heading = await screen.findByText("これ何ゴミ？");
+    const panel = heading.closest("section") as HTMLElement;
+
+    // "アイスピック" isn't one of Ebetsu's own hand-curated categories.json keywords, only Sapporo's
+    // full sorting dictionary knows it — this should surface as a labeled reference, not a real answer.
+    await user.type(within(panel).getByPlaceholderText("例: スプレー缶"), "アイスピック");
+    await user.click(within(panel).getByText("検索"));
+
+    expect(await within(panel).findByText("「アイスピック」は見つかりませんでした。")).toBeInTheDocument();
+    expect(within(panel).getByText("参考: 札幌市の分別区分")).toBeInTheDocument();
+    expect(within(panel).getByText("燃やせないごみ")).toBeInTheDocument();
+    expect(within(panel).getByText(/実際の分別区分・手数料は自治体により異なります/)).toBeInTheDocument();
+  });
+
+  it("does not show a reference block for Sapporo itself, since it already has its own dictionary", async () => {
+    const user = userEvent.setup({ delay: null });
+    render(<App />);
+
+    await selectArea(user);
+    const heading = await screen.findByText("これ何ゴミ？");
+    const panel = heading.closest("section") as HTMLElement;
+
+    await user.type(within(panel).getByPlaceholderText("例: スプレー缶"), "アイスピック");
+    await user.click(within(panel).getByText("検索"));
+
+    expect(await within(panel).findByText("燃やせないごみ")).toBeInTheDocument();
+    expect(within(panel).queryByText(/参考:/)).not.toBeInTheDocument();
+  });
 });

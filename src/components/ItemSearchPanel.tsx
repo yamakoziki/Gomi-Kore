@@ -1,11 +1,13 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import type { CalendarData, CategoriesData, ItemDictionaryData, SourceData } from "../types";
+import type { ReferenceItemDictionary } from "../adapters/registry";
 import { searchCategories, searchItemDictionary } from "../logic/itemSearch";
 import type { ItemDictionaryMatch } from "../logic/itemSearch";
 import { useVoiceInput } from "../hooks/useVoiceInput";
 import { pickLocalized } from "../i18n/localized";
 import { CategoryCard } from "./CategoryCard";
+import { FeeBadge } from "./FeeBadge";
 
 type Props = {
   categoriesData: CategoriesData;
@@ -15,6 +17,8 @@ type Props = {
   source: SourceData;
   /** Full item-by-item sorting dictionary, when the municipality has one bundled (currently Sapporo only). Its raw text is Japanese-only, so it's only consulted while the UI language is Japanese. */
   itemDictionaryData?: ItemDictionaryData;
+  /** Another municipality's item dictionary (currently only Sapporo's), shown as a labeled, non-authoritative reference for municipalities without one of their own. Null when this municipality already has its own. */
+  referenceItemDictionary?: ReferenceItemDictionary | null;
   onSpeak: (text: string, language: string) => void;
 };
 
@@ -37,6 +41,7 @@ export function ItemSearchPanel({
   now,
   source,
   itemDictionaryData,
+  referenceItemDictionary,
   onSpeak,
 }: Props) {
   const { t, i18n } = useTranslation();
@@ -50,6 +55,12 @@ export function ItemSearchPanel({
   const dictMatch =
     searchedQuery && useDictionary ? searchItemDictionary(categoriesData, itemDictionaryData!, searchedQuery) : null;
   const categoryMatch = searchedQuery && !dictMatch ? searchCategories(categoriesData, searchedQuery) : null;
+
+  // Same Japanese-only caveat as useDictionary above.
+  const referenceMatch =
+    searchedQuery && language === "ja" && referenceItemDictionary
+      ? searchItemDictionary(referenceItemDictionary.categoriesData, referenceItemDictionary.itemDictionaryData, searchedQuery)
+      : null;
 
   const runSearch = (text: string) => {
     const trimmed = text.trim();
@@ -178,6 +189,29 @@ export function ItemSearchPanel({
             </div>
           )}
         </>
+      )}
+
+      {searchedQuery && referenceMatch && (
+        <div className="item-search-panel__reference">
+          <p className="item-search-panel__reference-heading">
+            {t("itemSearch.referenceHeading", { municipality: referenceItemDictionary!.municipalityName })}
+          </p>
+          <p className="item-search-panel__matched-item">{referenceMatch.entry.name}</p>
+          {referenceMatch.category ? (
+            <div className="item-search-panel__reference-category">
+              <span>{pickLocalized(referenceMatch.subItem?.name ?? referenceMatch.category.name, language)}</span>
+              <FeeBadge feeType={(referenceMatch.subItem ?? referenceMatch.category).feeType} />
+            </div>
+          ) : (
+            referenceMatch.entry.special && (
+              <p className="item-search-panel__reference-category">{t(SPECIAL_HEADING_KEY[referenceMatch.entry.special])}</p>
+            )
+          )}
+          {referenceMatch.entry.note && <p className="item-search-panel__reference-note">{referenceMatch.entry.note}</p>}
+          <p className="item-search-panel__reference-disclaimer">
+            {t("itemSearch.referenceDisclaimer", { municipality: referenceItemDictionary!.municipalityName })}
+          </p>
+        </div>
       )}
     </section>
   );

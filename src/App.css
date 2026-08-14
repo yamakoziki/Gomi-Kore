@@ -413,6 +413,44 @@
   white-space: pre-line;
 }
 
+.item-search-panel__reference {
+  margin-top: 14px;
+  background: transparent;
+  border: 1px dashed var(--border);
+  border-radius: 12px;
+  padding: 12px 14px;
+}
+
+.item-search-panel__reference-heading {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.item-search-panel__reference-category {
+  margin-top: 6px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.item-search-panel__reference-note {
+  margin-top: 6px;
+  font-size: 13px;
+  color: var(--text-muted);
+  white-space: pre-line;
+}
+
+.item-search-panel__reference-disclaimer {
+  margin-top: 8px;
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
 .category-card--static {
   cursor: default;
 }

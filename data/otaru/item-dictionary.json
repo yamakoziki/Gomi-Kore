@@ -1,0 +1,8366 @@
+{
+  "municipalityCode": "otaru",
+  "sourceUrl": "https://www.city.otaru.lg.jp/docs/2022070700107/file_contents/bunbetsu_hayamihyo2.csv",
+  "items": [
+    {
+      "name": "ICレコーダ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "または小型家電製品(P32)"
+    },
+    {
+      "name": "アイスキャンデーの外袋(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "アイスキャンデーの棒(木製)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "プラ製は燃やさないごみ"
+    },
+    {
+      "name": "アイスクリームのカップ・ふた(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "きれいにして"
+    },
+    {
+      "name": "アイスクリームのカップ・ふた(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "きれいにして"
+    },
+    {
+      "name": "アイスピック",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "紙などに包み「きけん」と表示して"
+    },
+    {
+      "name": "アイロン",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "または小型家電製品(P32)(ケースは除く)"
+    },
+    {
+      "name": "アイロン台",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製は燃やすごみ"
+    },
+    {
+      "name": "アクセサリー（金属製）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製は燃やすごみ"
+    },
+    {
+      "name": "アコーディオンカーテン(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "アダプター(電源用)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "または小型家電製品(P32)"
+    },
+    {
+      "name": "厚紙",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "新聞(雑がみ)と一緒に"
+    },
+    {
+      "name": "圧力鍋",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "電気圧力鍋は小型家電製品(P32)"
+    },
+    {
+      "name": "油(食品用)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "紙などに染み込ませるか、凝固剤で固めて「燃やすごみ」として出すか、プラ製の食用油の容器やペットボトルに移し替えて、市役所や市内スーパーなどにある食用油回収ボックスに入れる。"
+    },
+    {
+      "name": "油こし紙",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "油こし容器",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "油差し",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "雨がっぱ(レインコート)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "アマチュア無線機",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "または小型家電製品(P32)"
+    },
+    {
+      "name": "網(玉ねぎ・みかんなどに使用)(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "網(金属製)(1ｍ以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "網戸(1ｍ以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "編み針",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製は燃やすごみ"
+    },
+    {
+      "name": "あめなどの個包装(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "あめなどの個包装(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "アルバム(プラ製)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "アルバム(紙製・布製)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "アルミかん(飲料・食品用)",
+      "categoryId": "cans_bottles_etc",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "中をすすいで"
+    },
+    {
+      "name": "アルミ蒸着袋(菓子・レトルト食品)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "きれいにして"
+    },
+    {
+      "name": "アルミはく容器・鍋",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "なべ焼うどん等"
+    },
+    {
+      "name": "アルミホイール(タイヤ付きを除く)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "タイヤは販売店などへ"
+    },
+    {
+      "name": "アルミホイル",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "アルミホイルの芯(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "新聞(雑がみ)と一緒に"
+    },
+    {
+      "name": "アルミホイルの刃(金属・プラ製)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "アルミホイルの箱(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "紙製の刃は一緒に"
+    },
+    {
+      "name": "安全ピン",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "アンテナ(室内用・屋外用)(1ｍ以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "アンプ(0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "生花用吸水スポンジ(フローラルフォーム)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "石",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "清掃事業所にお問い合わせください"
+    },
+    {
+      "name": "石臼（いしうす）(0.1ｍ３および50㎏以下のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "清掃事業所にお問い合わせください"
+    },
+    {
+      "name": "衣装箱ケース(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製は燃やすごみ\n規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "移植ゴテ(シャベル)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "いす(1ｍおよび0.1ｍ３以内のもの)※木製",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "いす(1ｍおよび0.1ｍ３以内のもの)※金属・プラ製",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "板(木製)(1ｍ以内のもの)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製以外は燃やさないごみ"
+    },
+    {
+      "name": "いちごのパック・表面フィルム",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "一輪車(1ｍ以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "一斗かん(ペールかん・オイルかんを含む)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "中を空にして"
+    },
+    {
+      "name": "一升びん",
+      "categoryId": "cans_bottles_etc",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "中をすすいで"
+    },
+    {
+      "name": "一升びんのふた(金属製)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "一升びんのふた(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "糸",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "犬小屋(1ｍおよび0.1ｍ３以内のもの)※ケージ等",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製は燃やすごみ\n規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "医薬品の紙容器",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "医薬品のびん",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "医薬品のプラ容器",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "イヤホン",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "ワイヤレスイヤホンで電池が取れないものは、小型家電回収ボックスの上にある専用の箱に"
+    },
+    {
+      "name": "衣類",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "衣類乾燥機",
+      "categoryId": "appliance_recycling_law",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "家電リサイクル法対象品目（P33）"
+    },
+    {
+      "name": "衣類乾燥機台(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "入れ歯",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "色鉛筆",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "色紙(雑がみ)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "新聞(雑がみ)と一緒に"
+    },
+    {
+      "name": "印鑑",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製は燃やすごみ"
+    },
+    {
+      "name": "インクカートリッジ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "販売店等へ持ち込み可"
+    },
+    {
+      "name": "印刷機(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "インスタント写真",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "インスタントラーメンのスープ・具の袋(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "きれいにして"
+    },
+    {
+      "name": "インスタントラーメンの外袋(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "インターホン",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "飲料製品のロ付きアルミパック(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "中をすすいで"
+    },
+    {
+      "name": "ウイスキーびん",
+      "categoryId": "cans_bottles_etc",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "中をすすいで"
+    },
+    {
+      "name": "ウインドブレーカー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "植木の枝(1ｍ以内のもの)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "直径約35ｃｍ以内に束ねる\n規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "植木鉢(プラ製・陶器製)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ウエス(布類)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ウエットティッシュ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ウォーターベッド",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "収集運搬業許可業者(P33)へ"
+    },
+    {
+      "name": "ウォッシャー液の容器(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "中をすすいで"
+    },
+    {
+      "name": "うがい薬の容器(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "中をすすいで"
+    },
+    {
+      "name": "浮き輪・浮き袋",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "臼(うす) (木製)(1ｍおよび50㎏以内のもの)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "清掃事業所にお問い合わせください"
+    },
+    {
+      "name": "うちわ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製は燃やすごみ"
+    },
+    {
+      "name": "ウッドカーペット(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "ウッドクラフト",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "腕時計",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "乳母車(1ｍまたは0.1ｍ３を超えるもの)",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "収集運搬業許可業者(P33)へ"
+    },
+    {
+      "name": "運動靴",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "エアコン",
+      "categoryId": "appliance_recycling_law",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "家電リサイクル法対象品目(P33)"
+    },
+    {
+      "name": "エアコンプレッサー(0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "エアゾールかんのキャップ(金属製)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "エアゾールかんのキャップ(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "エアゾール式簡易消火具",
+      "categoryId": "cans_bottles_etc",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "使い切り、火気のない戸外で穴を開けて"
+    },
+    {
+      "name": "エアゾールのかん(金属製)",
+      "categoryId": "cans_bottles_etc",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "使い切り、火気のない戸外で穴を開けて"
+    },
+    {
+      "name": "液晶テレビ",
+      "categoryId": "appliance_recycling_law",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "家電リサイクル法対象品目(P33)"
+    },
+    {
+      "name": "エキスパンダー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "枝(1ｍ以内のもの)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "直径約35ｃｍ以内に束ねる\n規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "絵の具のチューブ(金属製)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "絵の具のチューブ(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "きれいにして"
+    },
+    {
+      "name": "エプロン",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ＭＯ・ＭＤ(ケースを含む)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ＭＤレコーダー・プレーヤー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "または小型家電製品(P32)"
+    },
+    {
+      "name": "ＬＤ・ＬＤプレーヤー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "または小型家電製品(P32)"
+    },
+    {
+      "name": "エレキギター(1ｍを超えるもの)",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "収集運搬業許可業者(P33)へ"
+    },
+    {
+      "name": "エレキギターのアンプ(0.1ｍ３を超えるもの)",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "収集運搬業許可業者(P33)へ"
+    },
+    {
+      "name": "エレクトーン",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "収集運搬業許可業者(P33)へ"
+    },
+    {
+      "name": "エンジンオイル",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "紙などに染み込ませるか、凝固剤で固めて"
+    },
+    {
+      "name": "延長コード",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "または小型家電製品(P32)"
+    },
+    {
+      "name": "煙突(1ｍ以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "直径約35ｃｍ以内に束ねる規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "塩ビ管(1ｍ以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "直径約35ｃｍ以内に束ねる規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "鉛筆または鉛筆の芯",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "鉛筆削り",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "オーディオラック(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製は燃やすごみ\n規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "オートバイ",
+      "categoryId": "not_collected_other",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "販売店などヘ（P32）"
+    },
+    {
+      "name": "オーブントースター",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "または小型家電製品(P32)"
+    },
+    {
+      "name": "オーブンレンジ(0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "おけ(木製)(0.1ｍ３以内のもの)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製以外は燃やさないごみ\n規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "おしゃぶり",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "落ち葉",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "お手ふき",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "お手ふきの袋(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "お手ふきの袋(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "斧(おの)の柄(木製)(1ｍ以内のもの)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製以外は燃やさないごみ\n規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "斧(おの)の刃",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "紙などに包み「きけん」と表示して"
+    },
+    {
+      "name": "帯",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "おぼん(木製)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製以外は燃やさないごみ"
+    },
+    {
+      "name": "おまる",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "おむつ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "汚物はトイレに流して"
+    },
+    {
+      "name": "おむつカバー",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "おもちゃ(木製)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製以外は燃やさないごみ"
+    },
+    {
+      "name": "オルガン",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "収集運搬業許可業者(P33)へ"
+    },
+    {
+      "name": "おろし金",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "おわん(木製)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製以外は燃やさないごみ"
+    },
+    {
+      "name": "温水洗浄機付便座(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "温度計",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "水銀計は清掃事業所にお問い合わせください（P29参照）"
+    },
+    {
+      "name": "ガーゼ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "カーテン",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "カーテンレール(1ｍ以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "カード(プラ製)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "紙製は燃やすごみ"
+    },
+    {
+      "name": "カーナビ・カーオーディオ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "または小型家電製品(P32)"
+    },
+    {
+      "name": "カーペット(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "カーペットの芯(1ｍ以内のもの)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製・竹製・紙製以外は燃やさないごみ\n規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "貝殻",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "懐中電灯・ランタン",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "電池と電球は資源物(かん等)"
+    },
+    {
+      "name": "買物かご(プラ製)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製は燃やすごみ"
+    },
+    {
+      "name": "カイロ(使い捨て)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "使用後冷めてから"
+    },
+    {
+      "name": "カイロ(使い捨て)の外袋",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "鏡(1ｍ以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "かき氷器",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "拡大鏡(ルーペ)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "額縁(木製)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "ガラス・金属製・プラ製は燃やさないごみ"
+    },
+    {
+      "name": "掛け時計",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "電池は資源物（かん等）"
+    },
+    {
+      "name": "掛け布団(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "傘・傘立て(１ｍ以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製は燃やすごみ\n規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "加湿器(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "菓子の空き箱(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製は燃やすごみ"
+    },
+    {
+      "name": "菓子のかん・びん",
+      "categoryId": "cans_bottles_etc",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "一斗かん(18?)は燃やさないごみ"
+    },
+    {
+      "name": "菓子の袋(アルミ蒸着袋)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "きれいにして"
+    },
+    {
+      "name": "菓子箱の上げ底、中仕切り(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "菓子箱の上げ底、中仕切り(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ガスコンロ(ガスレンジ)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "電池は資源物（かん等）"
+    },
+    {
+      "name": "ガスレンジマット(アルミはく製)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "カセットコンロ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "電池は資源物（かん等）"
+    },
+    {
+      "name": "カセット式ガスボンベ",
+      "categoryId": "cans_bottles_etc",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "使い切り、火気のない戸外で穴を開けて（P30）"
+    },
+    {
+      "name": "カセット式ガスボンベのキャップ(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "カセットテープ(ケースを含む)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "カセットデッキ・カセットプレーヤー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "または小型家電製品(P32)"
+    },
+    {
+      "name": "ガソリン",
+      "categoryId": "not_collected_other",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "販売店や処理業者にお問い合せください"
+    },
+    {
+      "name": "ガソリン携行かん",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "中身を空にして"
+    },
+    {
+      "name": "カッターの刃",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "紙などに包み「きけん」と表示して"
+    },
+    {
+      "name": "カッター本体",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "カット綿",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "カット綿の包装袋（プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "カット綿の包装袋(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "カップ(陶器製・プラ製・金属製の茶碗)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "割れたものは紙などに包み「きけん」と表示して"
+    },
+    {
+      "name": "カップめんの具(かやく)の袋(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "きれいにして"
+    },
+    {
+      "name": "カップめんのスープの袋(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "きれいにして"
+    },
+    {
+      "name": "カップめんのふた(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "きれいにして"
+    },
+    {
+      "name": "カップめんのふた(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "きれいにして"
+    },
+    {
+      "name": "カップめんの容器・外装フィルム(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "きれいにして"
+    },
+    {
+      "name": "かつら(つけ毛)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "家庭用ゲーム機(テレビゲーム機)",
+      "categoryId": "small_appliances",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "小型家電回収ボックス(P32)へ"
+    },
+    {
+      "name": "家庭用ゲームソフト(カセット型のみ)",
+      "categoryId": "small_appliances",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "小型家電回収ボックス(P32)へ\n（ＣＤ・ＤＶＤ・ＢＤは燃やさないごみ）"
+    },
+    {
+      "name": "加熱式たばこ",
+      "categoryId": "small_appliances",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "小型家電回収ボックス(P32)の上にある専用の箱に\n※燃やさないごみには決して入れないでください。"
+    },
+    {
+      "name": "かばん(革製の鞄)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "布製は燃やすごみ"
+    },
+    {
+      "name": "画板(木製・紙製)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製・紙製以外は燃やさないごみ"
+    },
+    {
+      "name": "画びょう",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "花びん",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "壁紙(紙製)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "紙製以外は燃やさないごみ"
+    },
+    {
+      "name": "鎌（かま）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "紙などに包み「きけん」と表示して"
+    },
+    {
+      "name": "かまぼこの板",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "紙おむつ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "汚物はトイレに流して"
+    },
+    {
+      "name": "紙コップ・紙皿",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "かみそり",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "紙などに包み「きけん」と表示して"
+    },
+    {
+      "name": "紙粘土",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "紙パック(アルミ付き含む)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "飲料用パックに限る"
+    },
+    {
+      "name": "紙袋",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "紙やすり",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ガム",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ガムテープ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ガムの包装(1枚ごとの包装を含む)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "カメラの本体・ケース・レンズ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "画用紙",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "新聞(雑がみ)と一緒に"
+    },
+    {
+      "name": "カラーボックス(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "カラオケセット(投入口から入るもの(30ｃｍ四方)",
+      "categoryId": "small_appliances",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "小型家電回収ボックス(P32)へ"
+    },
+    {
+      "name": "からしのチューブ(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "きれいにして"
+    },
+    {
+      "name": "ガラス(1ｍ以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "紙などに包み「きけん」と表示して規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "ガラスクリーナー(スプレー式)",
+      "categoryId": "cans_bottles_etc",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "使い切り、火気のない戸外で穴をあけて（P30）"
+    },
+    {
+      "name": "枯れ葉",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "革靴",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "革手袋",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "皮むき器（ピーラー）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "管楽器(1ｍ以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "換気扇(0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "缶切",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "緩衝材(梱包用エアクッション)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "緩衝材(梱包用発泡スチロール)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "粒状形のものなどは燃やさないごみ"
+    },
+    {
+      "name": "乾燥剤",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "乾電池(筒型)",
+      "categoryId": "cans_bottles_etc",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "テープ等で必ず絶縁して"
+    },
+    {
+      "name": "乾電池などの外装フィルム",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "木(1ｍ以内のもの)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "直径約35ｃｍ以内に束ねる\n規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "キーボード(楽器)(1ｍを超えるもの)",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "収集運搬業許可業者(P33)へ"
+    },
+    {
+      "name": "ギター(1ｍを超えるもの)",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "収集運搬業許可業者(P33)へ"
+    },
+    {
+      "name": "キックボード",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "木づち",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "キッチンタオル・キッチンペーパー",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "杵(きね) (1ｍを超えるもの)",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "収集運搬業許可業者(P33)へ"
+    },
+    {
+      "name": "木の枝(1ｍ以内のもの)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "直径約35ｃｍ以内に束ねて"
+    },
+    {
+      "name": "着物",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "脚立(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製は燃やすごみ\n規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "キャラメルの空き箱(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "キャラメルの外装フィルム(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "キャラメルの包み紙(個包装)(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "急須(きゅうす)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "割れたものは紙などに包み「きけん」と表示して"
+    },
+    {
+      "name": "給湯器(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "牛乳パック",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "中をすすいで"
+    },
+    {
+      "name": "牛乳びん",
+      "categoryId": "cans_bottles_etc",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "中をすすいで"
+    },
+    {
+      "name": "鏡台(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "金庫(1ｍおよび0.1ｍ３以内かつ50㎏以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "空気入れ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "空気清浄機(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "空気清浄機のフィルター(紙製)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "紙製以外は燃やさないごみ"
+    },
+    {
+      "name": "クーラーボックス(0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "くぎ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "紙などに包み「きけん」と表示して"
+    },
+    {
+      "name": "草刈り機(1ｍ以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "草・花・葉",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "串(くし)(木製)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "紙などに包み「きけん」と表示して"
+    },
+    {
+      "name": "串(くし)(金属製)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "紙などに包み「きけん」と表示して"
+    },
+    {
+      "name": "くし(ブラシ)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製は燃やすごみ"
+    },
+    {
+      "name": "薬(錠剤・カプセルなど)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "薬(錠剤・カプセルなど)の包装シート(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "薬のびん",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "薬の容器・ふた(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "口紅の容器(金属製)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "口紅の容器(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "靴",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "運動靴・革靴・長靴等"
+    },
+    {
+      "name": "クッキングヒーター",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "靴下",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "靴下の外袋(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "クッション(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "ウレタン製、ビーズ製は燃やさないごみ。規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "クッションフロア(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "靴墨のチューブ(プラ製)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "汚れを落としにくいため"
+    },
+    {
+      "name": "靴の空き箱(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "靴の中敷き",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "靴べら",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製は燃やすごみ"
+    },
+    {
+      "name": "グラス",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "割れたものは紙などに包み「きけん」と表示して"
+    },
+    {
+      "name": "グラスウール",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "クラッカー(爆竹)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "水に浸し、発火しないようにしてください。多量の場合は清掃事業所にお問い合わせください。"
+    },
+    {
+      "name": "クリアファイル",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "クリーニングの紙袋・台紙(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "新聞(雑がみ)と一緒に"
+    },
+    {
+      "name": "クリーニングのポリ袋",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "購入商品でないものを入れた袋のため"
+    },
+    {
+      "name": "クリップ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "車いす",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "収集運搬業許可業者(P33)へ"
+    },
+    {
+      "name": "クレジットカード",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "クレヨン",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "クレヨンのケース・中敷き(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "クレヨンのケース・中敷き(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "グロー球（点灯管）",
+      "categoryId": "cans_bottles_etc",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "グローブ(野球)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "軍手",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "蛍光管・電球(LED製を含む)",
+      "categoryId": "cans_bottles_etc",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "購入時の紙容器や新聞紙に包んで割れたものは燃やさないごみ"
+    },
+    {
+      "name": "蛍光管などの外箱(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "蛍光ペン",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "携帯型ゲーム機",
+      "categoryId": "small_appliances",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "小型家電回収ボックス(P32)へ\n電池は外して資源物(かん等)へ"
+    },
+    {
+      "name": "携帯電話",
+      "categoryId": "small_appliances",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "小型家電回収ボックス(P32)へ"
+    },
+    {
+      "name": "毛糸",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "計量カップ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ケーキ・お菓子のアルミはく",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ゲートボールクラブ(1ｍ以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製は燃やすごみ"
+    },
+    {
+      "name": "ケーブル(延長コードなど)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "または小型家電製品(P32)"
+    },
+    {
+      "name": "ケーブルテレビ用STB（Set Top Box）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "または小型家電製品(P32)"
+    },
+    {
+      "name": "ゲーム機・ゲームソフト（カセット型のみ）",
+      "categoryId": "small_appliances",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "小型家電回収ボックス(P32)へ"
+    },
+    {
+      "name": "消しゴム",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "化粧品携帯ポーチ(プラ製)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "化粧品の外箱(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "化粧品の外箱(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "化粧品のびん",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "化粧品の容器のふた(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "げた箱(0.1ｍ３を超えるもの)",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "収集運搬業許可業者(P33)へ"
+    },
+    {
+      "name": "ケチャップのチューブ・ふた(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "きれいにして"
+    },
+    {
+      "name": "血圧計(水銀)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "清掃事業所にお問い合わせください"
+    },
+    {
+      "name": "血圧計(電子)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "電池は資源物（かん等）"
+    },
+    {
+      "name": "毛抜き",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "けん引ロープ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "麻ロープは燃やすごみ"
+    },
+    {
+      "name": "玄関マット",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "剣山",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "紙などに包み「きけん」と表示して"
+    },
+    {
+      "name": "碁石",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "こいのぼり",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "布製以外は燃やさないごみ"
+    },
+    {
+      "name": "工具箱（プラ製・金属製）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製は燃やすごみ"
+    },
+    {
+      "name": "抗原検査キット",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "紅茶のかん",
+      "categoryId": "cans_bottles_etc",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "紅茶(ティーバッグ)の個包装紙(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "小枝(1ｍ以内のもの)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "直径約35ｃｍ以内に束ねて"
+    },
+    {
+      "name": "ゴーグル",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "コート",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "コード(テーブルタップ)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "または小型家電製品(P32)"
+    },
+    {
+      "name": "コート掛け(1ｍを超えるもの)",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "収集運搬業許可業者(P33)へ"
+    },
+    {
+      "name": "コードリール",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "コードレス電話",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "または小型家電製品(P32)電池は外す"
+    },
+    {
+      "name": "コーヒーかす",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "コーヒーびん・かん",
+      "categoryId": "cans_bottles_etc",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "中をすすいで"
+    },
+    {
+      "name": "コーヒーびんのふた(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "コーヒーびんの内ぶた(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "コーヒーメーカー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "固形石けん",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ござ(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "プラ製は燃やさないごみ\n規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "コップ(ガラス製・プラ製)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "割れたものは紙などに包み「きけん」と表示して"
+    },
+    {
+      "name": "コップ型のびん(日本酒など)",
+      "categoryId": "cans_bottles_etc",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "粉石けん",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "粉石けんの容器(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "金属部分は取り除く"
+    },
+    {
+      "name": "粉石けんの容器(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "金属部分は取り除く"
+    },
+    {
+      "name": "粉ミルクのかん",
+      "categoryId": "cans_bottles_etc",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "碁盤(木製)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製以外は燃やさないごみ"
+    },
+    {
+      "name": "コピー機(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "ごみ箱(プラ製・金属製)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ゴム手袋・ゴム長靴",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "米袋(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "米袋(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "コルク栓",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "コルク抜き",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "紙などに包み「きけん」と表示して"
+    },
+    {
+      "name": "ゴルフクラブ・バッグ（1ｍまたは0.1ｍ３を超えるもの）",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "収集運搬業許可業者(P33)へ"
+    },
+    {
+      "name": "ゴルフボール",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "コンタクトレンズ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "コンタクトレンズの保存液容器(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "コンテナボックス(0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "コンパス",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "紙などに包み「きけん」と表示して"
+    },
+    {
+      "name": "コンパネ(ベニヤ板)(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "コンビニ弁当の容器(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "きれいにして"
+    },
+    {
+      "name": "コンロ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "電池は資源物（かん等）"
+    },
+    {
+      "name": "サーキュレーター(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "サーフボード",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "収集運搬業許可業者(P33)へ"
+    },
+    {
+      "name": "サイクリングマシーン",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "収集運搬業許可業者(P33)へ"
+    },
+    {
+      "name": "座いす(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製は燃やすごみ\n規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "サイドボード",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "収集運搬業許可業者(P33)へ"
+    },
+    {
+      "name": "財布",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "布製は燃やすごみ"
+    },
+    {
+      "name": "材木類(1ｍ以内のもの)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "酒パック(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "中をすすいで"
+    },
+    {
+      "name": "酒パックのふた(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "座卓(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製以外は燃やさないごみ\n規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "雑誌",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "ひもで十字にしばる"
+    },
+    {
+      "name": "座布団",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "ウレタン製は燃やさないごみ"
+    },
+    {
+      "name": "サボテン",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "皿(陶器製)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "割れたものは紙などに包み「きけん」と表示して"
+    },
+    {
+      "name": "サラダ油",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "紙に染み込ませるか、凝固剤で固めて"
+    },
+    {
+      "name": "サラダ油の容器",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "汚れを落としにくいため"
+    },
+    {
+      "name": "三角コーナー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "三脚(1ｍ以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "サングラス",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "酸素ボンベ",
+      "categoryId": "not_collected_other",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "販売店へお問い合わせください"
+    },
+    {
+      "name": "サンダル",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "サンドペーパー",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "三輪車(子供用)(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "シーツ(敷布)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ＣＤ(ケースを含む)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ＣＤプレーヤー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "または小型家電製品(P32)電池は外し資源物(かん等)へ"
+    },
+    {
+      "name": "ＣＤラジカセ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "電池は外し資源物（かん等）へ"
+    },
+    {
+      "name": "シール(台紙を含む)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ジーンズ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "シェーバー",
+      "categoryId": "small_appliances",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "小型家電回収ボックス(P32)の上にある専用の箱に\n※燃やさないごみには決して入れないでください。"
+    },
+    {
+      "name": "敷き布団(0.1ｍ３を超えるもの)",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "収集運搬業許可業者(P33)へ"
+    },
+    {
+      "name": "磁石",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "下着",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "下敷き",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "紙製は燃やすごみ"
+    },
+    {
+      "name": "しちりん",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "湿気取り器(使い捨て)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "水を捨てて"
+    },
+    {
+      "name": "湿布",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "湿布剤の外袋(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "湿布剤の外箱(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "湿布剤の表面に張られたフィルム",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "辞典",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "自転車(1ｍを超えるもの)",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "収集運搬業許可業者(P33)へ"
+    },
+    {
+      "name": "自動車",
+      "categoryId": "not_collected_other",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "自動車リサイクル法の引取業者へ"
+    },
+    {
+      "name": "竹刀・木刀(1ｍ以内のもの)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "芝刈り機",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "収集運搬業許可業者(P33)へ"
+    },
+    {
+      "name": "シャープペンシル",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "蛇口",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "写真",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ジャッキ(1ｍおよび50㎏以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "シャベル（移植ゴテ）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ジャムのびん",
+      "categoryId": "cans_bottles_etc",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "きれいにして"
+    },
+    {
+      "name": "シャンプーボトル・ポンプ部分(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "中をすすいで"
+    },
+    {
+      "name": "週刊誌",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ジューサー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ジュースの紙パック",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "中をすすいで"
+    },
+    {
+      "name": "ジュースのかん・びん",
+      "categoryId": "cans_bottles_etc",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "中をすすいで"
+    },
+    {
+      "name": "ジュースのペットボトル",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "中をすすいで"
+    },
+    {
+      "name": "じゅうたん(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "充電器(家庭用)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "または小型家電製品(P32)"
+    },
+    {
+      "name": "充電式電池",
+      "categoryId": "cans_bottles_etc",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "テープ等で絶縁をして"
+    },
+    {
+      "name": "収納箱(衣装ケース)(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製は燃やすごみ\n規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "数珠",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製は燃やすごみ"
+    },
+    {
+      "name": "シュラフ(寝袋)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "シュレッダー紙",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "瞬間湯沸器(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）\n電池は外して資源物（かん等）へ"
+    },
+    {
+      "name": "消火器",
+      "categoryId": "not_collected_other",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "販売店などにお問い合わせください"
+    },
+    {
+      "name": "定規",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製は燃やすごみ"
+    },
+    {
+      "name": "将棋盤(木製)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製以外は燃やさないごみ"
+    },
+    {
+      "name": "障子",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "収集運搬業許可業者(P33)へ"
+    },
+    {
+      "name": "浄水器",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "しょうのう(防虫剤)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "照明器具(1ｍ以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "蛍光管・電球は外して資源物（かん等）\n規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "しょう油差し",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "じょうろ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "食品トレイ(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "きれいにして"
+    },
+    {
+      "name": "食品保存用容器（プラ製）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "食用油",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "紙などに染み込ませるか、凝固剤で固めて「燃やすごみ」として出すか、プラ製の食用油の容器やペットボトルに移し替えて、市役所や市内スーパーなどにある食用油回収ボックスに入れる。"
+    },
+    {
+      "name": "食用油のかん・びん・プラスチックボトル",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "汚れを落としにくいため"
+    },
+    {
+      "name": "食用油の容器のふた(金属製・プラ製)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "汚れを落としにくいため"
+    },
+    {
+      "name": "除湿器(フロン使用製品は除く)(0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）フロン使用製品はごみ減量推進課へ問い合わせを"
+    },
+    {
+      "name": "除雪機",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "収集運搬業許可業者(P33)へ\nまたは販売店に相談"
+    },
+    {
+      "name": "食器(せともの、プラ製)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "割れたものは紙などに包み「きけん」と表示して"
+    },
+    {
+      "name": "食器洗い乾燥機(0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "ジョンバ(1ｍ以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "新聞",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "水槽(0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "水中メガネ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "水筒",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "炊飯器",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "または小型家電製品(P32)"
+    },
+    {
+      "name": "スーツケース(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "スキー板・ストック(1ｍを超えるもの)",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "収集運搬業許可業者(P33)へ"
+    },
+    {
+      "name": "スキーウェア",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "スキーキャリア(1ｍ以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "スキー靴",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "スキーケース",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "スケート靴",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "スケートボード",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "スケール(プラ製・金属製)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "スコップ(1ｍ以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "すしおけ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製は燃やすごみ"
+    },
+    {
+      "name": "すす",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "すずり",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "すだれ(木製)(1mおよび0.1ｍ３以内のもの)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製以外は燃やさないごみ\n規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "スタンド照明器(1ｍ以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "蛍光管・電球は外して資源物（かん等）\n規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "スタンプ台",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "スチールかん(飲料・食品用)",
+      "categoryId": "cans_bottles_etc",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "中をすすいで"
+    },
+    {
+      "name": "スチール棚(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "スチールホイール(タイヤ付きを除く)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "タイヤは販売店などにお問い合せください"
+    },
+    {
+      "name": "ステープラー(ホチキス)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ステップマシーン(1mおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "ステレオセット(0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "または小型家電製品(P32)(スピーカーを除く)\n規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "ストーブ(1mおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "灯油式のものは灯油を抜いて\n規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "ストッキング",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ストッキングの外袋(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ストッキングの中の台紙(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ストロー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ストローの袋(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ストローの袋(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "砂",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "多量の場合は清掃事業所にお問い合わせください"
+    },
+    {
+      "name": "スナック菓子の袋(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "スナック菓子の袋(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "スニーカー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "スノーダンプ(1mおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "スノーヘルパー(1ｍ以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "スノーボード(1ｍを超えるもの)",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "収集運搬業許可業者(P33)へ"
+    },
+    {
+      "name": "すのこ(木製)(1ｍ以内のもの)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製以外は燃やさないごみ\n規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "スパナ(工具類)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "スピーカー(0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "スプーン(プラ製・金属製)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "スプーンの袋(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "スプーンの袋(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "スプリングマットレス",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "収集運搬業許可業者(P33)へ"
+    },
+    {
+      "name": "スプレーかん",
+      "categoryId": "cans_bottles_etc",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "使い切り、火気のない戸外で穴を開けて（P30）"
+    },
+    {
+      "name": "スプレーかんのキャップ(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "スプレー式消火器",
+      "categoryId": "cans_bottles_etc",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "使い切り、火気のない戸外で穴を開けて（P30）"
+    },
+    {
+      "name": "すべり台(子供用遊具)(1ｍを超えるもの)",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "収集運搬業許可業者(P33)へ"
+    },
+    {
+      "name": "スポンジ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "スポンジの外袋(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "スポンジマット(1mおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "ズボンプレッサー(1ｍを超えるもの)",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "収集運搬業許可業者(P33)へ"
+    },
+    {
+      "name": "スマートフォン",
+      "categoryId": "small_appliances",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "小型家電回収ボックス(P32)へ"
+    },
+    {
+      "name": "炭",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "スライサー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "すりこぎ棒",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "スリッパ(ナイロン製)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "布製は燃やすごみ"
+    },
+    {
+      "name": "すり鉢",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "製氷皿",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "整理だんす(1ｍおよび0.1ｍ３を以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製は燃やすごみ\n規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "生理用品",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "生理用品の包装(外装・個袋)(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "セーム皮",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "石炭",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "石けん",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "液体は紙か布に染み込ませて"
+    },
+    {
+      "name": "石けんの個袋(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "石けんの外箱(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "接着剤のチューブ(プラ製)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "汚れを落としにくいため"
+    },
+    {
+      "name": "セメント",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ゼリーのカップ(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "中をすすいで"
+    },
+    {
+      "name": "セロハン",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "セロハンテープ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "線香",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "洗剤",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "液体は紙か布に染み込ませて"
+    },
+    {
+      "name": "洗剤の計量カップ・計量スプーン",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "紙製は燃やすごみ"
+    },
+    {
+      "name": "洗剤容器(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "洗剤容器(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "洗車ブラシ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "洗濯かご(プラ製)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製は燃やすごみ"
+    },
+    {
+      "name": "洗濯機",
+      "categoryId": "appliance_recycling_law",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "家電リサイクル法対象品目(P33)"
+    },
+    {
+      "name": "洗濯ネット",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "洗濯のりの容器(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "中をすすいで"
+    },
+    {
+      "name": "洗濯ばさみ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "扇風機(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "洗面器",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "洗面化粧台",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "収集運搬業許可業者(P33)へ"
+    },
+    {
+      "name": "双眼鏡",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "造花",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "プラ製は燃やさないごみ"
+    },
+    {
+      "name": "ぞうきん",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "掃除機(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "充電池は外して資源物（かん等）へ規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "掃除機の紙パック",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ソースの容器(びん)",
+      "categoryId": "cans_bottles_etc",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "中をすすいで"
+    },
+    {
+      "name": "ソースの容器・ふた(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "中をすすいで"
+    },
+    {
+      "name": "ソファー・ソファーベッド",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "収集運搬業許可業者(P33)へ"
+    },
+    {
+      "name": "体温計（水銀）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "戸別回収のため清掃事業所にお問い合わせください（P29）"
+    },
+    {
+      "name": "体温計（電子）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "電池は資源物（かん等）"
+    },
+    {
+      "name": "耐火金庫(0.1ｍ３および50㎏以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "体重計",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "電池は資源物（かん等）"
+    },
+    {
+      "name": "タイプライター",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "タイヤ",
+      "categoryId": "not_collected_other",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "販売店などにお問い合わせください"
+    },
+    {
+      "name": "タイヤのホイール",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "タイヤのホイールキャップ・チェーン",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "タイル",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ダイレクトメール(チラシ類)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "新聞(雑がみ)と一緒に"
+    },
+    {
+      "name": "ダイレクトメールの封筒(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "フィルムの窓部分を切り取って新聞と一緒に"
+    },
+    {
+      "name": "ダイレクトメールを入れた外袋(プラ製)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "商品でないものを入れているため"
+    },
+    {
+      "name": "タオル・タオルケット",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "竹製品",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "たたみ",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "収集運搬業許可業者(P33)へ"
+    },
+    {
+      "name": "脱衣かご",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製は燃やすごみ"
+    },
+    {
+      "name": "脱脂綿",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "脱臭剤(冷蔵庫用など)の容器(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "中身の残るものは燃やさないごみ"
+    },
+    {
+      "name": "たばこの吸い殻",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "たばこの外装フィルム(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "たばこの箱(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "タブレット端末",
+      "categoryId": "small_appliances",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "小型家電回収ボックス(P32)へ"
+    },
+    {
+      "name": "卵の殻",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "卵のパック(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "卵のパック(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "玉ねぎを入れた網・ネット(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "たらい（0.1ｍ３以内のもの）(プラ製・金属製)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製は燃やすごみ\n規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "たれのボトル(びん)",
+      "categoryId": "cans_bottles_etc",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "中をすすいで"
+    },
+    {
+      "name": "たれのボトル(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "中をすすいで"
+    },
+    {
+      "name": "たわし(プラ製・金属製)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "たんす(1ｍまたは0.1ｍ３を超えるもの)",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "収集運搬業許可業者(P33)へ"
+    },
+    {
+      "name": "たんすシート",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "丹前(たんぜん)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ダンベル(鉄アレイ)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "段ボール",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "ろう引き段ボールは燃やすごみ"
+    },
+    {
+      "name": "チェーン",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "チェスト(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製以外は燃やさないごみ\n規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "地デジチューナー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "または小型家電回収ボックス(P32)へ"
+    },
+    {
+      "name": "地球儀",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "チャイルドシート(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "茶殻",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "茶殻入れ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "茶こし",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "茶だんす(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製以外は燃やさないごみ\n規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "茶のかん",
+      "categoryId": "cans_bottles_etc",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "茶の袋(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "アルミ製は燃やさないごみ"
+    },
+    {
+      "name": "茶の袋(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "アルミ製は燃やさないごみ"
+    },
+    {
+      "name": "茶箱(外は木で中がアルミのもの)(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "茶わん(陶器製)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "割れたものは紙などに包み「きけん」と表示して"
+    },
+    {
+      "name": "チューブ(調味料用)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "きれいにして"
+    },
+    {
+      "name": "注射器・注射針（医療用）",
+      "categoryId": "not_collected_other",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "医療機関・調剤薬局へ"
+    },
+    {
+      "name": "彫刻刀",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "紙などに包み「きけん」と表示して"
+    },
+    {
+      "name": "調理台(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "チラシ",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "新聞(雑がみ)と一緒に"
+    },
+    {
+      "name": "ちりとり(プラ製・金属製）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ついたて(1ｍおよび0.1ｍ３以内のもの)※木製",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "ついたて(1ｍおよび0.1ｍ３以内のもの)※金属・プラ製",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "つえ（杖）(1ｍ以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製は燃やすごみ\n規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "使い捨てカイロ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "使用後冷めてから"
+    },
+    {
+      "name": "使い捨てライター",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "指定ごみ袋にライターのみを入れ、「ライター」と表示する（他の燃えないごみは入れない）か、ライターを入れた透明か半透明の袋を指定ごみ袋に縛り付ける"
+    },
+    {
+      "name": "机(1ｍまたは0.1ｍ３を超えるもの)",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "収集運搬業許可業者(P33)へ"
+    },
+    {
+      "name": "漬物用おもし(50㎏以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "漬物用たる(木製)(0.1ｍ３以内のもの)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "漬物用たる(プラ製)(0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "土",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "多量の場合は清掃事業所にお問い合わせください"
+    },
+    {
+      "name": "つっぱり棚・棒(1ｍ以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製は燃やすごみ\n規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "つめ切り",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "釣りざお(1ｍ以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製・竹製は燃やすごみ規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "ティーバッグ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "個包装は資源物"
+    },
+    {
+      "name": "ＤＶＤ(ケースを含む)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ＤＶＤプレーヤー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "または小型家電製品(P32)"
+    },
+    {
+      "name": "ディスプレイ(パソコン用)",
+      "categoryId": "pc_recycling",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ティッシュペーパー",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ティッシュボックス(紙箱)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ティッシュボックス取り出し口のフィルム",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ティッシュボックス(5個入)の外装フィルム",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "テーブル(1ｍおよび0.1ｍ３以内のもの)※木製",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "テーブル(1ｍおよび0.1ｍ３以内のもの)※金属・プラ製",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "テーブルクロス(布製)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "プラ製は燃やさないごみ"
+    },
+    {
+      "name": "テープレコーダー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "手紙",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "資源物(紙類)にも出せます"
+    },
+    {
+      "name": "テグス(釣り糸)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "手提げ金庫",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "デジタルオーディオプレーヤー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "または小型家電製品(P32)"
+    },
+    {
+      "name": "デジタルカメラ",
+      "categoryId": "small_appliances",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "小型家電回収ボックス(P32)へ\n充電池は取り外して資源物(かん等)"
+    },
+    {
+      "name": "手帳",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "鉄アレイ(ダンベル)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "鉄柵類(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "鉄パイプ(1ｍ以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "直径約35ｃｍ以内に束ねる規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "鉄板(1ｍおよび50㎏以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "手ぬぐい",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "手袋",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "布製、毛糸製は燃やすごみ"
+    },
+    {
+      "name": "テレビ(ブラウン管式)",
+      "categoryId": "appliance_recycling_law",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "家電リサイクル法対象品目(P33)"
+    },
+    {
+      "name": "テレビ(ブラウン管式・液晶・プラズマ・有機EL)",
+      "categoryId": "appliance_recycling_law",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "家電リサイクル法対象品目(P33)"
+    },
+    {
+      "name": "テレビアンテナ(1ｍ以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "テレビ台(1ｍおよび0.1ｍ３以内のもの)※木製",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "テレビ台(1ｍおよび0.1ｍ３以内のもの)※金属製",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "電気カーペット(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "電気コード",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "または小型家電製品(P32)"
+    },
+    {
+      "name": "電気コードの包装パック(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "電気コードの包装パックの中の台紙(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "電気こたつ(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "電気コンロ(クッキングヒータを含む)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "電気製品の空き箱(段ボール)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "電気ストーブ(電気パネルヒーターを含む)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "または小型家電製品(P32)"
+    },
+    {
+      "name": "電気ひげそり",
+      "categoryId": "small_appliances",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "小型家電回収ボックス(P32)の上にある専用の箱に\n※燃やさないごみには決して入れないでください。"
+    },
+    {
+      "name": "電気ポット",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "電気毛布",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "電球(LED製を含む)",
+      "categoryId": "cans_bottles_etc",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "購入時の紙容器や新聞紙に包んで"
+    },
+    {
+      "name": "電子オルガン(1ｍを超えるもの)",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "収集運搬業許可業者(P33)へ"
+    },
+    {
+      "name": "電子ゲーム機(携帯ゲーム機)",
+      "categoryId": "small_appliances",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "小型家電回収ボックス(P32)へ\n充電池は取り外して資源物(かん等)"
+    },
+    {
+      "name": "電子辞書(電子手帳)",
+      "categoryId": "small_appliances",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "小型家電回収ボックス(P32)へ\n充電池は取り外して資源物(かん等)"
+    },
+    {
+      "name": "電子たばこ",
+      "categoryId": "small_appliances",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "小型家電回収ボックス(P32)の上にある専用の箱に\n※燃やさないごみには決して入れないでください。"
+    },
+    {
+      "name": "電磁調理器(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ(Ｐ33)"
+    },
+    {
+      "name": "電子レンジ(0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ(Ｐ33)"
+    },
+    {
+      "name": "電子レンジ台(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製は燃やすごみ\n規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "天体望遠鏡(1ｍ以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "電卓",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "電池は外して資源物（かん等）\n電池を取り外せないものは小型家電回収ボックス（P32）の上にある専用の箱へ"
+    },
+    {
+      "name": "電池(充電式電池、ボタン電池、コイン電池含む)",
+      "categoryId": "cans_bottles_etc",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "テープ等で必ず絶縁をして※鉛バッテリーは販売店へ"
+    },
+    {
+      "name": "テント(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "電動工具（充電池式）",
+      "categoryId": "small_appliances",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "小型家電回収ボックス(P32)へ\n充電池は取り外して資源物(かん等)"
+    },
+    {
+      "name": "電動歯ブラシ",
+      "categoryId": "small_appliances",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "小型家電回収ボックス(P32)の上にある専用の箱に\n※燃やさないごみには決して入れないでください。"
+    },
+    {
+      "name": "天ぷら油",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "紙などに染み込ませるか、凝固剤で固めて「燃やすごみ」として出すか、プラ製の食用油の容器やペットボトルに移し替えて、市役所や市内スーパーなどにある食用油回収ボックスに入れる。"
+    },
+    {
+      "name": "天ぷらガード",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "電話機(固定電話)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "または小型家電製品(P32)\n電池は外し資源物（かん等）へ"
+    },
+    {
+      "name": "戸(サッシ、ふすまなど)\n(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製は燃やすごみ\n規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "ドア(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製は燃やすごみ\n規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "砥石(といし)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "トイレシート(ペット用)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "トイレットペーパーのしん(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "新聞(雑がみ)と一緒に"
+    },
+    {
+      "name": "トイレットペーパーの外装フィルム(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "トイレブラシ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "陶器",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "透析バッグ(点滴バッグ)(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "針付きは医療機関・調剤薬局へ"
+    },
+    {
+      "name": "豆腐のパック・ふた(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "きれいにして"
+    },
+    {
+      "name": "灯油",
+      "categoryId": "not_collected_other",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "販売店や処理業者へ"
+    },
+    {
+      "name": "灯油タンク(1ｍまたは0.1ｍ３を超えるもの)",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "収集運搬業許可業者(P33)へ"
+    },
+    {
+      "name": "灯油ポンプ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "トースター",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "または小型家電製品(P32)"
+    },
+    {
+      "name": "時計",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "電池は資源物（かん等）"
+    },
+    {
+      "name": "戸棚(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製は燃やすごみ\n規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "土鍋",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ドライバー(工具類)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ドライヤー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ドラムかん",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "収集運搬業許可業者(P33)へ"
+    },
+    {
+      "name": "ドラムセット（楽器）",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "収集運搬業許可業者(P33)へ"
+    },
+    {
+      "name": "鳥かご(0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "塗料",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "紙か布に染み込ませて"
+    },
+    {
+      "name": "塗料の空きかん",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ドリル",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ドリルの刃",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "紙などに包み「きけん」と表示して"
+    },
+    {
+      "name": "ドリンクびん",
+      "categoryId": "cans_bottles_etc",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "中をすすいで"
+    },
+    {
+      "name": "ドリンクびんのふた",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "金属製は資源物(かん等)"
+    },
+    {
+      "name": "トレイ(食品トレイ)(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ドレッサー(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製は燃やすごみ\n規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "ドレッシングのびん(ノンオイル)",
+      "categoryId": "cans_bottles_etc",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "中をすすいで汚れが残るものは燃やさないごみ"
+    },
+    {
+      "name": "トロフィー(1ｍ以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "ナイフ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "紙などに包み「きけん」と表示して"
+    },
+    {
+      "name": "長靴",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "中仕切り(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "中仕切り(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "流し台(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "なた",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "紙などに包み「きけん」と表示して"
+    },
+    {
+      "name": "納豆の容器(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "きれいにして"
+    },
+    {
+      "name": "納豆の容器(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "きれいにして"
+    },
+    {
+      "name": "鍋",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "鍋焼きうどんのアルミ容器",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "鍋焼きうどんの外装フィルム(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "生ごみ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "水をよく切って"
+    },
+    {
+      "name": "生ごみ処理機(0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "生花",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "鉛蓄電池(自動車、バイク用など)",
+      "categoryId": "not_collected_other",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "販売店などへ"
+    },
+    {
+      "name": "ニカド電池",
+      "categoryId": "cans_bottles_etc",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "テープ等で必ず絶縁をして"
+    },
+    {
+      "name": "ニッケル水素電池",
+      "categoryId": "cans_bottles_etc",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "テープ等で必ず絶縁をして"
+    },
+    {
+      "name": "ニッパー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "入浴剤の袋(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "きれいにすすいで"
+    },
+    {
+      "name": "入浴剤の容器（かん）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "プラ製は資源物（プラ類）"
+    },
+    {
+      "name": "入浴剤の容器（プラ製）",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "きれいにすすいで"
+    },
+    {
+      "name": "庭木・材木類(1ｍ以内のもの)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "直径約35ｃｍ以内に束ねる\n規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "ぬいぐるみ(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "縫い針",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "紙などに包み「きけん」と表示して"
+    },
+    {
+      "name": "ぬか",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "水をよく切って"
+    },
+    {
+      "name": "布",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ネガ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ネクタイ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ネット(玉ねぎ・みかんなどに使用)(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "寝袋(シュラフ)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "練りからし・練りわさびのチューブ(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "きれいにして"
+    },
+    {
+      "name": "粘土",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "紙粘土は燃やすごみ"
+    },
+    {
+      "name": "ノート(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "新聞(雑がみ)と一緒に"
+    },
+    {
+      "name": "ノートパソコン",
+      "categoryId": "pc_recycling",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "のこぎり",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "紙などに包み「きけん」と表示して"
+    },
+    {
+      "name": "のみ（大工道具）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "紙などに包み「きけん」と表示して"
+    },
+    {
+      "name": "のりのかん",
+      "categoryId": "cans_bottles_etc",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "のりのつくだ煮のびん",
+      "categoryId": "cans_bottles_etc",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "中をすすいで"
+    },
+    {
+      "name": "のりのつくだ煮のびんのふた(金属製)",
+      "categoryId": "cans_bottles_etc",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "きれいにして"
+    },
+    {
+      "name": "バーベキューコンロ(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "灰",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "多量の場合は清掃事業所にお問い合わせください"
+    },
+    {
+      "name": "排尿パック",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "汚物はトイレに流して"
+    },
+    {
+      "name": "パイプ椅子(1ｍ以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "パイプハンガー(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "パイプベッド",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "収集運搬業許可業者(P33)へ"
+    },
+    {
+      "name": "バインダー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "紙製は燃やすごみ"
+    },
+    {
+      "name": "ハエたたき",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "はがき",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "新聞(雑がみ)と一緒に"
+    },
+    {
+      "name": "はかり(計量器)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "はく製(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "白熱球",
+      "categoryId": "cans_bottles_etc",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "購入時の紙容器や新聞紙に包んで割れたものは燃やさないごみ"
+    },
+    {
+      "name": "はけ(塗装用など)(柄が木製)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製以外は燃やさないごみ"
+    },
+    {
+      "name": "バケツ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "はさみ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "紙などに包み「きけん」と表示して"
+    },
+    {
+      "name": "はしご(1ｍ以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "バスタオル",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "パソコン",
+      "categoryId": "pc_recycling",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "パソコンキーボード",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "パソコン用ディスプレイ(モニター)",
+      "categoryId": "pc_recycling",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "パソコンラック(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "バターの容器(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "きれいにして"
+    },
+    {
+      "name": "バターの容器(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "きれいにして"
+    },
+    {
+      "name": "はたき(木製)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製以外は燃やさないごみ"
+    },
+    {
+      "name": "発炎筒・発煙筒(未使用品)",
+      "categoryId": "not_collected_other",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "販売店などへ"
+    },
+    {
+      "name": "発炎筒・発煙筒(使用済)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "水に浸して中身は燃やすごみ"
+    },
+    {
+      "name": "バッグ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "布製は燃やすごみ"
+    },
+    {
+      "name": "バッテリー(鉛蓄電池)(自動車、バイク用など)",
+      "categoryId": "not_collected_other",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "販売店などへ"
+    },
+    {
+      "name": "バット(木製)(1ｍ以内のもの)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "金属製は燃やさないごみ\n規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "発泡スチロール製容器(緩衝材・トレイ)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "花ござ(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "花火",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "水に浸し、発火しないようにしてください。多量の場合は清掃事業所にお問い合わせください。"
+    },
+    {
+      "name": "パネルヒーター(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "歯ブラシ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "歯ブラシの包装パック(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "歯ブラシの包装パックの台紙(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "パフ(化粧用)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "歯磨き粉のチューブ(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "きれいにして"
+    },
+    {
+      "name": "パラソル(1ｍ以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "針(裁縫用など)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "紙などに包み「きけん」と表示して"
+    },
+    {
+      "name": "針金",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ハンガー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製は燃やすごみ"
+    },
+    {
+      "name": "ハンカチ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ばんそうこう",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "はんだ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "はんだごて",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "パンチ(穴開け)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ハンドヘルドゲーム（ミニ電子ゲーム)",
+      "categoryId": "small_appliances",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "小型家電回収ボックス(P32)へ\n電池は取り外して資源物(かん等)"
+    },
+    {
+      "name": "パンプス",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ピアノ",
+      "categoryId": "not_collected_other",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "販売店に相談"
+    },
+    {
+      "name": "PHS",
+      "categoryId": "small_appliances",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "小型家電回収ボックス(P32)へ"
+    },
+    {
+      "name": "ＢＳ/CSアンテナ・チューナー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "または小型家電回収ボックス(P32)(アルミ製のもの)"
+    },
+    {
+      "name": "ＢＳ/CSチューナー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "または小型家電回収ボックス(P32)(アルミ製のもの)"
+    },
+    {
+      "name": "ビーチパラソル(1ｍ以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "PPバンド(結束バンド)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ピーラー(皮むき器)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ビールかん・ビールびん",
+      "categoryId": "cans_bottles_etc",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "中をすすいで"
+    },
+    {
+      "name": "ビールケース",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "できるだけ購入した販売店へ"
+    },
+    {
+      "name": "ビールびんのふた",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "金属製は資源物(かん等)"
+    },
+    {
+      "name": "ビデオカメラ",
+      "categoryId": "small_appliances",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "小型家電回収ボックス(P32)へ"
+    },
+    {
+      "name": "ビデオテープ(プラ製ケースを含む)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ビデオデッキ",
+      "categoryId": "small_appliances",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "小型家電回収ボックス(P32)へ"
+    },
+    {
+      "name": "ひな人形",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ビニールシート",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ビニール手袋",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "火ばさみ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ひも(紙製)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "紙製以外は燃やさないごみ"
+    },
+    {
+      "name": "肥料",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "肥料袋(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "汚れているものは燃やさないごみ"
+    },
+    {
+      "name": "肥料袋(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "汚れているものは燃やすごみ"
+    },
+    {
+      "name": "ファクシミリ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ファンヒーター(0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "灯油式のものは灯油を抜いて\n規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "フィルム(ネガ)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "フィルムの外箱(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "フィルムの筒型ケース(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ブースターケーブル(自動車用品)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "風船",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "紙製は燃やすごみ"
+    },
+    {
+      "name": "封筒(雑がみ)(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "あて名シールや窓フィルムは切り取って"
+    },
+    {
+      "name": "プール(ビニール製遊具)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "フォーク",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製は燃やすごみ"
+    },
+    {
+      "name": "ふきん",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ふすま(1ｍ以内のもの)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "ふた(金属製)",
+      "categoryId": "cans_bottles_etc",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "きれいにして"
+    },
+    {
+      "name": "ふた(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "きれいにして"
+    },
+    {
+      "name": "ふた(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "きれいにして"
+    },
+    {
+      "name": "ブックカバー(ビニール製)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "紙製・布製は燃やすごみ"
+    },
+    {
+      "name": "筆",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "筆入れ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製、布製は燃やすごみ"
+    },
+    {
+      "name": "筆ペン",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "不凍液の容器(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "中をすすいで"
+    },
+    {
+      "name": "布団(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "布団カバー",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "布団乾燥機",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "布団たたき(木製)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製以外は燃やさないごみ"
+    },
+    {
+      "name": "布団袋(布製)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "ビニール製は燃やさないごみ"
+    },
+    {
+      "name": "文机(ロ―デスク)\n(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製以外は燃やさないごみ\n規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "フライ返し",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "フライパン",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ブラインド(1ｍ以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "プラグ(自動車用品)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ぶら下がり健康器",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "収集運搬業許可業者(P33)へ"
+    },
+    {
+      "name": "ブラシ(プラ製・金属製)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製は燃やすごみ"
+    },
+    {
+      "name": "プラスチック製収納箱(0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製は燃やすごみ\n規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "プラズマテレビ",
+      "categoryId": "appliance_recycling_law",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "家電リサイクル法対象品目(P33)"
+    },
+    {
+      "name": "プラモデル",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "フラワースタンド(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "ブランコ(子供用遊具)(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "プランター(プラ製)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製は燃やすごみ"
+    },
+    {
+      "name": "プリンター(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ（P33）"
+    },
+    {
+      "name": "プリン(3個組)の台紙（紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "プリンの容器・ふた(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "きれいにして"
+    },
+    {
+      "name": "ブルーシート(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "ブルーレイディスク(ケースを含む)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ブルーレイディスクレコーダー/プレーヤー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "または小型家電製品(P32)"
+    },
+    {
+      "name": "風呂いす",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製は燃やすごみ"
+    },
+    {
+      "name": "フローラルフォーム(生け花用吸水スポンジ)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ブロック(れんがを含む)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "多量の場合は清掃事業所にお問い合わせください"
+    },
+    {
+      "name": "フロッピーディスク(ケースを含む)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "風呂のふた",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製は燃やすごみ"
+    },
+    {
+      "name": "風呂マット",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "プロパンガスボンベ",
+      "categoryId": "not_collected_other",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "北海道LPガス協会(25-2361)へ相談"
+    },
+    {
+      "name": "文鎮(ぶんちん)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "噴霧器(0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "ヘアスプレーかん",
+      "categoryId": "cans_bottles_etc",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "使い切り、火気のない戸外で穴を開けて(P30参照)"
+    },
+    {
+      "name": "ヘアスプレーの外装フィルム(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ヘアスプレーのキャップ(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ヘアピン",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ベッド",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "収集運搬業許可業者(P33)へ"
+    },
+    {
+      "name": "ペットシート",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ペットの運搬ケース(キャリーケース)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ペットの小屋(0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "ペットの砂",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ペットボトル(飲料・酒・みりん・しょう油用)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "中をすすいで、つぶさず"
+    },
+    {
+      "name": "ペットボトルのふた(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ヘッドホン",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "ワイヤレスヘッドホンで電池が取れないものは、小型家電回収ボックスの上にある専用の箱に"
+    },
+    {
+      "name": "ベニヤ板(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "ベビーカー(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "ベビータンス(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "ベビーチェア(木製)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製以外は燃やさないごみ"
+    },
+    {
+      "name": "ベビーバス(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "ベビーベッド(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "へら(木製)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製以外は燃やさないごみ"
+    },
+    {
+      "name": "ヘルスメーター",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "電池は資源物（かん等）"
+    },
+    {
+      "name": "ベルト",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "布製は燃やすごみ"
+    },
+    {
+      "name": "ヘルメット",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ペンキ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "紙か布に染み込ませて"
+    },
+    {
+      "name": "ペンキのかん",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "ペンキを使い切って"
+    },
+    {
+      "name": "ペンキのスプレー",
+      "categoryId": "cans_bottles_etc",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "使い切り、火気のない戸外で穴を開けて(Ｐ30参照)"
+    },
+    {
+      "name": "ペンキのスプレーのキャップ(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ペンチ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "弁当の容器(弁当がら）(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "きれいにして、プラ以外は取り除く"
+    },
+    {
+      "name": "弁当箱（プラ製・金属製）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ホイール(自動車用品)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "タイヤ付きは収集しないごみ販売店へ"
+    },
+    {
+      "name": "望遠鏡(1ｍ以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "ほうき(1ｍ以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "帽子",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "防虫剤(しょうのう)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ホース",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ホースリール",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "包丁",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "紙などに包み「きけん」と表示して"
+    },
+    {
+      "name": "防腐剤",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ホームタンク(屋外用、灯油タンク)",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "収集運搬業許可業者(P33)へ"
+    },
+    {
+      "name": "ホームベーカリー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ボウリングの玉(ボール)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ボール(野球・サッカーなど)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ボールペン・ボールペンの芯",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "木刀(1ｍ以内のもの)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "ポケットティッシュの袋(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "歩行器(子供用遊具)(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "ボストンバッグ(0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "ボタン",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製は燃やすごみ"
+    },
+    {
+      "name": "ボタン電池(SR、PR、LR)",
+      "categoryId": "cans_bottles_etc",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "テープ等で必ず絶縁して"
+    },
+    {
+      "name": "ホチキス",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ポット",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ホットカーペット(1ｍおよび0.1m３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "ホットプレート",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "または小型家電回収ボックス(P32)へ"
+    },
+    {
+      "name": "ボディブラシ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製は燃やすごみ"
+    },
+    {
+      "name": "ポテトチップスの袋・ふた(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "きれいにして"
+    },
+    {
+      "name": "ポテトチップスの紙筒(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "きれいにして"
+    },
+    {
+      "name": "ほ乳びん",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "保冷剤",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ポリタンク",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "空にして"
+    },
+    {
+      "name": "ホワイトボード(1ｍ以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "本",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "ひもで縛って"
+    },
+    {
+      "name": "本立て(ブックエンド)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製は燃やすごみ"
+    },
+    {
+      "name": "本棚(1ｍおよび0.1m３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製は燃やすごみ\n規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "マーカーペン(マジック・サインペン)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "マーガリンの容器(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "きれいにして"
+    },
+    {
+      "name": "マージャン卓(1ｍおよび0.1m３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "マージャンパイ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "マージャンマット",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "マイク",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "マウス・マウスパッド",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "電池を使用している場合は電池は外して資源物(かん等)へ"
+    },
+    {
+      "name": "巻き尺(メジャー)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "マグネット(磁石)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "枕",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "素材がそばがら、綿、羽根のものは燃やすごみ"
+    },
+    {
+      "name": "枕カバー",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "マジック(マーカーペン・サインペン)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "マスク",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "マッチ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "水に浸し、発火しないようにしてください。多量の場合は清掃事業所にお問い合わせください。"
+    },
+    {
+      "name": "マットレス(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "まな板",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製は燃やすごみ"
+    },
+    {
+      "name": "ママさんダンプ(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "マヨネーズのチューブ・キャップ(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "きれいにして"
+    },
+    {
+      "name": "みかんなどの網・ネット・ポリ袋(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ミキサー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ミシン(0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "または小型家電製品(P32)(ケースは除く)\n規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "水着",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "水切りかご(プラ製・金属製)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "水差し（じょうろ）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "水枕",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "みその容器(袋・容器)(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "きれいして"
+    },
+    {
+      "name": "ミニコンポ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "または本体のみ小型家電製品(P32)"
+    },
+    {
+      "name": "耳かき(木製)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製以外は燃やさないごみ"
+    },
+    {
+      "name": "みりんの容器(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "中をすすいで"
+    },
+    {
+      "name": "みりんの容器(びん)",
+      "categoryId": "cans_bottles_etc",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "中をすすいで"
+    },
+    {
+      "name": "虫かご",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製は燃やすごみ"
+    },
+    {
+      "name": "虫ピン",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "紙などに包み「きけん」と表示して"
+    },
+    {
+      "name": "虫メガネ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "むしろ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "名刺(雑がみ)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "新聞(雑がみ)と一緒に"
+    },
+    {
+      "name": "名刺のケース(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "メガネ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "メガネケース",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製、布製は燃やすごみ"
+    },
+    {
+      "name": "目薬の携帯ケース・容器(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "目覚まし時計",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "電池は資源物（かん等）"
+    },
+    {
+      "name": "メジャー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "メモリーカード",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "綿棒",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "綿棒の容器(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "毛布",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "木炭",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "木馬(子供用遊具)(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製以外は燃やさないごみ\n規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "もちつき器(0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "モデム",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "または本体のみ小型家電製品(P32)"
+    },
+    {
+      "name": "モニター（パソコン用）",
+      "categoryId": "pc_recycling",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "物干しざお(1ｍ以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "物干し台(台のみ)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "モバイルバッテリー",
+      "categoryId": "cans_bottles_etc",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "テープ等で絶縁をして"
+    },
+    {
+      "name": "やかん",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "野菜の包装袋・外装フィルム(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "やすり",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "紙製・布製は燃やすごみ"
+    },
+    {
+      "name": "有機ELテレビ",
+      "categoryId": "appliance_recycling_law",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "家電リサイクル法対象品目(P33)"
+    },
+    {
+      "name": "床暖房パネル",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "収集運搬業許可業者(P33)へ"
+    },
+    {
+      "name": "湯たんぽ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ゆりかご(木製)(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製以外は燃やさないごみ\n規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "洋だんす(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製以外は燃やさないごみ\n規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "洋服",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ヨーグルトの(3個組)外装フィルム（プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ヨーグルトの(3個組)台紙(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ヨーグルトのふた(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "アルミ製は燃やさないごみ"
+    },
+    {
+      "name": "ヨーグルトのふた(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "アルミ製は燃やさないごみ"
+    },
+    {
+      "name": "ヨーグルトの容器(びん)",
+      "categoryId": "cans_bottles_etc",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "中をすすいで"
+    },
+    {
+      "name": "ヨーグルトの容器(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "中をすすいで"
+    },
+    {
+      "name": "ヨーグルトの容器(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "中をすすいで"
+    },
+    {
+      "name": "ライター(ガス・オイル)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "別袋に入れ、有料袋に縛るか貼り付けるほかの燃やさないごみと一緒にしない(P29)"
+    },
+    {
+      "name": "ラグマット(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "ラケット(1ｍ以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製は燃やすごみ\n規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "ラジオ・ラジカセ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ラップ(包装用)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "家庭で使用したものは燃やさないごみ"
+    },
+    {
+      "name": "ラップの芯(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "新聞(雑がみ)と一緒に"
+    },
+    {
+      "name": "ラップの外箱(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "金属製の刃は燃やさないごみ"
+    },
+    {
+      "name": "ランタン(ランプ)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "電池と電球は資源物(かん等)"
+    },
+    {
+      "name": "ランドセル",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ランニングマシーン",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "収集運搬業許可業者(P33)へ"
+    },
+    {
+      "name": "リール(釣り具)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "リチウムイオン電池",
+      "categoryId": "cans_bottles_etc",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "テープ等で絶縁して"
+    },
+    {
+      "name": "リップクリームの容器(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "リビングボード(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "リモコン",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "または小型家電回収ボックス(P32)電池は資源物（かん等）"
+    },
+    {
+      "name": "リヤカー",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "収集運搬業許可業者(P33)へ"
+    },
+    {
+      "name": "リュックサック(ナップランド)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "布製は燃やすごみ"
+    },
+    {
+      "name": "ルーター・スイッチ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "または小型家電回収ボックス(P32)"
+    },
+    {
+      "name": "冷水器",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "冷蔵庫",
+      "categoryId": "appliance_recycling_law",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "家電リサイクル法対象品目(P33)"
+    },
+    {
+      "name": "冷凍庫用脱臭剤の容器(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "中身が残るものは燃やさないごみ"
+    },
+    {
+      "name": "冷凍庫",
+      "categoryId": "appliance_recycling_law",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "家電リサイクル法対象品目(P33)"
+    },
+    {
+      "name": "冷凍ストッカー",
+      "categoryId": "appliance_recycling_law",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "家電リサイクル法対象品目(P33)"
+    },
+    {
+      "name": "冷凍冷蔵庫",
+      "categoryId": "appliance_recycling_law",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "家電リサイクル法対象品目(P33)"
+    },
+    {
+      "name": "レコード・レコードプレーヤー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "レコーダープレーヤー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "または小型家電製品(P32)"
+    },
+    {
+      "name": "レシート",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "レジ袋(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "レジャーシート",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "レトルト食品の袋(アルミ蒸着袋)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "きれいにして"
+    },
+    {
+      "name": "レトルト食品パック(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "きれいにして"
+    },
+    {
+      "name": "レトルト食品パックの外箱(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "れんが(ブロックを含む)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "多量の場合は清掃事業所にお問い合わせください"
+    },
+    {
+      "name": "レンジガード",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "レンジ台(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "ろうそく",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ロープ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "天然繊維製は燃やすごみ"
+    },
+    {
+      "name": "ローボード(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "木製以外は燃やさないごみ\n規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "ローラースケート・ローラーブレード",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ワープロ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ワープロインクリボン",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ワイシャツ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ワイシャツの外袋・フック(プラ類)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ワイシャツの台紙(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ワイシャツの蝶（ちょう）キーパー・サポーター(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ワイシャツの蝶（ちょう）キーパー・サポーター(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ワイパー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ワイヤーロープ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ワイングラス",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "割れたものは紙などに包み「きけん」と表示して"
+    },
+    {
+      "name": "ワインのびん",
+      "categoryId": "cans_bottles_etc",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "中をすすいで"
+    },
+    {
+      "name": "輪ゴム",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "輪ゴムの外箱(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "ワゴン(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "わさびのチューブ(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "きれいにして"
+    },
+    {
+      "name": "綿",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "和だんす(1ｍおよび0.1ｍ３以内のもの)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "規格を超えるものは粗大ごみ(P33)"
+    },
+    {
+      "name": "ワックス",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "液体は紙か布に染み込ませて"
+    },
+    {
+      "name": "ワックスのかん",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "和服",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "割りばし",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": null
+    },
+    {
+      "name": "割りばしの袋(プラ製)",
+      "categoryId": "plastic",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "汚れたものは燃やさないごみ"
+    },
+    {
+      "name": "割りばしの袋(紙製)",
+      "categoryId": "paper",
+      "subItemId": null,
+      "special": null,
+      "fee": null,
+      "note": "汚れたものは燃やすごみ"
+    }
+  ]
+}

@@ -27,6 +27,7 @@ npx vitest                   # watch モード
 npm run preview             # ビルド成果物をローカルでプレビュー
 npm run fetch:sapporo       # data/sapporo/calendar.json を CKAN API から再生成
 npm run fetch:sapporo-dict  # data/sapporo/item-dictionary.json を「家庭ごみ50音分別辞典」ページから再生成
+npm run fetch:otaru-dict    # data/otaru/item-dictionary.json を市の「分別区早見表」CSVから再生成
 npm run fetch:otaru          # data/otaru/calendar.json を CSV から再生成
 ```
 
@@ -47,7 +48,10 @@ npm run fetch:otaru          # data/otaru/calendar.json を CSV から再生成
 - **App構成**（`src/App.tsx`）: トップの `App` が `localStorage`（キー `gomi-kore:municipalityCode`）で選択自治体を保持し、未選択なら `MunicipalitySelector` を表示。選択後は `MunicipalityApp` に `key={MUNICIPALITY_CODE}` を渡してマウントし直す（自治体切り替え時に地区選択などのローカル状態を確実にリセットするため）。`MunicipalityApp` はアダプタの `loadCalendar` 結果を `TodayPanel` / `ItemSearchPanel` / `AllCategoriesPanel` / `AboutFooter` に配る。
 - **多言語**: `react-i18next` の辞書は `src/i18n/resources/{ja,en}.ts`、選択言語は `localStorage`（キー `gomi-kore:language`）に保存。UI文言はi18nextのkey経由だが、`data/*.json` 由来のごみ種別名・地区名などの `LocalizedText` は `src/i18n/localized.ts` の `pickLocalized(text, language)` で直接切り替える（i18next のリソースには入れない）。
 - **PWA**: `vite-plugin-pwa`（`registerType: 'autoUpdate'`）。`vite.config.ts` の `base` は `GITHUB_PAGES` 環境変数で切り替わる（GitHub Pagesのプロジェクトページ配下 `/Gomi-Kore/` とローカル/他ホスティングのルート `/` を両立するため）。
-- **品目辞書検索（「これ何ゴミ？」、札幌市のみ）**: `data/sapporo/item-dictionary.json`（`scripts/fetch-sapporo-item-dictionary.mjs` が札幌市公式サイトの「家庭ごみ50音分別辞典」全文から生成、1000件超）を `src/adapters/sapporo.ts` が `itemDictionaryData` として export し、`AdapterModule.itemDictionaryData`（他自治体は未実装のためoptional）経由で `ItemSearchPanel` に渡る。`src/logic/itemSearch.ts` の `searchItemDictionary()` が品目名を検索し、`categoryId`/`subItemId` を `categories.json` の実データに解決するほか、収集対象外・集団資源回収・備考参照など calendar に乗らない特殊ケース（`special` フィールド）も返す。このページはCC-BYではなく札幌市の了解を得て複製している通常のサイトコンテンツのため、`SourceData.itemDictionaryCreditText`（CC-BYの `creditText` とは別フィールド）でクレジット表示する。辞書本文は日本語のみのスクレイピングデータなので、UI言語が日本語のときだけ使用し、英語表示時は既存の `categories.json` 内 `keywords`（和英併記）ベースの `searchCategories()` にフォールバックする。
+- **品目辞書検索（「これ何ゴミ？」）**: `data/{code}/item-dictionary.json`（`ItemDictionaryData`）を持つ自治体（現状 sapporo・otaru）は `src/adapters/{code}.ts` がそれを `itemDictionaryData` として export し、`AdapterModule.itemDictionaryData`（未実装自治体向けにoptional。現状 ebetsu は未実装）経由で `ItemSearchPanel` に渡る。`src/logic/itemSearch.ts` の `searchItemDictionary()` が品目名を検索し、`categoryId`/`subItemId` を各自治体の `categories.json` の実データに解決するほか、calendar に乗らない特殊ケース（収集対象外など、`special` フィールド）も返す。辞書本文は日本語のみのデータなので、UI言語が日本語のときだけ使用し、英語表示時は既存の `categories.json` 内 `keywords`（和英併記）ベースの `searchCategories()` にフォールバックする。
+  - `scripts/fetch-sapporo-item-dictionary.mjs`: 札幌市公式サイトの「家庭ごみ50音分別辞典」全文（1000件超）から生成。このページはCC-BYではなく札幌市の了解を得て複製している通常のサイトコンテンツのため、`SourceData.itemDictionaryCreditText`（CC-BYの `creditText` とは別フィールド）でクレジット表示する。
+  - `scripts/fetch-otaru-item-dictionary.mjs`: 小樽市公式サイトの「ごみ・資源物分別区早見表」CSV（`source.json` の `itemDictionaryCsvUrl`、1000件超）から生成。この出典は既存の `creditText` に含まれているため、専用クレジットフィールドは不要。CSVの「収集しないごみ」ラベルはパソコン類と一般不可燃物の2カテゴリにまたがるため、`categories.json` の `pc_recycling.keywords` との突き合わせで振り分けている。
+  - **他自治体での参考表示**: 独自の `itemDictionaryData` を持たない自治体（現状 ebetsu）では、`src/adapters/registry.ts` の `getReferenceItemDictionary(currentMunicipalityCode)` が「`itemDictionaryData` を持つ他自治体」を探し、あれば返す（自治体名をハードコードせず、`adapters` を走査するだけの実装。現状は実質的に Sapporo または Otaru のいずれかが該当）。`ItemSearchPanel` はこれを別枠（`.item-search-panel__reference`、破線ボーダー）で「参考: ○○市の分別区分」として表示し、実際の分別・手数料は自治体ごとに異なる旨の免責文言を必ず添える。あくまで補助情報であり、その自治体自身の `categories.json`（`searchCategories()`）による本来の検索結果を置き換えるものではない。ある自治体が自前の `itemDictionaryData` を持てば、この参考表示は（コード変更なしに）自動的に出なくなる。
 
 ## 技術スタックと理由
 

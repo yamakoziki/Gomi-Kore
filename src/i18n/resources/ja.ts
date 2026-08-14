@@ -110,6 +110,8 @@ export const ja = {
       communityRecycling: "{{item}}は、集団資源回収などのご利用をおすすめします。{{note}}",
       seeNote: "{{item}}は、品目の状態によって区分が異なります。{{note}}",
     },
+    referenceHeading: "参考: {{municipality}}の分別区分",
+    referenceDisclaimer: "※実際の分別区分・手数料は自治体により異なります。あくまで{{municipality}}での区分の参考情報です。",
   },
   about: {
     toggle: "このアプリについて",

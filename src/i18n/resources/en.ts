@@ -113,6 +113,9 @@ export const en = {
       communityRecycling: "{{item}} is best taken to community recycling collection. {{note}}",
       seeNote: "{{item}}'s category depends on its condition. {{note}}",
     },
+    referenceHeading: "Reference: how {{municipality}} sorts this",
+    referenceDisclaimer:
+      "Actual categories and fees vary by municipality. This is reference information for {{municipality}} only.",
   },
   about: {
     toggle: "About this app",
