@@ -89,8 +89,10 @@ export type SourceData = {
   license: string;
   creditText: string;
   officialUrl: string;
-  /** Official item-by-item sorting dictionary (50-on order). Copyrighted city content — link out to it, never reproduce it wholesale. */
+  /** Official item-by-item sorting dictionary (50-on order), e.g. Sapporo's 家庭ごみ50音分別辞典. Always link out to it as the authoritative source. */
   sortingDictionaryUrl: string;
+  /** Credit line for the sorting dictionary content bundled as ItemDictionaryData, when reproduced with the municipality's permission (distinct from `creditText`, which covers the CC-BY open dataset). Omitted if no such content is bundled for this municipality. */
+  itemDictionaryCreditText?: string;
   datasetUrl: string;
   calendarPeriod: { start: string; end: string };
   lastVerifiedAt: string;
@@ -110,6 +112,35 @@ export type SourceData = {
 export type LoadCalendarResult = {
   calendar: CalendarData;
   source: "network" | "cache" | "bundled";
+};
+
+/**
+ * `not_collected`: not picked up curbside at all (store return, dealer, a
+ * specialist recycler, etc. — see the entry's `note`).
+ * `community_recycling`: normally goes to a neighborhood 集団資源回収 /
+ * drop-off point rather than curbside collection; `note` gives the fallback
+ * curbside category for when that's not practical.
+ * `see_note`: the right category depends on details only covered in `note`
+ * (e.g. materials, size).
+ */
+export type ItemDictionarySpecialCase = "not_collected" | "community_recycling" | "see_note";
+
+/** One row of a municipality's official item-by-item sorting dictionary (e.g. Sapporo's 50-on order 分別辞典). */
+export type ItemDictionaryEntry = {
+  name: string;
+  /** categories.json category id this item resolves to, or null for a `special` case. */
+  categoryId: string | null;
+  /** categories.json subItem id, when this item is specifically that category's sub-item rather than the category itself. */
+  subItemId: string | null;
+  special: ItemDictionarySpecialCase | null;
+  fee: string | null;
+  note: string | null;
+};
+
+export type ItemDictionaryData = {
+  municipalityCode: string;
+  sourceUrl: string;
+  items: ItemDictionaryEntry[];
 };
 
 export type MunicipalityManifestEntry = {

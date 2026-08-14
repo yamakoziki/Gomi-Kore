@@ -381,6 +381,38 @@
   margin-top: 14px;
 }
 
+.item-search-panel__matched-item {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+}
+
+.item-search-panel__dictionary-note {
+  margin-top: 8px;
+  font-size: 13px;
+  color: var(--text-muted);
+  white-space: pre-line;
+}
+
+.item-search-panel__special {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 14px;
+}
+
+.item-search-panel__special-heading {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.item-search-panel__special-note {
+  margin-top: 8px;
+  font-size: 14px;
+  color: var(--text-muted);
+  white-space: pre-line;
+}
+
 .category-card--static {
   cursor: default;
 }

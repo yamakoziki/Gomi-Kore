@@ -201,12 +201,35 @@ describe("App", () => {
     const heading = await screen.findByText("これ何ゴミ？");
     const panel = heading.closest("section") as HTMLElement;
 
+    await user.type(within(panel).getByPlaceholderText("例: スプレー缶"), "ザザザ存在しない品目ザザザ");
+    await user.click(within(panel).getByText("検索"));
+
+    expect(
+      await within(panel).findByText("「ザザザ存在しない品目ザザザ」は見つかりませんでした。"),
+    ).toBeInTheDocument();
+    const link = within(panel).getByText("札幌市公式の「家庭ごみ50音分別辞典」で調べる");
+    expect(link).toHaveAttribute("href", "https://www.city.sapporo.jp/seiso/bunbetsu/index.html");
+  });
+
+  it("looks up an item in the full 50-on sorting dictionary and reads out the answer, even for items not covered by categories.json's own keyword list", async () => {
+    const user = userEvent.setup({ delay: null });
+    render(<App />);
+
+    await selectArea(user);
+    const heading = await screen.findByText("これ何ゴミ？");
+    const panel = heading.closest("section") as HTMLElement;
+
+    // "ピアノ" isn't a curbside category at all (city site: 市で収集しないもの) — categories.json's
+    // hand-curated keyword list has no entry for it, only the full sorting dictionary does.
     await user.type(within(panel).getByPlaceholderText("例: スプレー缶"), "ピアノ");
     await user.click(within(panel).getByText("検索"));
 
-    expect(await within(panel).findByText("「ピアノ」は見つかりませんでした。")).toBeInTheDocument();
-    const link = within(panel).getByText("札幌市公式の「家庭ごみ50音分別辞典」で調べる");
-    expect(link).toHaveAttribute("href", "https://www.city.sapporo.jp/seiso/bunbetsu/index.html");
+    expect(await within(panel).findByText("札幌市では収集していません")).toBeInTheDocument();
+    expect(within(panel).getByText("販売店に相談")).toBeInTheDocument();
+    expect(window.speechSynthesis.speak).toHaveBeenCalledTimes(1);
+    const utterance = (window.speechSynthesis.speak as ReturnType<typeof vi.fn>).mock.calls[0][0];
+    expect(utterance.text).toContain("ピアノ");
+    expect(utterance.text).toContain("札幌市では収集していません");
   });
 
   it("shows a manual-selection message when location access is denied", async () => {

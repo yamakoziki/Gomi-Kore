@@ -1,0 +1,8158 @@
+{
+  "municipalityCode": "sapporo",
+  "sourceUrl": "https://www.city.sapporo.jp/seiso/bunbetsu/index.html",
+  "items": [
+    {
+      "name": "アイスキャンデーの棒（木製・プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "アイスクリームのカップ・ふた（紙製）",
+      "categoryId": "mixed_paper",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "水ですすいでも汚れが落ちないものは「燃やせるごみ」"
+    },
+    {
+      "name": "アイスクリームのカップ・ふた（プラ製）",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "アイスピック",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "刃先を厚紙などで包んで、「キケン」と表示"
+    },
+    {
+      "name": "アイロン",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "アイロン台",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "アクセサリー（指輪・ブレスレット・ネックレスなど）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "木製・革製・プラ製は「燃やせるごみ」"
+    },
+    {
+      "name": "アクリル板",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "アコーディオンカーテン",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "アダプター（電源用）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "厚紙",
+      "categoryId": "mixed_paper",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "圧力鍋",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小物金属類の無料回収に出すと資源に！"
+    },
+    {
+      "name": "油（食用油・廃食油）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "・紙や布にしみ込ませるか凝固剤で固めて\n・家庭用廃食油の無料回収に出すと資源に！"
+    },
+    {
+      "name": "油こし紙",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "油こし容器",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "プラ製は「燃やせるごみ」"
+    },
+    {
+      "name": "油差し",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "プラ製は「燃やせるごみ」"
+    },
+    {
+      "name": "網（金属製）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "網（プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "編み機",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "網戸",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "アメリカンレーキ",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "アルバム（紙製）",
+      "categoryId": "mixed_paper",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "アルバム（プラ製・布製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "アルミ缶・アルミボトル（飲料・食品用）",
+      "categoryId": "bottles_cans_pet",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "アルミボトルのふたははずす"
+    },
+    {
+      "name": "アルミ箔鍋（鍋焼きうどんなど）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "アルミ箔容器",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "お弁当用アルミ箔容器、ケーキのアルミ箔など"
+    },
+    {
+      "name": "アルミホイール（タイヤ付を除く）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小物金属類の無料回収に出すと資源に！"
+    },
+    {
+      "name": "アルミホイル（アルミ箔）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "アルミホイルの箱・芯",
+      "categoryId": "mixed_paper",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "アンテナ",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "アンプ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "生け花用吸水性スポンジ（フローラルフォーム）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "石臼",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "衣装ケース（プラ製・木製）",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "紙製は解体して「雑がみ」へ"
+    },
+    {
+      "name": "移植ゴテ（小型シャベル）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "いす（座いす・ベビーチェアーを含む）",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "木製はリユース（再利用）収集対象"
+    },
+    {
+      "name": "板（木製・プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "一辺が50cmを超えるものは「大型ごみ」"
+    },
+    {
+      "name": "板（木製・プラ製以外）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "一辺が50cmを超えるものは「大型ごみ」"
+    },
+    {
+      "name": "一輪車",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "リユース（再利用）収集対象"
+    },
+    {
+      "name": "一升びん",
+      "categoryId": "bottles_cans_pet",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "リターナブル（リユース）びんの無料回収に出すと、より環境負荷の小さい再利用（リユース）に！"
+    },
+    {
+      "name": "一升びんのふた（金属製）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "一升びんのふた（プラ製）",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "一斗缶（しょうゆなど）",
+      "categoryId": "bottles_cans_pet",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "ペンキや油の缶など水で濯いでも汚れを落とせないものは「燃やせないごみ」"
+    },
+    {
+      "name": "一斗缶（食用油・ペンキなど）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "糸",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "衣服",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "・古着の無料回収に出すと資源に！\n・綿50％以上の薄手の古布は、古布の無料回収に出すと資源に！"
+    },
+    {
+      "name": "イヤホン",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "衣類乾燥機",
+      "categoryId": null,
+      "subItemId": null,
+      "special": "not_collected",
+      "fee": null,
+      "note": "・販売店または家電回収協力店へ\n・詳細は、「テレビ・冷蔵庫・洗濯機・エアコンリサイクル」のページ参照"
+    },
+    {
+      "name": "衣類乾燥機台",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "入れ歯",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "色紙",
+      "categoryId": "mixed_paper",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "印鑑（木製・プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "木製・プラ製以外は「燃やせないごみ」"
+    },
+    {
+      "name": "インクカートリッジ（インクリボン）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "販売店に返却するか、地区リサイクルセンターに出すと資源に！無料に！"
+    },
+    {
+      "name": "インターホン",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "印箱（木製・プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "金属製は「燃やせないごみ」"
+    },
+    {
+      "name": "ウィッグ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ウインドブレーカー",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "古着の無料回収に出すと資源に！"
+    },
+    {
+      "name": "ウィズユーカード",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "植木の枝",
+      "categoryId": "branches_leaves_grass",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "収集期間外は「燃やせるごみ」または「大型ごみ」"
+    },
+    {
+      "name": "植木鉢（プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "植木鉢（プラ製以外）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ウエストポーチ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "浮輪",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "臼（木製）",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "うちわ・扇子",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ウッドカーペット",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ウッドクラフト",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "腕時計",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "電子式は小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "ウレタン製品",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "エアコン",
+      "categoryId": null,
+      "subItemId": null,
+      "special": "not_collected",
+      "fee": null,
+      "note": "・販売店または家電回収協力店へ\n・詳細は、「テレビ・冷蔵庫・洗濯機・エアコンリサイクル」のページ参照"
+    },
+    {
+      "name": "SDカード",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "絵の具のチューブ（プラ製）",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "中身を使い切って\n金属製は「燃やせないごみ」"
+    },
+    {
+      "name": "エプロン",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "古着の無料回収に出すと資源に！"
+    },
+    {
+      "name": "MO（ケースを含む）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "MOドライブ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "MD（ケースを含む）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "MDレコーダー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "LED製品",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "厚紙などて包んで、「キケン」と表示"
+    },
+    {
+      "name": "LD",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "エレキギター",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "エレクトーン",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！\n※木製及び一人で動かすことが困難な製品は、小型家電の無料回収に出せません"
+    },
+    {
+      "name": "エンジンオイル",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "紙や布にしみ込ませて"
+    },
+    {
+      "name": "エンジンオイルの缶",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "延長コード",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "煙突",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "塩ビ管",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "鉛筆",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "鉛筆削り",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "電動式のものは、小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "オイルエレメント",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "オイルヒーター",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "オーディオラック",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "木製はリユース（再利用）収集対象"
+    },
+    {
+      "name": "オートバイ",
+      "categoryId": null,
+      "subItemId": null,
+      "special": "not_collected",
+      "fee": null,
+      "note": "販売店または二輪車リサイクルコールセンターに相談（050-3000-0727）"
+    },
+    {
+      "name": "オーブントースター",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "オーブンレンジ",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "置き時計",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！\n※木製のものは、小型家電の無料回収に出せません"
+    },
+    {
+      "name": "おけ（金属製）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "おけ（木製・プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "おしぼり",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "おしぼりの袋（プラ製）",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "おしゃぶり",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "落ち葉",
+      "categoryId": "branches_leaves_grass",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "収集期間外は「燃やせるごみ」"
+    },
+    {
+      "name": "斧",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "柄を分離し指定ごみ袋に入るものは、柄（木製）は「燃やせるごみ」、刃は厚紙などで包み、「キケン」と表示して「燃やせないごみ」"
+    },
+    {
+      "name": "帯",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "古着の無料回収に出すと資源に！"
+    },
+    {
+      "name": "汚物入れ（プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "金属製は「燃やせないごみ」"
+    },
+    {
+      "name": "おぼん",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "金属製は「燃やせないごみ」"
+    },
+    {
+      "name": "おまる",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "プラ製以外は「燃やせないごみ」"
+    },
+    {
+      "name": "おむつカバー",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "おもちゃ（電気・電池で動くもの）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "おもちゃ（木製・プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "おもちゃ（木製・プラ製以外）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "オルガン",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "電子式は、小型家電の無料回収に出すと資源に！\n※木製及び一人で動かすことが困難な製品は、小型家電の無料回収に出せません"
+    },
+    {
+      "name": "おろし金",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "プラ製は「燃やせるごみ」"
+    },
+    {
+      "name": "温水洗浄器付便座",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "温度計",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "・電子式は、小型家電の無料回収に出すと資源に！\n・水銀式は、水銀体温計・水銀血圧計・水銀温度計の無料回収に出すと資源に！"
+    },
+    {
+      "name": "カーコンポ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "ガーゼ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "カーテレビ（車載用液晶テレビ）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "カーテン",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "綿50％以上の薄手の古布は、古布の無料回収に出すと資源に！"
+    },
+    {
+      "name": "ガーデンパラソル",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ガーデンフェンス",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ガーデンライト",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "カーテンレール",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "カード類",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "ウィズユーカード、テレホンカード、キャッシュカード、クレジットカードなど"
+    },
+    {
+      "name": "カーナビ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "カーペット",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "カーペットローラー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "カーボン紙",
+      "categoryId": "mixed_paper",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "貝殻",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "懐中電灯",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "買物かご（木製・プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "買物かご（木製・プラ製以外）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "カイロ（充電式・オイル式）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "充電式は、小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "カイロ（使い捨て）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "鏡",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "かき氷器",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "電動式は、小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "鍵・錠前",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "額縁（木製・プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "額縁（木製・プラ製以外）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "掛け時計",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！\n※木製のものは、小型家電の無料回収に出せません"
+    },
+    {
+      "name": "かご",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "金属製は「燃やせないごみ」"
+    },
+    {
+      "name": "傘",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "傘などの棒状で40リットルの指定ごみ袋から一部が飛び出すものは、大部分が指定ごみ袋に入っていて、袋の口をしっかりと縛ることができれば、指定ごみ袋を使ってごみステーションに出すことができます。"
+    },
+    {
+      "name": "傘立て",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "木製はリユース（再利用）収集対象"
+    },
+    {
+      "name": "加湿器",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "菓子などの空き箱（紙製）",
+      "categoryId": "mixed_paper",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "菓子などの空き箱（木製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "菓子などの缶（金属製）",
+      "categoryId": "bottles_cans_pet",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "菓子などの個包装（紙製）",
+      "categoryId": "mixed_paper",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "菓子などの個包装（プラ製）",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "菓子などの袋（アルミ蒸着）",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "スナック菓子など"
+    },
+    {
+      "name": "菓子などの袋（プラ製）",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "菓子箱・缶の中の仕切り・中ぶた（紙製）",
+      "categoryId": "mixed_paper",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "菓子箱・缶の中の仕切り・中ぶた（プラ製）",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "ガスこんろ",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ガス台",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ガスレンジマット",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "カセットこんろ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "カセットテープ（ケースを含む）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "カセットデッキ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "カセットボンベ",
+      "categoryId": "burnable",
+      "subItemId": "spray_can",
+      "special": null,
+      "fee": "無料",
+      "note": "・使い切って\n・使いきれない場合の処分方法は、「スプレー缶・カセットボンベ」のページでご確認ください。"
+    },
+    {
+      "name": "ガソリン携行缶",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "中身を空にして"
+    },
+    {
+      "name": "カタログ",
+      "categoryId": null,
+      "subItemId": null,
+      "special": "community_recycling",
+      "fee": null,
+      "note": "・古紙（新聞・雑誌・ダンボール）の無料回収のページから、集団資源回収や回収拠点のご利用方法をお調べいただけます。\n・やむを得ない場合は「雑がみ」で収集"
+    },
+    {
+      "name": "カッターナイフ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "厚紙などで包んで、「キケン」と表示"
+    },
+    {
+      "name": "カット綿",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "カッパ（化繊のもの・ゴム・ビニール製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "カップボード",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "木製はリユース（再利用）収集対象"
+    },
+    {
+      "name": "カップめんなどの外包装フィルム、具（かやく）・スープの袋",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "カップめんなどのふた・容器（紙製）",
+      "categoryId": "mixed_paper",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "水ですすいでも汚れが落ちないものは「燃やせるごみ」"
+    },
+    {
+      "name": "カップめんなどのふた・容器（プラ製）",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "かつら・つけ毛・ウイッグ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "加熱式タバコ",
+      "categoryId": "non_burnable",
+      "subItemId": "heated_tobacco_lighter",
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "かばん（布製・革製・合皮製・ビニール製・プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "金属製は「燃やせないごみ」"
+    },
+    {
+      "name": "画板（木製・プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "画板（木製・プラ製以外）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "画びょう",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "厚紙などで包んで"
+    },
+    {
+      "name": "花びん",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "壁紙",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "鎌",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "刃先を厚紙などで包んで、「キケン」と表示"
+    },
+    {
+      "name": "紙おむつ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "汚物をトイレに流して"
+    },
+    {
+      "name": "紙コップ・紙皿",
+      "categoryId": "mixed_paper",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "水ですすいでも汚れが落ちないものは「燃やせるごみ」"
+    },
+    {
+      "name": "かみそり",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "厚紙などで包んで、「キケン」と表示"
+    },
+    {
+      "name": "紙粘土",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "粘土は「燃やせないごみ」"
+    },
+    {
+      "name": "紙パック（牛乳パック・酒パックなど）",
+      "categoryId": null,
+      "subItemId": null,
+      "special": "community_recycling",
+      "fee": null,
+      "note": "・できるだけ集団資源回収などへ\n・やむを得ない場合は「雑がみ」で収集（水ですすいで）\n・酒パックなどのプラスチック製のふたは「容器包装プラスチック」"
+    },
+    {
+      "name": "紙袋",
+      "categoryId": "mixed_paper",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "ガムテープ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "カメラ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "画用紙（絵を描いたもの、工作したものを含む）",
+      "categoryId": "mixed_paper",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "カラーコーン",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "カラーボックス",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "からしのチューブ",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "中身を使い切って"
+    },
+    {
+      "name": "ガラス・ガラス製品",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "厚紙などで包んで、「キケン」と表示"
+    },
+    {
+      "name": "ガラスクリーナー",
+      "categoryId": "burnable",
+      "subItemId": "spray_can",
+      "special": null,
+      "fee": "無料",
+      "note": "使い切ってプラ製は「容器包装プラスチック」"
+    },
+    {
+      "name": "刈払い機",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "・電動式は、小型家電の無料回収に出すと資源に！\n・エンジン付は販売店へ"
+    },
+    {
+      "name": "軽石",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "枯葉",
+      "categoryId": "branches_leaves_grass",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "収集期間外は「燃やせるごみ」"
+    },
+    {
+      "name": "カレンダー",
+      "categoryId": "mixed_paper",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "皮むき器",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "換気扇",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "缶切り",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "緩衝材・梱包材（プラ製）",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "乾燥剤",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "乾電池（筒型）",
+      "categoryId": "bottles_cans_pet",
+      "subItemId": "dry_batteries",
+      "special": null,
+      "fee": "無料",
+      "note": "・充電式電池・ボタン電池は、販売店・協力店などの回収箱へ（市が収集しないごみのページ参照）\n・リチウムコイン電池（型式記号CR、BRの表示があるもの）は、セロハンテープなどでくるんで「燃やせないごみ」へ"
+    },
+    {
+      "name": "観葉植物",
+      "categoryId": "branches_leaves_grass",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "収集期間外は「燃やせるごみ」または「大型ごみ」"
+    },
+    {
+      "name": "キーボード（楽器）",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！\n※木製及び一人で動かすことが困難な製品は、小型家電の無料回収に出せません"
+    },
+    {
+      "name": "キーボード（パソコン用）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "ギター",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "キッチンタオル・キッチンペーパー",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "杵",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "木（庭木）の枝・幹・根",
+      "categoryId": "branches_leaves_grass",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "収集期間外は「燃やせるごみ」または「大型ごみ」"
+    },
+    {
+      "name": "着物",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "古着の無料回収に出すと資源に！"
+    },
+    {
+      "name": "脚立",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "2mまで収集可"
+    },
+    {
+      "name": "キャッシュカード",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "キャリーバッグ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "金属製は「燃やせないごみ」"
+    },
+    {
+      "name": "球根",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "給湯器",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "教科書",
+      "categoryId": null,
+      "subItemId": null,
+      "special": "community_recycling",
+      "fee": null,
+      "note": "・古紙（新聞・雑誌・ダンボール）の無料回収のページから、集団資源回収や回収拠点のご利用方法をお調べいただけます。\n・やむを得ない場合は「燃やせるごみ」で収集"
+    },
+    {
+      "name": "鏡台",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "木製はリユース（再利用）収集対象"
+    },
+    {
+      "name": "経机",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "木製はリユース（再利用）収集対象"
+    },
+    {
+      "name": "金庫",
+      "categoryId": null,
+      "subItemId": null,
+      "special": "see_note",
+      "fee": null,
+      "note": "据置型、手提げ式ともに耐火性能の有無で異なります。\n・耐火金庫：「市で収集しないもの」です。金属商に相談してください。\n・耐火性の無い金庫：大きさにより、「燃やせないごみ」、「大型ごみ」"
+    },
+    {
+      "name": "空気入れ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "プラ製は「燃やせるごみ」"
+    },
+    {
+      "name": "空気清浄機",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！\n※フロン含有製品は、小型家電の無料回収に出せません"
+    },
+    {
+      "name": "空気清浄機のフィルター",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "クーラーボックス",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "くぎ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "袋がやぶれないようガムテープで束ねるなどの工夫を"
+    },
+    {
+      "name": "草",
+      "categoryId": "branches_leaves_grass",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "収集期間外は「燃やせるごみ」"
+    },
+    {
+      "name": "草刈り機",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "・電動式は、小型家電の無料回収に出すと資源に！\n・エンジン付は販売店へ"
+    },
+    {
+      "name": "櫛（くし）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "金属製は「燃やせないごみ」"
+    },
+    {
+      "name": "串（焼きとり・だんごの竹串など）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "袋がやぶれないようガムテープで束ねるなどの工夫を"
+    },
+    {
+      "name": "薬（錠剤・カプセルなど）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "薬のチューブ（金属製）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "中身を使い切って"
+    },
+    {
+      "name": "薬のチューブ（プラ製）",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "中身を使い切って"
+    },
+    {
+      "name": "薬のびん",
+      "categoryId": "bottles_cans_pet",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "金属製のふたは「燃やせないごみ」、プラ製のふたは「容器包装プラスチック」"
+    },
+    {
+      "name": "薬のプラ容器",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "薬（錠剤・カプセル）の包装シート",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "アルミとプラの複合"
+    },
+    {
+      "name": "果物かご（果物が入って販売されていたもの、プラ製）",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "果物の網・ネット",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "発泡スチロール製ネットを含む"
+    },
+    {
+      "name": "口紅の容器（プラ製）",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "金属製は「燃やせないごみ」"
+    },
+    {
+      "name": "靴（革・合皮）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "クッキングヒーター",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "靴下",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "クッション",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "クッションフロア",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "靴墨のチューブ（金属製）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "・中身を使い切って\n・プラ製は「容器包装プラスチック」"
+    },
+    {
+      "name": "靴の空き箱",
+      "categoryId": "mixed_paper",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "靴の中敷き",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "靴べら",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "金属製は「燃やせないごみ」"
+    },
+    {
+      "name": "グラスウール",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "クラッカー（爆竹）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "水に浸し、発火しないようにして"
+    },
+    {
+      "name": "クリアファイル",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "クリップ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "グリル鍋",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "車いす",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "バッテリーははずして販売店へ"
+    },
+    {
+      "name": "クレジットカード",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "クレヨン",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "クレヨンセットのケース（プラ製）",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "紙製は「雑がみ」"
+    },
+    {
+      "name": "グロー球（点灯管）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "グローブ（野球用など）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "くわ",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "軍手",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "蛍光管",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "・厚紙などで包んで、「キケン」と表示\n・割れていないものは、蛍光管の無料回収に出すと資源に！"
+    },
+    {
+      "name": "蛍光ペン",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "軽自動車",
+      "categoryId": null,
+      "subItemId": null,
+      "special": "not_collected",
+      "fee": null,
+      "note": "北海道自動車処理協同組合に相談\n（374-8200）"
+    },
+    {
+      "name": "携帯電話",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "・販売店に返却すると資源に！無料に！\n・小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "携帯用発電機",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "エンジン付は販売店へ"
+    },
+    {
+      "name": "毛糸",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "計量カップ（ガラス・金属製）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "計量カップ（プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ゲートボールのクラブ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "木製は「燃やせるごみ」"
+    },
+    {
+      "name": "ケーブル",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "ゲーム機（テレビゲーム機、携帯ゲーム機など）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "ゲームソフト",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "カセット型は、小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "消しゴム",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "化粧品携帯ポーチ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "化粧品のびん",
+      "categoryId": "bottles_cans_pet",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "マニキュアのびんは「燃やせないごみ」"
+    },
+    {
+      "name": "化粧品のびんのふた（プラ製）",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "げた箱",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "木製はリユース（再利用）収集対象"
+    },
+    {
+      "name": "ケチャップの容器・チューブ",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "中身を使い切って"
+    },
+    {
+      "name": "血圧計",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "・電子式は、小型家電の無料回収に出すと資源に！\n・水銀式は、水銀体温計・水銀血圧計・水銀温度計の無料回収に出すと資源に！"
+    },
+    {
+      "name": "毛抜き",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "けん引ロープ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "けん引ワイヤー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "玄関マット（金属製）",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "玄関マット（布・ゴム・プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "剣山",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "厚紙などで包み、袋がやぶれないよう工夫を"
+    },
+    {
+      "name": "鍵盤ハーモニカ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "碁石",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "工具箱（金属製）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "工具箱（木製・プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "工具類",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "スパナ・ドライバー・ペンチなど"
+    },
+    {
+      "name": "香水のびん",
+      "categoryId": "bottles_cans_pet",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "紅茶の缶",
+      "categoryId": "bottles_cans_pet",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "紅茶のティーバッグ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "コーキングガン",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "コークス",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "水に浸し、発火しないようにして"
+    },
+    {
+      "name": "ゴーグル",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "コート掛け",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "木製はリユース（再利用）収集対象"
+    },
+    {
+      "name": "コードリール",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "コーヒーがら及びフィルター",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "コーヒーのびん・缶",
+      "categoryId": "bottles_cans_pet",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "コーヒーのびんのふた（プラ製）",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "プラ製以外は「燃やせないごみ」"
+    },
+    {
+      "name": "コーヒーメーカー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "コイン電池（型式記号にCR、BRの表示があるもの）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "セロハンテープでくるんで"
+    },
+    {
+      "name": "小型船舶",
+      "categoryId": null,
+      "subItemId": null,
+      "special": "not_collected",
+      "fee": null,
+      "note": "FRP船リサイクルセンターに相談（03-3567-6929）"
+    },
+    {
+      "name": "固形燃料",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "缶のまま出す場合は必ずふたを取る"
+    },
+    {
+      "name": "ござ",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "こたつ・こたつ板",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "コップ（ガラス製・金属製）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "割れ物は厚紙などで包んで、「キケン」と表示"
+    },
+    {
+      "name": "コップ（プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "コップ洗い（ブラシ）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "コップ型のびん（日本酒などの）",
+      "categoryId": "bottles_cans_pet",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "子供用自転車",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "リユース（再利用）収集対象"
+    },
+    {
+      "name": "粉ミルクの缶",
+      "categoryId": "bottles_cans_pet",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "碁盤",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "コピー機・印刷機",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "・重量100kg以下まで"
+    },
+    {
+      "name": "コピー用紙",
+      "categoryId": null,
+      "subItemId": null,
+      "special": "community_recycling",
+      "fee": null,
+      "note": "・古紙（新聞・雑誌・ダンボール）の無料回収のページから、集団資源回収や回収拠点のご利用方法をお調べいただけます。\n・やむを得ない場合は「雑がみ」で収集"
+    },
+    {
+      "name": "ごみ箱（金属製）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ごみ箱（木製・プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "小麦粘土",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "粘土は「燃やせないごみ」"
+    },
+    {
+      "name": "ゴム手袋",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ゴム長靴",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ゴムボート（浮輪的な遊戯具）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ゴムボート（底板付きのもの）",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "米びつ（ハイザー）",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "コルク栓",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "コルク抜き",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "厚紙などで包んで、「キケン」と表示"
+    },
+    {
+      "name": "ゴルフシューズ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ゴルフ用具一式",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "コンタクトレンズ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "コンタクトレンズケース",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "コンテナボックス（プラ製）",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "コンパクトフラッシュ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "コンパス",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "厚紙などで包んで、「キケン」と表示"
+    },
+    {
+      "name": "コンパネ（ベニヤ板）",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "コンビニ弁当の容器",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "梱包材（プラ製）",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "コンポスト容器",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "サーキュレーター",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "サーフボード",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "2m以下に切断して\n切断出来なければ販売店へ"
+    },
+    {
+      "name": "サイクリングマシーン",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！\n※一人で動かすことが困難な製品は小型家電の無料回収に出せません"
+    },
+    {
+      "name": "座いす",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "木製はリユース（再利用）収集対象"
+    },
+    {
+      "name": "在宅医療関係廃棄物",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "注射針は、かかりつけの病院へ"
+    },
+    {
+      "name": "サイドボード",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "木製はリユース（再利用）収集対象"
+    },
+    {
+      "name": "財布",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "材木類（庭木以外）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "サインペン",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "サウナ（家庭用木製）",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "作業用具類",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "くわ・スコップ・つるはし・ジョンバ・竹ぼうき・アメリカンレーキなど"
+    },
+    {
+      "name": "作業用台車（ねこ車）",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "座卓",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "木製はリユース（再利用）収集対象"
+    },
+    {
+      "name": "雑誌",
+      "categoryId": null,
+      "subItemId": null,
+      "special": "community_recycling",
+      "fee": null,
+      "note": "・古紙（新聞・雑誌・ダンボール）の無料回収のページから、集団資源回収や回収拠点のご利用方法をお調べいただけます。\n・やむを得ない場合は「燃やせるごみ」で収集"
+    },
+    {
+      "name": "座布団",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "サボテン",
+      "categoryId": "branches_leaves_grass",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "収集期間外は「燃やせるごみ」または「大型ごみ」"
+    },
+    {
+      "name": "ざる（木製・プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ざる（木製・プラ製以外）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "三角コーナー（金属製）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "三角コーナー（プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "三角コーン",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "三脚",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "サングラス（プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "サングラス（プラ製以外）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "酸素ボンベ",
+      "categoryId": null,
+      "subItemId": null,
+      "special": "not_collected",
+      "fee": null,
+      "note": "販売店または金属商に相談"
+    },
+    {
+      "name": "サンダル",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "三輪車（子供用遊具）",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "リユース（再利用）収集対象"
+    },
+    {
+      "name": "シーツ・ボアシーツ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "綿50％以上の薄手の古布は、古布の無料回収に出すと資源に！"
+    },
+    {
+      "name": "CD（ケースを含む）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "CDラジカセ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "シール",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "シール台紙",
+      "categoryId": "mixed_paper",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "シェーバー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "・厚紙などで包んで、「キケン」と表示\n・電気式は、小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "ジェットヒーター",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "歯間ブラシ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "辞書",
+      "categoryId": null,
+      "subItemId": null,
+      "special": "community_recycling",
+      "fee": null,
+      "note": "・古紙（新聞・雑誌・ダンボール）の無料回収のページから、集団資源回収や回収拠点のご利用方法をお調べいただけます。\n・やむを得ない場合は「燃やせるごみ」で収集"
+    },
+    {
+      "name": "下着",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "綿50％以上の薄手の古布は、古布の無料回収に出すと資源に！"
+    },
+    {
+      "name": "下敷",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "紙製は「雑がみ」"
+    },
+    {
+      "name": "しちりん",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "湿度計",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "電子式は、小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "湿布",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "湿布の外袋（紙製）",
+      "categoryId": "mixed_paper",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "湿布の表面に張られた薄いフィルム",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "辞典",
+      "categoryId": null,
+      "subItemId": null,
+      "special": "community_recycling",
+      "fee": null,
+      "note": "やむを得ず出せない場合は「燃やせるごみ」で収集"
+    },
+    {
+      "name": "自転車",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "リユース（再利用）収集対象"
+    },
+    {
+      "name": "自転車のタイヤ・チューブ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "自転車の輪（リム）・チェーン",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "自動車",
+      "categoryId": null,
+      "subItemId": null,
+      "special": "not_collected",
+      "fee": null,
+      "note": "札幌地区自動車解体処理共同組合に相談（871-7555）"
+    },
+    {
+      "name": "自動車シート（座席）",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "自動車のワイパー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "竹刀",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "芝（土のついているもの）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "・なるべく小袋で\n・刈芝は「枝・葉・草」"
+    },
+    {
+      "name": "芝刈り機",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "・エンジン付は販売店へ\n・電動式は、小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "シャープペンシル",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "シャープペンシルの芯のケース",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "紙製は「雑がみ」"
+    },
+    {
+      "name": "蛇口",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "写真",
+      "categoryId": "mixed_paper",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "写真のネガ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "写真フィルムのケース",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "ジャッキ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ジャムのびん",
+      "categoryId": "bottles_cans_pet",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "ジャムのびんのフタ（金属製）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "車両用ルーフボックス",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ジャングルジム（子供用遊具）",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "リユース（再利用）収集対象"
+    },
+    {
+      "name": "シャンプードレッサー",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "シャンプーボトル",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "週刊誌",
+      "categoryId": null,
+      "subItemId": null,
+      "special": "community_recycling",
+      "fee": null,
+      "note": "・古紙（新聞・雑誌・ダンボール）の無料回収のページから、集団資源回収や回収拠点のご利用方法をお調べいただけます。\n・やむを得ない場合は「燃やせるごみ」で収集"
+    },
+    {
+      "name": "ジューサー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "じゅうたん",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "充電器（家庭用）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "充電式電池（ニカド電池、ニッケル水素電池、リチウムイオン電池など）",
+      "categoryId": null,
+      "subItemId": null,
+      "special": "not_collected",
+      "fee": null,
+      "note": "JBRC回収協力店などへ（市が収集しないごみのページ参照）"
+    },
+    {
+      "name": "ジュラルミンケース",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "シュレッダー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "電動式は、小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "瞬間湯沸器",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ジョイントマット",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "消火器",
+      "categoryId": null,
+      "subItemId": null,
+      "special": "not_collected",
+      "fee": null,
+      "note": "消火器リサイクル推進センター又は電話03-5829-6773にて廃棄方法及び引取り場所を紹介してくれます。"
+    },
+    {
+      "name": "定規",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "金属製は「燃やせないごみ」"
+    },
+    {
+      "name": "将棋盤",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "障子",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "浄水器",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "電動式は、小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "浄水器カートリッジ（プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "浄水器カートリッジ（金属製）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "樟脳（防虫剤）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "照明器具（シャンデリア・シーリングライト・スタンド照明など）",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "・蛍光灯・電球は取り外して\n・蛍光管が外せない場合はガムテープでとめる\n・小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "じょうろ（プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "プラ製以外は「燃やせないごみ」"
+    },
+    {
+      "name": "食品トレイ",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "食品パックの表面フィルム",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "食品保存容器（プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "食用油の缶・びん",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "油分が完全に洗浄できた場合は「びん・缶・ペットボトル」へ"
+    },
+    {
+      "name": "食用油のプラスチックボトル",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "食用油の容器のふた（金属製）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "食用油の容器のふた（プラ製）",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "除湿器",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！※フロン含有製品は小型家電の無料回収に出せません"
+    },
+    {
+      "name": "除湿剤の容器",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "水を捨て、かすを紙で拭き取る"
+    },
+    {
+      "name": "除雪機（電動式）",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "・電動式は、小型家電の無料回収に出すと資源に！\n・エンジン付は販売店へ"
+    },
+    {
+      "name": "食器（ガラス製・陶磁器・金属製）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "割れ物は厚紙などで包んで、「キケン」と表示"
+    },
+    {
+      "name": "食器（木製・プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "食器洗い乾燥機・食器乾燥機",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "食器棚",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "木製はリユース（再利用）収集対象"
+    },
+    {
+      "name": "ショッピングカート",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ジョンバ（シャベル）",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "シリカゲル（乾燥剤）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "シリコンゴム製品",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "人工芝",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "新聞",
+      "categoryId": null,
+      "subItemId": null,
+      "special": "community_recycling",
+      "fee": null,
+      "note": "・古紙（新聞・雑誌・ダンボール）の無料回収のページから、集団資源回収や回収拠点のご利用方法をお調べいただけます。\n・やむを得ない場合は「燃やせるごみ」で収集"
+    },
+    {
+      "name": "水槽",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "プラ製・アクリル製は「燃やせるごみ」"
+    },
+    {
+      "name": "水中メガネ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "ガラス製は「燃やせないごみ」"
+    },
+    {
+      "name": "水筒",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "プラ製は「燃やせるごみ」"
+    },
+    {
+      "name": "炊飯器",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "スーツ購入時のカバー（プラ製）",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "購入したスーツカバーは、「燃やせるごみ」"
+    },
+    {
+      "name": "スーツケース",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "スキーウェア",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "古着の無料回収に出すと資源に！"
+    },
+    {
+      "name": "スキーキャリア（スキーハンガー）",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "スキー靴",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "スキーケース",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "スキー用具一式（板、ストック）",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "すき間収納ケース",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "指定ごみ袋に入る場合は「燃やせるごみ」"
+    },
+    {
+      "name": "スキャナー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "スケート靴",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "スケートボード",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "スコップ",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "寿司桶",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "すずり",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "すだれ",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "スタンプ台（プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "金属製は「燃やせないごみ」"
+    },
+    {
+      "name": "スチール缶（飲料・食品用）",
+      "categoryId": "bottles_cans_pet",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "スチール棚",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ステップマシーン",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ステレオセット",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！\n※木製スピーカーは、小型家電の無料回収に出せません"
+    },
+    {
+      "name": "ストーブ（石油・石炭・まきストーブ）",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "石油ストーブは、小型家電の無料回収に出すと資源に！\n※必ず灯油を空にして出してください。"
+    },
+    {
+      "name": "ストーブガード",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ストーブ付属品（煙突など）",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ストーマ袋",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "中身を空け、新聞紙などに包んで"
+    },
+    {
+      "name": "ストッキング",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ストロー",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ストローの外包装袋（プラ製）",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "紙製は「雑がみ」"
+    },
+    {
+      "name": "スニーカー",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "スノーダンプ",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "スノーブラシ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "木製・プラ製は「燃やせるごみ」"
+    },
+    {
+      "name": "スノーヘルパー（プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "金属製は「燃やせないごみ」"
+    },
+    {
+      "name": "スノーボード",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "すのこ",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "スパイクシューズ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "スパナ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "スピーカー",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！※木製スピーカーは、小型家電の無料回収に出せません"
+    },
+    {
+      "name": "スピンドルケース",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "スプーン（金属製）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "スプーン（木製・プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "スプーンの外包装袋（プラ製）",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "スプレー缶",
+      "categoryId": "burnable",
+      "subItemId": "spray_can",
+      "special": null,
+      "fee": "無料",
+      "note": "・使い切って\n・使いきれない場合の処分方法は、「スプレー缶・カセットボンベ」のページでご確認ください。"
+    },
+    {
+      "name": "すべり台（子供用遊具）",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "リユース（再利用）収集対象"
+    },
+    {
+      "name": "スポンジ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ズボンプレッサー",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "スマートフォン",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "炭",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "水に浸し、発火しないようにして"
+    },
+    {
+      "name": "スライサー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "すりこぎ棒",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "スリッパ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "すり鉢",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "製氷皿",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "金属製は「燃やせないごみ」"
+    },
+    {
+      "name": "生理用品",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "石炭",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "水に浸し、発火しないようにして"
+    },
+    {
+      "name": "石炭ストーブ",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "石油ストーブ",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！※必ず灯油を空にして出してください"
+    },
+    {
+      "name": "石けん入れ（容器として購入したもの）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "金属製は「燃やせないごみ」"
+    },
+    {
+      "name": "石膏ボード",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "接着剤のチューブ（金属製）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "・中身を使い切って\n・プラ製は「容器包装プラスチック」"
+    },
+    {
+      "name": "せともの",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "セメント（水和・硬化済のもの）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "セロハンテープ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "セロハンテープ台",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "金属製は「燃やせないごみ」"
+    },
+    {
+      "name": "セロハンテープの芯",
+      "categoryId": "mixed_paper",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "線香の箱（紙製）",
+      "categoryId": "mixed_paper",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "洗剤の計量カップ・スプーン（プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "金属製は「燃やせないごみ」"
+    },
+    {
+      "name": "洗剤の容器（紙製）",
+      "categoryId": "mixed_paper",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "洗剤の容器（プラ製）",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "洗車ブラシ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "プラ製以外は「燃やせないごみ」"
+    },
+    {
+      "name": "洗濯かご",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "金属製は「燃やせないごみ」"
+    },
+    {
+      "name": "洗濯機",
+      "categoryId": null,
+      "subItemId": null,
+      "special": "not_collected",
+      "fee": null,
+      "note": "・販売店または家電回収協力店へ\n・詳細は、「テレビ・冷蔵庫・洗濯機・エアコンリサイクル」のページ参照"
+    },
+    {
+      "name": "洗濯機棚",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "洗濯ネット",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "洗濯バサミ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "金属製は「燃やせないごみ」"
+    },
+    {
+      "name": "剪定バサミ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "刃先を厚紙などで包んで、「キケン」と表示"
+    },
+    {
+      "name": "栓抜き",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "扇風機",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "洗面器（プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "金属製は「燃やせないごみ」"
+    },
+    {
+      "name": "洗面化粧台",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "造花（針金入り）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "布製・プラ製は「燃やせるごみ」"
+    },
+    {
+      "name": "双眼鏡",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ぞうきん",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "掃除機",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！\nバッテリーは取り外して販売店・協力店の回収箱へ（市が収集しないごみのページ参照）"
+    },
+    {
+      "name": "ソファー",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "木製はリユース（再利用）収集対象"
+    },
+    {
+      "name": "ソファーベッド",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "そり",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "体温計",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "・電子式は、小型家電の無料回収に出すと資源に！\n・水銀式は、水銀体温計・水銀血圧計・水銀温度計の無料回収に出すと資源に！"
+    },
+    {
+      "name": "耐火金庫",
+      "categoryId": null,
+      "subItemId": null,
+      "special": "not_collected",
+      "fee": null,
+      "note": "金属商に相談"
+    },
+    {
+      "name": "耐火ボード",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "体脂肪計",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "体重計",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "電子式は、小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "タイヤ",
+      "categoryId": null,
+      "subItemId": null,
+      "special": "not_collected",
+      "fee": null,
+      "note": "廃タイヤ取扱協力指定店へ（ガソリンスタンドなど）"
+    },
+    {
+      "name": "タイヤチェーン(金属製)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "タイヤチェーン(金属製以外)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "タイル",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "タオル",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "綿50％以上の薄手の古布は、古布の無料回収に出すと資源に！"
+    },
+    {
+      "name": "タオルケット",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "綿50％以上の薄手の古布は、古布の無料回収に出すと資源に！"
+    },
+    {
+      "name": "竹",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "竹ぼうき",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "畳",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "多段式プラスチックケース",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "指定ごみ袋に入る場合は「燃やせるごみ」"
+    },
+    {
+      "name": "脱衣かご（木製・プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "金属製は「燃やせないごみ」"
+    },
+    {
+      "name": "脱酸素剤（菓子などに入っているもの）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "脱脂綿",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "脱臭剤（冷蔵庫・冷凍庫・室内用など）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "楯",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "木製・プラは「燃やせるごみ」"
+    },
+    {
+      "name": "タバコの外包装フィルム",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "タバコの吸い殻",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "タバコの箱",
+      "categoryId": "mixed_paper",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "タバコの箱の中の銀紙",
+      "categoryId": "mixed_paper",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "タブレット",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "卵のパック",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "紙製は「雑がみ」"
+    },
+    {
+      "name": "たらい（金属製）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "たらい（木製・プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "たわし（金属製）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "たわし（金属製以外）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "炭酸ガスカートリッジ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "中身が使い切れない場合は、各製造元（メーカー）または販売店に相談"
+    },
+    {
+      "name": "たんす",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "木製はリユース（再利用）収集対象"
+    },
+    {
+      "name": "タンスシート",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "断熱材(スタイロフォームなど)",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ダンベル",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ダンボール",
+      "categoryId": null,
+      "subItemId": null,
+      "special": "community_recycling",
+      "fee": null,
+      "note": "・古紙（新聞・雑誌・ダンボール）の無料回収のページから、集団資源回収や回収拠点のご利用方法をお調べいただけます。\n・やむを得ない場合や食品汚れなどが付着したものは「燃やせるごみ」で収集"
+    },
+    {
+      "name": "チェスト",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "木製はリユース（再利用）収集対象"
+    },
+    {
+      "name": "地球儀",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "チャイルドシート",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "茶殻",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "茶殻入れ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "茶こし",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "茶だんす",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "木製はリユース（再利用）収集対象"
+    },
+    {
+      "name": "茶筒（金属製で容器として購入したもの）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "茶筒（木製・プラ製で容器として購入したもの）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "茶の缶（お茶、茶葉が入って販売されていたもの）",
+      "categoryId": "bottles_cans_pet",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "茶の袋（紙製）",
+      "categoryId": "mixed_paper",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "茶の袋（プラ製・アルミ蒸着を含む）",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "茶箱",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "紙製は解体して「雑がみ」"
+    },
+    {
+      "name": "中華鍋",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小物金属類の無料回収に出すと資源に！"
+    },
+    {
+      "name": "注射器",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "注射針は必ず取り除いて"
+    },
+    {
+      "name": "注射針",
+      "categoryId": null,
+      "subItemId": null,
+      "special": "not_collected",
+      "fee": null,
+      "note": "かかりつけの病院へ"
+    },
+    {
+      "name": "チューナー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "チューブ・カテーテル類",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "彫刻刀",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "刃先を厚紙などで包んで、「キケン」と表示"
+    },
+    {
+      "name": "調味料のびん",
+      "categoryId": "bottles_cans_pet",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "プラスチック製のふたは「容器包装プラスチック」、それ以外のふたは「燃やせないごみ」"
+    },
+    {
+      "name": "調味料の容器・チューブ（プラ製）",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "中身を使い切って"
+    },
+    {
+      "name": "調理台",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "システムキッチンなど一体型のものを除く"
+    },
+    {
+      "name": "チラシ",
+      "categoryId": null,
+      "subItemId": null,
+      "special": "community_recycling",
+      "fee": null,
+      "note": "・古紙（新聞・雑誌・ダンボール）の無料回収のページから、集団資源回収や回収拠点のご利用方法をお調べいただけます。\n・やむを得ない場合は「雑がみ」で収集"
+    },
+    {
+      "name": "ちり紙",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ちりとり",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "金属製は「燃やせないごみ」"
+    },
+    {
+      "name": "ついたて",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "つえ（金属製）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "つえ（木製・プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "机",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "木製はリユース（再利用）収集対象"
+    },
+    {
+      "name": "つけ毛（ヘアーエクステンション）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "漬け物石",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "漬け物用樽",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "二斗樽（36ℓ）未満は「燃やせるごみ」"
+    },
+    {
+      "name": "土（鉢植えなどから出た少量のもの）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "なるべく小袋で"
+    },
+    {
+      "name": "つっぱり棚（プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "金属製は「燃やせないごみ」"
+    },
+    {
+      "name": "つっぱり棒（プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "金属製は「燃やせないごみ」"
+    },
+    {
+      "name": "詰替え品の容器など（プラ製）",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "シャンプー・リンスなど"
+    },
+    {
+      "name": "つめ切り",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "釣り糸・テグス",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "つりざお",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "つるはし",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "柄を分離し指定ごみ袋に入るものは、柄（木製）は「燃やせるごみ」、刃は厚紙などで包み、「キケン」と表示して「燃やせないごみ」"
+    },
+    {
+      "name": "ティッシュペーパー",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ティッシュペーパーの箱",
+      "categoryId": "mixed_paper",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "DVD（ケースを含む）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "DVDプレーヤー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "テーブル",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "木製はリユース（再利用）収集対象"
+    },
+    {
+      "name": "テーブルクロス",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "テーブルタップ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "テープレコーダー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "手おけ（木製・プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "金属製は「燃やせないごみ」"
+    },
+    {
+      "name": "手提げ金庫",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "耐火性能がある場合は「市で収集しないもの」に該当するため、金属商に相談"
+    },
+    {
+      "name": "デジタルオーディオプレーヤー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "手帳",
+      "categoryId": "mixed_paper",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "電子手帳は「燃やせないごみ」"
+    },
+    {
+      "name": "鉄アレイ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "鉄パイプ・鉄柵類",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "鉄板",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "手袋（布・合成皮革製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "古着の無料回収に出すと資源に！"
+    },
+    {
+      "name": "テレビ（ブラウン管・液晶・有機EL・プラズマ式）",
+      "categoryId": null,
+      "subItemId": null,
+      "special": "not_collected",
+      "fee": null,
+      "note": "・販売店または家電回収協力店へ\n・詳細は、「テレビ・冷蔵庫・洗濯機・エアコンリサイクル」のページ参照"
+    },
+    {
+      "name": "テレビゲーム機",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "テレビ台",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "木製はリユース（再利用）収集対象"
+    },
+    {
+      "name": "テレホンカード",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "電気ストーブ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "電気シェーバー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "電気毛布",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "電球",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "厚紙などで包んで、「キケン」と表示"
+    },
+    {
+      "name": "電子オルガン",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！\n※木製及び一人で動かすことが困難な製品は、小型家電の無料回収に出せません"
+    },
+    {
+      "name": "電子辞書",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "電子たばこ（加熱式たばこ）",
+      "categoryId": "non_burnable",
+      "subItemId": "heated_tobacco_lighter",
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "電磁調理器",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "電子手帳",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "電子ピアノ",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "・小型家電の無料回収に出すと資源に！\n※木製又は一人で動かすことが困難な製品は、小型家電の無料回収に出せません\n・ピアノは販売店に相談"
+    },
+    {
+      "name": "電子レンジ",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "・指定ごみ袋に入る場合は「燃やせないごみ」\n・小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "電子レンジ台",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "木製はリユース（再利用）収集対象"
+    },
+    {
+      "name": "電卓",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "電池",
+      "categoryId": null,
+      "subItemId": null,
+      "special": "see_note",
+      "fee": null,
+      "note": "種類により異なります。以下の項目を参照してください。\n・乾電池（筒型）\n・充電式電池（ニカド電池、ニッケル水素電池、リチウムイオン電池）\n・ボタン電池\n・リチウムコイン電池"
+    },
+    {
+      "name": "点滴バッグ",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "・中身は使い切って。チューブは切りはなして「燃やせるごみ」へ\n・詳細は「家庭から出る医療系ビニールバッグの分別の仕方」参照"
+    },
+    {
+      "name": "テント",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "電動式ランニングマシーン",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！\n※一人で動かすことが困難な製品は、小型家電の無料回収に出せません"
+    },
+    {
+      "name": "電動歯ブラシ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "電話機",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "電話台",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "木製はリユース（再利用）収集対象"
+    },
+    {
+      "name": "電話帳",
+      "categoryId": null,
+      "subItemId": null,
+      "special": "community_recycling",
+      "fee": null,
+      "note": "・古紙（新聞・雑誌・ダンボール）の無料回収のページから、集団資源回収や回収拠点のご利用方法をお調べいただけます。\n・やむを得ない場合は「雑がみ」で収集"
+    },
+    {
+      "name": "ドア",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "鋼鉄製は金属商へ"
+    },
+    {
+      "name": "砥石",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "トイレタンク",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "トイレットペーパーの芯",
+      "categoryId": "mixed_paper",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "トイレブラシ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "陶磁器",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "透析バッグ",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "中身は使い切って、チューブは切りはなして「燃やせるごみ」"
+    },
+    {
+      "name": "豆腐のパック",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "灯油タンク",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "90ℓを超えるものは金属商へ相談\nポリタンクは「燃やせるごみ」"
+    },
+    {
+      "name": "トースター",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "土管・U字溝",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "時計",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！\n※木製の時計は、小型家電の無料回収に出せません"
+    },
+    {
+      "name": "戸棚",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "木製はリユース（再利用）収集対象"
+    },
+    {
+      "name": "トタン板",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "トナーカートリッジ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ドライバー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "電動式は、小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "ドライヤー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "ドラム缶",
+      "categoryId": null,
+      "subItemId": null,
+      "special": "not_collected",
+      "fee": null,
+      "note": "金属商に相談"
+    },
+    {
+      "name": "ドラムセット",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "鶏がら（骨）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ドリッパー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "プラ製は「燃やせるごみ」"
+    },
+    {
+      "name": "塗料（液体の状態）",
+      "categoryId": null,
+      "subItemId": null,
+      "special": "not_collected",
+      "fee": null,
+      "note": "・販売店に相談\n・布や紙にしみ込ませた場合は、「燃やせるごみ」に出せます。"
+    },
+    {
+      "name": "塗料の缶",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "中身を使い切って"
+    },
+    {
+      "name": "塗料のスプレー",
+      "categoryId": "burnable",
+      "subItemId": "spray_can",
+      "special": null,
+      "fee": "無料",
+      "note": "・使い切って\n・使いきれない場合の処分方法は、「スプレー缶・カセットボンベ」のページでご確認ください。"
+    },
+    {
+      "name": "ドリル（電動・手動）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "電動式は、小型家電の無料回収に出すと資源に！\n※必ず刃を取り外して出してください"
+    },
+    {
+      "name": "ドリルの刃",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "厚紙などで包んで"
+    },
+    {
+      "name": "ドリンクびん",
+      "categoryId": "bottles_cans_pet",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "ふた（金属製）は「燃やせないごみ」"
+    },
+    {
+      "name": "ドレッシングのびん（ノンオイル）",
+      "categoryId": "bottles_cans_pet",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "ドレッシングのびん（ノンオイル以外）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "油分が完全に洗浄できた場合は「びん・缶・ペットボトル」へ"
+    },
+    {
+      "name": "ドレッシングの容器\n（がついているもの）",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "ドレッシングの容器\n（がついているもの）",
+      "categoryId": "bottles_cans_pet",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "泥（庭そうじなどで集めたもの）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "なるべく小袋で"
+    },
+    {
+      "name": "トロフィー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "木製・プラ製は「燃やせるごみ」"
+    },
+    {
+      "name": "ナイフ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "刃先を厚紙などで包んで、「キケン」と表示"
+    },
+    {
+      "name": "苗木のプラ製ポット",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "長靴",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "流し台",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "システムキッチンなど一体型のものを除く"
+    },
+    {
+      "name": "なた",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "厚紙などで包んで、「キケン」と表示"
+    },
+    {
+      "name": "納豆の容器（プラ製）",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "水ですすいで\nわら製は「燃やせるごみ」"
+    },
+    {
+      "name": "鍋",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小物金属類の無料回収に出すと資源に！"
+    },
+    {
+      "name": "生花",
+      "categoryId": "branches_leaves_grass",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "収集期間外は「燃やせるごみ」"
+    },
+    {
+      "name": "縄跳び紐",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "乳酸菌飲料の容器・ふた（プラ製）",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "乳酸菌飲料の容器のふた（アルミ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "入浴剤の缶",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "入浴剤の容器（プラ製）",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "紙製は「雑がみ」"
+    },
+    {
+      "name": "ぬいぐるみ・あみぐるみ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ネクタイ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "古着の無料回収に出すと資源に！"
+    },
+    {
+      "name": "ネックレス",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "木製・革製・プラ製は「燃やせるごみ」"
+    },
+    {
+      "name": "ネットパネル",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "寝袋（シュラフ）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "粘土",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "紙・小麦粘土は「燃やせるごみ」"
+    },
+    {
+      "name": "農薬",
+      "categoryId": null,
+      "subItemId": null,
+      "special": "not_collected",
+      "fee": null,
+      "note": "メーカー等に相談"
+    },
+    {
+      "name": "ノート",
+      "categoryId": null,
+      "subItemId": null,
+      "special": "community_recycling",
+      "fee": null,
+      "note": "・古紙（新聞・雑誌・ダンボール）の無料回収のページから、集団資源回収や回収拠点のご利用方法をお調べいただけます。\n・やむを得ない場合は「雑がみ」で収集"
+    },
+    {
+      "name": "ノートパソコン",
+      "categoryId": null,
+      "subItemId": null,
+      "special": "not_collected",
+      "fee": null,
+      "note": "メーカーに回収申し込みなど。詳細は、「パソコンリサイクル」のページ参照"
+    },
+    {
+      "name": "のこぎり",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "刃先を厚紙などで包んで、「キケン」と表示"
+    },
+    {
+      "name": "ノミ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "刃先を厚紙などで包んで、「キケン」と表示"
+    },
+    {
+      "name": "のりの缶・のりの佃煮のびん",
+      "categoryId": "bottles_cans_pet",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "のりの佃煮のびんのふた（金属製）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "のりの容器（工作用）",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "中身を使い切って"
+    },
+    {
+      "name": "パークゴルフのクラブ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "木製は燃やせるごみ"
+    },
+    {
+      "name": "バーベキューコンロ",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "バーベル（バーと重りが一体）",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "バーベルの重りのみ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ハイザー（米びつ）",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "排尿バッグ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "汚物をトイレに流して"
+    },
+    {
+      "name": "パイプハンガー",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "廃油",
+      "categoryId": null,
+      "subItemId": null,
+      "special": "not_collected",
+      "fee": null,
+      "note": "販売店に相談"
+    },
+    {
+      "name": "バインダー（紙製）",
+      "categoryId": "mixed_paper",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "バインダー（プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ハエたたき",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "金属製は「燃やせないごみ」"
+    },
+    {
+      "name": "はがき",
+      "categoryId": "mixed_paper",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "はかり（台所ばかり）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "電子式は、小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "はく製",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ハケ（塗装用など）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "バケツ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "金属製は「燃やせないごみ」"
+    },
+    {
+      "name": "ハサミ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "厚紙などで包んで、「キケン」と表示"
+    },
+    {
+      "name": "箸",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "金属製は「燃やせないごみ」"
+    },
+    {
+      "name": "はしご",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "2mまで収集可。2ⅿ以下に切断できなければ販売店へ相談"
+    },
+    {
+      "name": "バスタオル",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "綿50％以上の薄手の古布は、古布の無料回収に出すと資源に！"
+    },
+    {
+      "name": "パソコン（パソコン用ディスプレイを含む）",
+      "categoryId": null,
+      "subItemId": null,
+      "special": "not_collected",
+      "fee": null,
+      "note": "メーカーに回収申し込みなど。詳細は、「パソコンリサイクル」のページ参照"
+    },
+    {
+      "name": "パソコンキーボード",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "パソコンラック",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "木製はリユース（再利用）収集対象"
+    },
+    {
+      "name": "バターの箱（紙製）",
+      "categoryId": "mixed_paper",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "バターが入って販売されていた容器（プラ製）",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "金属製は「燃やせないごみ」"
+    },
+    {
+      "name": "ハタキ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "発煙筒",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "水に浸し、発火しないようにして"
+    },
+    {
+      "name": "バッテリー",
+      "categoryId": null,
+      "subItemId": null,
+      "special": "not_collected",
+      "fee": null,
+      "note": "販売店へ相談"
+    },
+    {
+      "name": "バット（金属製）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "バット（木製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "発泡スチロール（緩衝材など）",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "花",
+      "categoryId": "branches_leaves_grass",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "収集期間外は「燃やせるごみ」"
+    },
+    {
+      "name": "花火",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "水に浸し、発火しないようにして"
+    },
+    {
+      "name": "パネルヒーター",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "パフ（化粧用）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "歯ブラシ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "・電動式は燃やせないごみ\n・電動式は、小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "歯磨き粉のチューブ",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "中身を使い切って"
+    },
+    {
+      "name": "針（裁縫用など）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "厚紙などで包んで"
+    },
+    {
+      "name": "針金",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ハンガー（金属製）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ハンガー（木製・プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ハンカチ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "綿50％以上の薄手の古布は、古布の無料回収に出すと資源に！"
+    },
+    {
+      "name": "飯ごう",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "半紙（文字を書いてあるものも含む）",
+      "categoryId": "mixed_paper",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "ばんそうこう",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "はんだ・はんだごて",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "パンチ（穴あけ）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "バンド（プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "パンフレット",
+      "categoryId": null,
+      "subItemId": null,
+      "special": "community_recycling",
+      "fee": null,
+      "note": "・古紙（新聞・雑誌・ダンボール）の無料回収のページから、集団資源回収や回収拠点のご利用方法をお調べいただけます。\n・やむを得ない場合は「雑がみ」で収集"
+    },
+    {
+      "name": "ピアノ",
+      "categoryId": null,
+      "subItemId": null,
+      "special": "not_collected",
+      "fee": null,
+      "note": "販売店に相談"
+    },
+    {
+      "name": "ビーチパラソル",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ビールケース",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "販売店に返すと無料に！"
+    },
+    {
+      "name": "ビールびん",
+      "categoryId": "bottles_cans_pet",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "リターナブル（リユース）びんの無料回収に出すと、より環境負荷の小さい再利用（リユース）に！"
+    },
+    {
+      "name": "ビールびんのふた",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ビデオカメラ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "ビデオテープ（ケースを含む）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ビデオデッキ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "ひな人形",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ひな人形セット(ひな段を含む)",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ビニールテープ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ビニール手袋",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "火バサミ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ひも（紙）",
+      "categoryId": "mixed_paper",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "ひも（プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "肥料",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "肥料袋（プラ製）",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "紙製は「雑がみ」"
+    },
+    {
+      "name": "びん（食品保存用のびん製品など）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "びん（ジャム、佃煮などが入って販売されていたもの）",
+      "categoryId": "bottles_cans_pet",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "油分が完全に洗浄できない場合は「燃やせないごみ」へ"
+    },
+    {
+      "name": "びんのふた（プラ製）",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "びんのふた（金属製）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "便箋",
+      "categoryId": "mixed_paper",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "ファクシミリ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "ファンデーションのコンパクト",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ファンヒーター",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "ブースターケーブル（自動車用品）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "風船",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "封筒",
+      "categoryId": "mixed_paper",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "プール（ビニール製遊具）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "フォーク（金属製）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "フォーク（木製・プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "フォークの外包装袋（プラ製）",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "ふきん",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "不織布",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ふすま",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "豚がら（骨）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ブックカバー",
+      "categoryId": "mixed_paper",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "紙製以外は「燃やせるごみ」"
+    },
+    {
+      "name": "仏壇",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "筆箱",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "金属製は「燃やせないごみ」"
+    },
+    {
+      "name": "布団",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "・大型ごみで出す場合、布団類3枚まで1組として出すことが可（布団類：掛・敷布団・電気毛布）\n・指定ごみ袋に入る場合は「燃やせるごみ」"
+    },
+    {
+      "name": "布団カバー",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "布団乾燥機",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "布団たたき",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "金属製は「燃やせないごみ」"
+    },
+    {
+      "name": "布団袋",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "フライ返し",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "プラ製は「燃やせるごみ」"
+    },
+    {
+      "name": "フライパン",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小物金属類の無料回収に出すと資源に！"
+    },
+    {
+      "name": "ブラインド",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "プラグ（自動車用品）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ぶら下がり健康器",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ブラシ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "金属製は「燃やせないごみ」"
+    },
+    {
+      "name": "プラスチック製収納箱（衣装ケース等）",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "指定ごみ袋に入る場合は「燃やせるごみ」"
+    },
+    {
+      "name": "プラ手袋（在宅医療関係の道具）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "プラモデル",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "フラワースタンド",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ブランコ（子供用遊具）",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "リユース（再利用）収集対象"
+    },
+    {
+      "name": "プランター（プラ製・木製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "金属製は「燃やせないごみ」"
+    },
+    {
+      "name": "フリーペーパー（無料で配られている冊子類）",
+      "categoryId": null,
+      "subItemId": null,
+      "special": "community_recycling",
+      "fee": null,
+      "note": "・古紙（新聞・雑誌・ダンボール）の無料回収のページから、集団資源回収や回収拠点のご利用方法をお調べいただけます。\n・やむを得ない場合は「雑がみ」で収集"
+    },
+    {
+      "name": "プリンタ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "プリンのびん",
+      "categoryId": "bottles_cans_pet",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "プリンの容器・ふた（紙製）",
+      "categoryId": "mixed_paper",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "水ですすいでも汚れが落ちないものは「燃やせるごみ」"
+    },
+    {
+      "name": "プリンの容器・ふた（プラ製）",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "ブルーシート",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "風呂いす",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "風呂釜",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ブロック",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "なるべく小袋で"
+    },
+    {
+      "name": "フロッピーディスク（ケースを含む）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "風呂のふた",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "風呂のマット",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "プロパンガスボンベ",
+      "categoryId": null,
+      "subItemId": null,
+      "special": "not_collected",
+      "fee": null,
+      "note": "北海道LPガス協会石狩支部に相談（812-6414）"
+    },
+    {
+      "name": "文化焚きつけ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "水に浸し、発火しないようにして"
+    },
+    {
+      "name": "ぶんちん",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "文机",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "木製はリユース（再利用）収集対象"
+    },
+    {
+      "name": "噴霧器（プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ヘアスプレー",
+      "categoryId": "burnable",
+      "subItemId": "spray_can",
+      "special": null,
+      "fee": "無料",
+      "note": "使い切って"
+    },
+    {
+      "name": "ヘアスプレーのキャップ（プラ製）",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "ヘアピン",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ペール缶（エンジンオイル用）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ベッド",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "ベッドマットレスは別扱いで「大型ごみ」"
+    },
+    {
+      "name": "ペットの運搬ケース（ケージ）",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ペットの小屋",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ペットの死体（飼い主不明）",
+      "categoryId": null,
+      "subItemId": null,
+      "special": "not_collected",
+      "fee": null,
+      "note": "清掃事務所へご連絡を"
+    },
+    {
+      "name": "ペットのトイレシート",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ペットのトイレ砂",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ペットの糞",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "袋を二重にするなど、飛散防止措置をして"
+    },
+    {
+      "name": "ペットボトル",
+      "categoryId": "bottles_cans_pet",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "ふた・ラベルは「容器包装プラスチック」"
+    },
+    {
+      "name": "ヘッドホン",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "ベッドマットレス",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ベニヤ板",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ベビーカー",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "リユース（再利用）収集対象"
+    },
+    {
+      "name": "ベビーサークル",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "リユース（再利用）収集対象"
+    },
+    {
+      "name": "ベビーだんす",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "木製はリユース（再利用）収集対象"
+    },
+    {
+      "name": "ベビーチェア",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "木製はリユース（再利用）収集対象"
+    },
+    {
+      "name": "ベビーバス",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ベビーベッド",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ベビー用手押し車",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "リユース（再利用）収集対象"
+    },
+    {
+      "name": "ベルト",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "金属製は「燃やせないごみ」"
+    },
+    {
+      "name": "ヘルメット",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "便器（和・洋）",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ペンキの缶",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "中身を使い切って"
+    },
+    {
+      "name": "ペンキのスプレー",
+      "categoryId": "burnable",
+      "subItemId": "spray_can",
+      "special": null,
+      "fee": "無料",
+      "note": "使い切って"
+    },
+    {
+      "name": "便座",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "温水洗浄機付便座、暖房便座は「燃やせないごみ」（小型家電の無料回収には出せません。）"
+    },
+    {
+      "name": "ベンチ",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ペンチ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "弁当箱",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "金属製は「燃やせないごみ」"
+    },
+    {
+      "name": "ホイールキャップ（プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "金属製は「燃やせないごみ」"
+    },
+    {
+      "name": "ほうき",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "・金属製は「燃やせないごみ」\n・竹ぼうきなど、長柄のものは「大型ごみ」"
+    },
+    {
+      "name": "帽子",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "古着の無料回収に出すと資源に！"
+    },
+    {
+      "name": "防虫剤",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "包丁",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "刃先を厚紙などで包んで、「キケン」と表示"
+    },
+    {
+      "name": "ボウリングの玉",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ボウル（木製・プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ボウル（木製・プラ製以外）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ホース",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ホースリール台",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ポータブルテレビ（電源として一次電池又は蓄電池を使用する液晶テレビ）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ポータブル冷蔵庫",
+      "categoryId": null,
+      "subItemId": null,
+      "special": "not_collected",
+      "fee": null,
+      "note": "・販売店または家電回収協力店へ\n・詳細は、「テレビ・冷蔵庫・洗濯機・エアコンリサイクル」のページ参照"
+    },
+    {
+      "name": "ホームタンク（屋外用、90ℓを超えるもの）",
+      "categoryId": null,
+      "subItemId": null,
+      "special": "not_collected",
+      "fee": null,
+      "note": "金属商に相談"
+    },
+    {
+      "name": "ホームベーカリー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "ホームラック",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "木製はリユース（再利用）収集対象"
+    },
+    {
+      "name": "ボール（ゴルフ、サッカー、卓球、テニス、野球、ゲートボール、パークゴルフなど）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ボールペン・ボールペンの芯",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "木刀",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ポケットティッシュの個袋",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "歩行器（子供用遊具）",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "リユース（再利用）収集対象"
+    },
+    {
+      "name": "補助便座",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "プラ製以外は「燃やせないごみ」"
+    },
+    {
+      "name": "ボタン",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "金属製は「燃やせないごみ」"
+    },
+    {
+      "name": "ボタン電池",
+      "categoryId": null,
+      "subItemId": null,
+      "special": "not_collected",
+      "fee": null,
+      "note": "販売店・協力店の回収箱へ（市が収集しないごみのページ参照）"
+    },
+    {
+      "name": "ホッチキス・ステープラ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ポット",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "電気ポットは、小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "ホットカーペット",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ホットプレート",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "ボディブラシ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ほ乳びん（ガラス製）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ほ乳びん（プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ポリタンク",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ポリ袋",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "保冷剤",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "本",
+      "categoryId": null,
+      "subItemId": null,
+      "special": "community_recycling",
+      "fee": null,
+      "note": "・古紙（新聞・雑誌・ダンボール）の無料回収のページから、集団資源回収や回収拠点のご利用方法をお調べいただけます。\n・やむを得ない場合は「燃やせるごみ」で収集"
+    },
+    {
+      "name": "本立て（ブックエンド）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "木製・プラ製は「燃やせるごみ」"
+    },
+    {
+      "name": "本棚",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "木製はリユース（再利用）収集対象"
+    },
+    {
+      "name": "ポンプ（ポリタンクから灯油・水などを汲むもの、プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "電動式は、小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "マーカーペン",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "マーガリンの箱（紙製）",
+      "categoryId": "mixed_paper",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "マーガリンの容器（プラ製）",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "麻雀卓",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "麻雀牌セット",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "麻雀マット",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "マイク",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "マイクロビーズ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "飛散防止のため、二重袋になるよう透明または半透明の内袋に入れ封をしてから、札幌市の指定ごみ袋に入れて、指定袋に「マイクロビーズ」と表示してしてください。"
+    },
+    {
+      "name": "マウス（パソコン用）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "マウスパッド",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "紙製は「雑がみ」"
+    },
+    {
+      "name": "まきストーブ",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "マグネット（クリップ・フックなど）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "まくら",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "まくらカバー",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "枕木",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "間仕切りスクリーン",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "マジックペン",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "マッサージ器具（電動式）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "マッサージチェア",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "マッチ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "水に浸し、発火しないようにして"
+    },
+    {
+      "name": "マットレス",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "まな板（木製・プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "まな板（木製・プラ製以外）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "マニキュアのびん",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "マネキンの頭部（プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "金属製は「燃やせないごみ」"
+    },
+    {
+      "name": "まほうびん",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "マヨネーズのチューブ",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "中身を使い切って"
+    },
+    {
+      "name": "丸太",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ミキサー",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "ミシン",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "・小型家電の無料回収に出すと資源に！\n・収納式腰掛け用は「大型ごみ」"
+    },
+    {
+      "name": "水切りかご（金属製）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "水切りかご（プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "水まくら",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ミニコンポ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "耳かき",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "金属製は「燃やせないごみ」"
+    },
+    {
+      "name": "虫かご",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "虫ピン",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "厚紙などで包んで、「キケン」と表示"
+    },
+    {
+      "name": "虫めがね",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "むしろ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "名刺",
+      "categoryId": "mixed_paper",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "紙製以外は「燃やせるごみ」"
+    },
+    {
+      "name": "眼鏡",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "プラ製は「燃やせるごみ」"
+    },
+    {
+      "name": "眼鏡ケース",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "金属製は「燃やせないごみ」"
+    },
+    {
+      "name": "目薬に付属の携帯ケース",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "目薬の容器",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "面（剣道・フェンシング）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "綿棒",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "麺棒",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "毛布",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "地区リサイクルセンターに出すと資源に！無料に！（※二重の毛布は対象外）"
+    },
+    {
+      "name": "木馬（子供用遊具）",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "リサイクル（リユース）収集対象"
+    },
+    {
+      "name": "餅つき機",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "モップ",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "ハンディモップは「燃やせるごみ」"
+    },
+    {
+      "name": "物置",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "物干し（室内用）",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "物干しざお",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "物干し台（台付きのもの・支柱のみ）",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "物干し台（台のみ）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "モバイルバッテリー",
+      "categoryId": null,
+      "subItemId": null,
+      "special": "not_collected",
+      "fee": null,
+      "note": "JBRC回収協力店などへ（市が収集しないごみのページ参照）"
+    },
+    {
+      "name": "モルタル（水和・硬化済のもの）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "やかん",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小物金属類の無料回収に出すと資源に！"
+    },
+    {
+      "name": "野菜などの結束用テープ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "野菜の網・ネット",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "発泡スチロール製ネットを含む"
+    },
+    {
+      "name": "やすり",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "紙やすりは「燃やせるごみ」"
+    },
+    {
+      "name": "USBメモリ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "融雪機",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "長さ2m以下、重量100kg以下まで"
+    },
+    {
+      "name": "融雪剤",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "床暖房パネル",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "湯たんぽ（プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "金属製は「燃やせないごみ」"
+    },
+    {
+      "name": "湯沸器",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "洋服購入時のカバー(プラ製)",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "購入したものは、「燃やせるごみ」"
+    },
+    {
+      "name": "ヨーグルトの容器・ふた（紙製）",
+      "categoryId": "mixed_paper",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "水ですすいでも汚れが落ちないものは「燃やせるごみ」"
+    },
+    {
+      "name": "ヨーグルトの容器・ふた（プラ製）",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "ヨーグルトのふた（アルミ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ヨーグルトのびん",
+      "categoryId": "bottles_cans_pet",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "浴槽（ステンレス・ホ-ロー・FRP製）",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ライター（使い捨てを含む）",
+      "categoryId": "non_burnable",
+      "subItemId": "heated_tobacco_lighter",
+      "special": null,
+      "fee": "無料",
+      "note": "・完全に使い切って\n・使いきれない場合の処分方法は、「加熱式たばこ・電子たばこ、ライター」のページでご確認ください。"
+    },
+    {
+      "name": "ラグマット",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ラケット（金属製）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ラケット（金属製以外）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ラジオ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "ラジカセ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "ラッピングフィルム（包装用）",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "ラップ",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "ラップの箱・芯",
+      "categoryId": "mixed_paper",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "ランタン（ランプ）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ランドセル",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "リール（釣り具）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "リチウムコイン電池（型式番号CR、BRの表示があるもの)",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "セロハンテープなどでくるんで"
+    },
+    {
+      "name": "リップクリームの容器(プラ製)",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "リビングボード",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "木製はリユース（再利用）収集対象"
+    },
+    {
+      "name": "リモコン",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "リュックサック",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ルーター",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "ルーペ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "冷却まくら",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "冷水器",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！※フロン含有製品は、小型家電の無料回収に出せません"
+    },
+    {
+      "name": "冷蔵庫・冷凍庫・冷凍冷蔵庫",
+      "categoryId": null,
+      "subItemId": null,
+      "special": "not_collected",
+      "fee": null,
+      "note": "・販売店または家電回収協力店へ\n・詳細は、「テレビ・冷蔵庫・洗濯機・エアコンリサイクル」のページ参照"
+    },
+    {
+      "name": "冷風扇・冷風機（スポットクーラー）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！※フロン含有製品は小型家電の無料回収に出せません"
+    },
+    {
+      "name": "レインコート",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "古着の無料回収に出すと資源に！"
+    },
+    {
+      "name": "レコード",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "レコードのジャケット",
+      "categoryId": "mixed_paper",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "レコードプレーヤー",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "レシート",
+      "categoryId": "mixed_paper",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "レジ袋",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": null
+    },
+    {
+      "name": "レジャーシート",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "レトルト食品パック（カレーなど）",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "水で軽くすすいで"
+    },
+    {
+      "name": "レンガ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "なるべく小袋で"
+    },
+    {
+      "name": "レンジガード（アルミ箔製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "レンジガード（アルミ箔製以外）",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "レンジ台",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "木製はリユース（再利用）収集対象"
+    },
+    {
+      "name": "レンジフード",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ろうそく",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ロープ（麻製・プラ製）",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ローボード",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "木製はリユース（再利用）収集対象"
+    },
+    {
+      "name": "ローラースケート",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ロッカー",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "木製はリユース（再利用）収集対象"
+    },
+    {
+      "name": "ワープロ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "小型家電の無料回収に出すと資源に！"
+    },
+    {
+      "name": "ワイシャツ",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "古着の無料回収に出すと資源に！"
+    },
+    {
+      "name": "ワイヤーロープ",
+      "categoryId": "non_burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ワイン庫（ワインセラー）",
+      "categoryId": null,
+      "subItemId": null,
+      "special": "not_collected",
+      "fee": null,
+      "note": "・販売店または家電回収協力店へ\n・詳細は、「テレビ・冷蔵庫・洗濯機・エアコンリサイクル」のページ参照"
+    },
+    {
+      "name": "輪ゴム",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    },
+    {
+      "name": "ワゴン",
+      "categoryId": "bulky_waste",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": "木製はリユース（再利用）収集対象"
+    },
+    {
+      "name": "わさびのチューブ",
+      "categoryId": "plastic_containers",
+      "subItemId": null,
+      "special": null,
+      "fee": "無料",
+      "note": "中身を使い切って"
+    },
+    {
+      "name": "割り箸",
+      "categoryId": "burnable",
+      "subItemId": null,
+      "special": null,
+      "fee": "有料",
+      "note": null
+    }
+  ]
+}

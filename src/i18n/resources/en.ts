@@ -100,6 +100,19 @@ export const en = {
     officialDictionaryLink: "Look it up in {{municipality}}'s official household-waste sorting dictionary",
     speechResult: "{{item}} goes in {{category}}.",
     speechNotFound: "No match found for {{item}}.",
+    // The dictionary-backed special-case results are only ever shown while the UI language is Japanese
+    // (see ItemSearchPanel's useDictionary check), since the underlying data is unlocalized city text.
+    // These keys exist only to keep ja.ts/en.ts structurally in sync.
+    special: {
+      notCollected: "Not collected by the city",
+      communityRecycling: "Please use community recycling collection",
+      seeNote: "The category depends on the item's condition",
+    },
+    speechSpecial: {
+      notCollected: "{{item}} is not collected by the city. {{note}}",
+      communityRecycling: "{{item}} is best taken to community recycling collection. {{note}}",
+      seeNote: "{{item}}'s category depends on its condition. {{note}}",
+    },
   },
   about: {
     toggle: "About this app",
@@ -109,6 +122,7 @@ export const en = {
     sortingDictionaryLink: "View {{municipality}}'s official household-waste sorting dictionary",
     creditHeading: "Data source & license",
     datasetLink: "Dataset page ({{dataset}})",
+    itemDictionaryCreditHeading: "\"What bin does this go in?\" item-lookup data source",
     privacyHeading: "Privacy",
     privacyBody:
       "Your selected area and display settings are stored only on this device (in your browser's local storage) and are never sent to a server. If you use \"Detect ward from my location\", your latitude and longitude are sent only to the GSI (Geospatial Information Authority of Japan) reverse geocoding API to determine your ward, and are not stored or logged by this app.",

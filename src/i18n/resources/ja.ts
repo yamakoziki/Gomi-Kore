@@ -100,6 +100,16 @@ export const ja = {
     officialDictionaryLink: "{{municipality}}公式の「家庭ごみ50音分別辞典」で調べる",
     speechResult: "{{item}}は、{{category}}です。",
     speechNotFound: "{{item}}は見つかりませんでした。",
+    special: {
+      notCollected: "札幌市では収集していません",
+      communityRecycling: "集団資源回収などをご利用ください",
+      seeNote: "品目の状態によって区分が異なります",
+    },
+    speechSpecial: {
+      notCollected: "{{item}}は、札幌市では収集していません。{{note}}",
+      communityRecycling: "{{item}}は、集団資源回収などのご利用をおすすめします。{{note}}",
+      seeNote: "{{item}}は、品目の状態によって区分が異なります。{{note}}",
+    },
   },
   about: {
     toggle: "このアプリについて",
@@ -109,6 +119,7 @@ export const ja = {
     sortingDictionaryLink: "{{municipality}}公式の「家庭ごみ50音分別辞典」を見る",
     creditHeading: "データ出典・ライセンス",
     datasetLink: "データセットページ（{{dataset}}）",
+    itemDictionaryCreditHeading: "「これ何ゴミ？」品目検索データの出典",
     privacyHeading: "プライバシー",
     privacyBody:
       "選択した地区・表示設定は、この端末内（ブラウザのローカルストレージ）にのみ保存され、サーバーには送信されません。「現在地から区を自動判定」を使った場合、緯度・経度は区を調べる目的でのみ国土地理院の逆ジオコーディングAPIに送信され、アプリ側で保存・記録はしません。",

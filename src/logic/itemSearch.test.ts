@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
-import type { CategoriesData } from "../types";
-import { searchCategories } from "./itemSearch";
+import type { CategoriesData, ItemDictionaryData } from "../types";
+import { searchCategories, searchItemDictionary } from "./itemSearch";
 
 const categoriesData: CategoriesData = {
   municipalityCode: "sapporo",
@@ -77,5 +77,59 @@ describe("searchCategories", () => {
   it("prefers an exact match over a broader partial match", () => {
     const result = searchCategories(categoriesData, "生ごみ");
     expect(result?.category.id).toBe("burnable");
+  });
+});
+
+const itemDictionary: ItemDictionaryData = {
+  municipalityCode: "sapporo",
+  sourceUrl: "https://www.city.sapporo.jp/seiso/bunbetsu/index.html",
+  items: [
+    { name: "雑誌", categoryId: null, subItemId: null, special: "community_recycling", note: "できるだけ集団資源回収へ", fee: null },
+    { name: "アイスピック", categoryId: "burnable", subItemId: null, special: null, note: null, fee: "有料" },
+    {
+      name: "スプレー缶",
+      categoryId: "burnable",
+      subItemId: "spray_can",
+      special: null,
+      note: null,
+      fee: "無料",
+    },
+    { name: "ピアノ", categoryId: null, subItemId: null, special: "not_collected", note: "販売店に相談", fee: null },
+  ],
+};
+
+describe("searchItemDictionary", () => {
+  it("matches an item by exact name and resolves it to a regular category", () => {
+    const result = searchItemDictionary(categoriesData, itemDictionary, "アイスピック");
+    expect(result?.category?.id).toBe("burnable");
+    expect(result?.subItem).toBeNull();
+    expect(result?.entry.fee).toBe("有料");
+  });
+
+  it("resolves an entry's subItemId to the parent category's actual sub-item", () => {
+    const result = searchItemDictionary(categoriesData, itemDictionary, "スプレー缶");
+    expect(result?.category?.id).toBe("burnable");
+    expect(result?.subItem?.id).toBe("spray_can");
+  });
+
+  it("returns a null category (with the special case and note intact) for items the city doesn't collect", () => {
+    const result = searchItemDictionary(categoriesData, itemDictionary, "ピアノ");
+    expect(result?.category).toBeNull();
+    expect(result?.entry.special).toBe("not_collected");
+    expect(result?.entry.note).toBe("販売店に相談");
+  });
+
+  it("returns a null category for community-recycling items", () => {
+    const result = searchItemDictionary(categoriesData, itemDictionary, "雑誌");
+    expect(result?.category).toBeNull();
+    expect(result?.entry.special).toBe("community_recycling");
+  });
+
+  it("returns null for an unmatched query", () => {
+    expect(searchItemDictionary(categoriesData, itemDictionary, "存在しない品目")).toBeNull();
+  });
+
+  it("returns null for an empty query", () => {
+    expect(searchItemDictionary(categoriesData, itemDictionary, "  ")).toBeNull();
   });
 });

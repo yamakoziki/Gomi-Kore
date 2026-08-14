@@ -33,6 +33,12 @@ export function AboutFooter({ source }: { source: SourceData }) {
               {t("about.datasetLink", { dataset: source.datasetName })}
             </a>
           </p>
+          {source.itemDictionaryCreditText && (
+            <>
+              <h3>{t("about.itemDictionaryCreditHeading")}</h3>
+              <p>{source.itemDictionaryCreditText}</p>
+            </>
+          )}
           <h3>{t("about.privacyHeading")}</h3>
           <p>{t("about.privacyBody")}</p>
           <h3>{t("about.termsHeading")}</h3>

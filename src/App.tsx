@@ -84,7 +84,7 @@ function MunicipalityApp({
   adapter: AdapterModule;
   onChangeMunicipality: () => void;
 }) {
-  const { categoriesData, areaMappingData, sourceData, loadCalendar, MUNICIPALITY_CODE } = adapter;
+  const { categoriesData, areaMappingData, sourceData, loadCalendar, itemDictionaryData, MUNICIPALITY_CODE } = adapter;
   const { t } = useTranslation();
   const [selectedAreaCode, setSelectedAreaCode] = useLocalStorageState<string | null>(
     `gomi-kore:${MUNICIPALITY_CODE}:areaCode`,
@@ -166,6 +166,7 @@ function MunicipalityApp({
               areaColumnName={selectedArea.columnName}
               now={now}
               source={sourceData}
+              itemDictionaryData={itemDictionaryData}
               onSpeak={speak}
             />
 

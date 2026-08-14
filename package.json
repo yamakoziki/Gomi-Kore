@@ -10,6 +10,7 @@
     "preview": "vite preview",
     "test": "vitest run",
     "fetch:sapporo": "node scripts/fetch-sapporo-calendar.mjs",
+    "fetch:sapporo-dict": "node scripts/fetch-sapporo-item-dictionary.mjs",
     "fetch:otaru": "node scripts/fetch-otaru-calendar.mjs"
   },
   "dependencies": {

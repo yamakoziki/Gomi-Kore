@@ -15,6 +15,40 @@
 
 **動作環境**: iPhone / Android / タブレット（ブラウザ経由のPWAとして提供）
 
+## 開発コマンド
+
+```bash
+npm run dev              # Vite dev server
+npm run build             # tsc -b && vite build（型チェック含む）
+npm run lint               # oxlint（.oxlintrc.json）
+npm run test               # vitest run（全テスト1回実行）
+npx vitest run <path>       # 単一テストファイルのみ実行（例: src/logic/date.test.ts）
+npx vitest                   # watch モード
+npm run preview             # ビルド成果物をローカルでプレビュー
+npm run fetch:sapporo       # data/sapporo/calendar.json を CKAN API から再生成
+npm run fetch:sapporo-dict  # data/sapporo/item-dictionary.json を「家庭ごみ50音分別辞典」ページから再生成
+npm run fetch:otaru          # data/otaru/calendar.json を CSV から再生成
+```
+
+- CI（`.github/workflows/ci.yml`）は push/PR (main) で `lint` → `test` → `build` を実行する。
+- `deploy.yml` は main への push で `test` → `build`（`GITHUB_PAGES=true`）→ GitHub Pages に公開する。
+- `refresh-calendar.yml` / `refresh-otaru-calendar.yml` は週次スケジュールで対応する `fetch:*` スクリプトを実行し、差分があれば `data/{muni}/calendar.json` と `source.json` を自動コミットする。ebetsu 用の fetch スクリプトはまだ無く、`data/ebetsu/calendar.json` は手動更新。
+- テストは vitest + happy-dom + `@testing-library/react`（セットアップ: `src/setupTests.ts`）。`virtual:pwa-register` は `src/test-mocks/virtual-pwa-register.ts` にエイリアスされる（`vitest.config.ts`）。
+
+## アーキテクチャ概要（実装済み）
+
+現時点で `sapporo` / `otaru` / `ebetsu` の3自治体が実装済み（下記「データソース戦略」に書かれているPhase 1〜3の設計方針はすでにコードに反映されている）。
+
+- **アダプタとレジストリ**: `src/adapters/registry.ts` の `adapters: Record<string, AdapterModule>` が `sapporo.ts` / `otaru.ts` / `ebetsu.ts` を束ねる。各アダプタは `MUNICIPALITY_CODE`・`categoriesData`・`areaMappingData`・`sourceData`（すべて `data/{code}/*.json` を静的 import）と `loadCalendar(): Promise<LoadCalendarResult>` を export する、という共通シェイプを持つ。新しい自治体を追加する = `data/{code}/*.json` 一式 + `src/adapters/{code}.ts` + `registry.ts` への登録 + `data/municipalities.json` へのエントリ追加（後述の逆ジオコーディング解決用）。
+- **`loadCalendar()` の3段フォールバック**: ネットワーク取得 → `localStorage`（キー `gomi-kore:{code}:calendar`）のキャッシュ → アプリにバンドルされた `calendar.json` スナップショット。札幌は CKAN の `datastore_search` JSON API、小樽は Shift_JIS の CSV を手書きパーサ（`otaru.ts` 内 `parseCsv`）で処理しており、どちらもブラウザからは CORS でブロックされる（確認済み）ため、実運用ではバンドル済みスナップショット（`scripts/fetch-{code}-calendar.mjs` で生成・コミット）を大半のユーザーが見ることになる。
+- **自治体・地区の特定フロー**: `useGeolocation` → `src/adapters/geocode.ts` の `lookupMunicipalityCode(lat, lon)` が国土地理院の逆ジオコーダー（CORS許可済み・APIキー不要）を叩きJIS市区町村コード（例: `01101`）を取得 → `registry.ts` の `resolveMunicipalityCodeFromMuniCode()` が `data/municipalities.json` の `muniCodes` と照合して自治体コード（例: `sapporo`）に解決する。区・地区番号（collection-route単位の区分け）はデジタル境界データが存在しないため常に手動選択（`AreaSelector`）。
+- **主要な型**（`src/types.ts`）: `CalendarData`/`CalendarDay`（日付 → `areaColumnName` → ごみ種別コードのマップ）、`CategoriesData`/`Category`（`feeType`、`scheduleType: "regular" | "on_request"`、任意の `subItem`/`contact`）、`AreaMappingData`/`AreaInfo`、`SourceData`（CKAN系フィールドとCSV系フィールドを自治体ごとに使い分ける）。
+- **純粋ロジック層**（`src/logic/`、単体テスト必須）: `date.ts`（8時境界の日付計算）、`collection.ts`（`getCategoriesForDate` / `getNextCollectionDate` — `categories.json` に無い未知コードは例外を投げず「収集なし」として扱う）、`itemSearch.ts`（「これ何ゴミ？」のキーワード検索）。
+- **App構成**（`src/App.tsx`）: トップの `App` が `localStorage`（キー `gomi-kore:municipalityCode`）で選択自治体を保持し、未選択なら `MunicipalitySelector` を表示。選択後は `MunicipalityApp` に `key={MUNICIPALITY_CODE}` を渡してマウントし直す（自治体切り替え時に地区選択などのローカル状態を確実にリセットするため）。`MunicipalityApp` はアダプタの `loadCalendar` 結果を `TodayPanel` / `ItemSearchPanel` / `AllCategoriesPanel` / `AboutFooter` に配る。
+- **多言語**: `react-i18next` の辞書は `src/i18n/resources/{ja,en}.ts`、選択言語は `localStorage`（キー `gomi-kore:language`）に保存。UI文言はi18nextのkey経由だが、`data/*.json` 由来のごみ種別名・地区名などの `LocalizedText` は `src/i18n/localized.ts` の `pickLocalized(text, language)` で直接切り替える（i18next のリソースには入れない）。
+- **PWA**: `vite-plugin-pwa`（`registerType: 'autoUpdate'`）。`vite.config.ts` の `base` は `GITHUB_PAGES` 環境変数で切り替わる（GitHub Pagesのプロジェクトページ配下 `/Gomi-Kore/` とローカル/他ホスティングのルート `/` を両立するため）。
+- **品目辞書検索（「これ何ゴミ？」、札幌市のみ）**: `data/sapporo/item-dictionary.json`（`scripts/fetch-sapporo-item-dictionary.mjs` が札幌市公式サイトの「家庭ごみ50音分別辞典」全文から生成、1000件超）を `src/adapters/sapporo.ts` が `itemDictionaryData` として export し、`AdapterModule.itemDictionaryData`（他自治体は未実装のためoptional）経由で `ItemSearchPanel` に渡る。`src/logic/itemSearch.ts` の `searchItemDictionary()` が品目名を検索し、`categoryId`/`subItemId` を `categories.json` の実データに解決するほか、収集対象外・集団資源回収・備考参照など calendar に乗らない特殊ケース（`special` フィールド）も返す。このページはCC-BYではなく札幌市の了解を得て複製している通常のサイトコンテンツのため、`SourceData.itemDictionaryCreditText`（CC-BYの `creditText` とは別フィールド）でクレジット表示する。辞書本文は日本語のみのスクレイピングデータなので、UI言語が日本語のときだけ使用し、英語表示時は既存の `categories.json` 内 `keywords`（和英併記）ベースの `searchCategories()` にフォールバックする。
+
 ## 技術スタックと理由
 
 | 技術 | 用途 | 選定理由 |
@@ -251,7 +285,7 @@
 
 「毎日の家事を減らす」だけでなく「使うとちょっと嬉しい」体験を足すためのアイデア。優先度が高そうなものから記載。
 
-- **「これ何ゴミ？」検索辞書**: 品目名で検索すると分別区分が分かる機能（札幌市の「家庭ごみ50音分別辞典」的な発想）。カレンダー機能とは独立して価値が高く、迷いやすい品目（スプレー缶、割れ物、電池等）のカバーは満足度に直結する。データは `categories.json` を拡張し、品目の別名・キーワードも持たせる。
+- **「これ何ゴミ？」検索辞書**（実装済み・札幌市）: 品目名で検索すると分別区分が分かる機能。当初想定していた「`categories.json` の `keywords` を手動拡充する」方式に加え、札幌市の了解を得て公式の「家庭ごみ50音分別辞典」全文（1000件超）を実データとして取り込み済み（詳細は上記「アーキテクチャ概要」参照）。他自治体へ展開する場合は、各自治体に相当ページがあるかどうかと、複製の許諾を個別に確認する必要がある。
 - **分別クイズ / ミニゲーム**: 「これは何ゴミ？」のクイズ形式。特に子どもがいる家庭で楽しく分別知識が身につく。上記の辞書データをそのままクイズの出題データとして再利用できるため実装コストが低い。
 - **今日のエコ豆知識**: ごみ情報の横に「ペットボトルはラベルとキャップを外して出しましょう」のような小さな豆知識を1日1個表示。押し付けがましくない範囲で「ためになる」感を出す。多言語化・自治体差分どちらも影響が少なく、共通コンテンツとして持てる。
 - **季節の特集案内**: 年末の大掃除シーズンに合わせた粗大ごみ案内、衣替え時期の古着回収案内など、時期に応じた案内をトップ画面に出す。上記「タイムリーな情報」の仕組み（`notices.json`）を流用できる。

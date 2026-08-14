@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import type { CalendarData, CategoriesData, SourceData } from "../types";
-import { searchCategories } from "../logic/itemSearch";
+import type { CalendarData, CategoriesData, ItemDictionaryData, SourceData } from "../types";
+import { searchCategories, searchItemDictionary } from "../logic/itemSearch";
+import type { ItemDictionaryMatch } from "../logic/itemSearch";
 import { useVoiceInput } from "../hooks/useVoiceInput";
 import { pickLocalized } from "../i18n/localized";
 import { CategoryCard } from "./CategoryCard";
@@ -12,23 +13,64 @@ type Props = {
   areaColumnName: string;
   now: Date;
   source: SourceData;
+  /** Full item-by-item sorting dictionary, when the municipality has one bundled (currently Sapporo only). Its raw text is Japanese-only, so it's only consulted while the UI language is Japanese. */
+  itemDictionaryData?: ItemDictionaryData;
   onSpeak: (text: string, language: string) => void;
 };
 
-export function ItemSearchPanel({ categoriesData, calendar, areaColumnName, now, source, onSpeak }: Props) {
+const SPECIAL_HEADING_KEY: Record<NonNullable<ItemDictionaryMatch["entry"]["special"]>, string> = {
+  not_collected: "itemSearch.special.notCollected",
+  community_recycling: "itemSearch.special.communityRecycling",
+  see_note: "itemSearch.special.seeNote",
+};
+
+const SPECIAL_SPEECH_KEY: Record<NonNullable<ItemDictionaryMatch["entry"]["special"]>, string> = {
+  not_collected: "itemSearch.speechSpecial.notCollected",
+  community_recycling: "itemSearch.speechSpecial.communityRecycling",
+  see_note: "itemSearch.speechSpecial.seeNote",
+};
+
+export function ItemSearchPanel({
+  categoriesData,
+  calendar,
+  areaColumnName,
+  now,
+  source,
+  itemDictionaryData,
+  onSpeak,
+}: Props) {
   const { t, i18n } = useTranslation();
   const language = i18n.resolvedLanguage ?? "ja";
   const [query, setQuery] = useState("");
   const [searchedQuery, setSearchedQuery] = useState<string | null>(null);
   const { supported: voiceSupported, listening, error: voiceError, start, stop } = useVoiceInput(language);
 
-  const match = searchedQuery ? searchCategories(categoriesData, searchedQuery) : null;
+  // The dictionary's item names and notes are scraped Japanese city-website text with no translation, so it's only consulted in Japanese; English falls back to the hand-curated bilingual categories.json keywords below.
+  const useDictionary = language === "ja" && Boolean(itemDictionaryData);
+  const dictMatch =
+    searchedQuery && useDictionary ? searchItemDictionary(categoriesData, itemDictionaryData!, searchedQuery) : null;
+  const categoryMatch = searchedQuery && !dictMatch ? searchCategories(categoriesData, searchedQuery) : null;
 
   const runSearch = (text: string) => {
     const trimmed = text.trim();
     if (!trimmed) return;
     setQuery(trimmed);
     setSearchedQuery(trimmed);
+
+    const dict = useDictionary ? searchItemDictionary(categoriesData, itemDictionaryData!, trimmed) : null;
+    if (dict) {
+      if (dict.category) {
+        const categoryName = pickLocalized(dict.subItem?.name ?? dict.category.name, language);
+        onSpeak(t("itemSearch.speechResult", { item: trimmed, category: categoryName }), language);
+      } else if (dict.entry.special) {
+        onSpeak(
+          t(SPECIAL_SPEECH_KEY[dict.entry.special], { item: trimmed, note: dict.entry.note ?? "" }),
+          language,
+        );
+      }
+      return;
+    }
+
     const result = searchCategories(categoriesData, trimmed);
     const categoryName = result
       ? pickLocalized(result.matchedSubItem?.name ?? result.category.name, language)
@@ -93,25 +135,50 @@ export function ItemSearchPanel({ categoriesData, calendar, areaColumnName, now,
       {voiceError === "no-speech" && <p className="item-search-panel__status item-search-panel__status--error">{t("itemSearch.micNoSpeech")}</p>}
       {voiceError === "other" && <p className="item-search-panel__status item-search-panel__status--error">{t("itemSearch.micOther")}</p>}
 
-      {searchedQuery &&
-        (match ? (
-          <div className="item-search-panel__result">
-            <CategoryCard
-              category={match.category}
-              calendar={calendar}
-              areaColumnName={areaColumnName}
-              fromDate={now}
-              defaultExpanded
-            />
-          </div>
-        ) : (
-          <div className="item-search-panel__not-found">
-            <p>{t("itemSearch.notFound", { query: searchedQuery })}</p>
-            <a href={source.sortingDictionaryUrl} target="_blank" rel="noreferrer">
-              {t("itemSearch.officialDictionaryLink", { municipality: source.municipalityName })}
-            </a>
-          </div>
-        ))}
+      {searchedQuery && dictMatch?.category && (
+        <div className="item-search-panel__result">
+          <p className="item-search-panel__matched-item">{dictMatch.entry.name}</p>
+          <CategoryCard
+            category={dictMatch.category}
+            calendar={calendar}
+            areaColumnName={areaColumnName}
+            fromDate={now}
+            defaultExpanded
+          />
+          {dictMatch.entry.note && <p className="item-search-panel__dictionary-note">{dictMatch.entry.note}</p>}
+        </div>
+      )}
+
+      {searchedQuery && dictMatch && !dictMatch.category && dictMatch.entry.special && (
+        <div className="item-search-panel__result item-search-panel__special">
+          <p className="item-search-panel__matched-item">{dictMatch.entry.name}</p>
+          <p className="item-search-panel__special-heading">{t(SPECIAL_HEADING_KEY[dictMatch.entry.special])}</p>
+          {dictMatch.entry.note && <p className="item-search-panel__special-note">{dictMatch.entry.note}</p>}
+        </div>
+      )}
+
+      {searchedQuery && !dictMatch && (
+        <>
+          {categoryMatch ? (
+            <div className="item-search-panel__result">
+              <CategoryCard
+                category={categoryMatch.category}
+                calendar={calendar}
+                areaColumnName={areaColumnName}
+                fromDate={now}
+                defaultExpanded
+              />
+            </div>
+          ) : (
+            <div className="item-search-panel__not-found">
+              <p>{t("itemSearch.notFound", { query: searchedQuery })}</p>
+              <a href={source.sortingDictionaryUrl} target="_blank" rel="noreferrer">
+                {t("itemSearch.officialDictionaryLink", { municipality: source.municipalityName })}
+              </a>
+            </div>
+          )}
+        </>
+      )}
     </section>
   );
 }

@@ -7,6 +7,7 @@
   "creditText": "本アプリのごみ収集データは、一般財団法人さっぽろ産業振興財団が提供するオープンデータ（DATA-SMART CITY SAPPORO、CC-BY 4.0）を利用しています。",
   "officialUrl": "https://www.city.sapporo.jp/seiso/kaisyu/index.html",
   "sortingDictionaryUrl": "https://www.city.sapporo.jp/seiso/bunbetsu/index.html",
+  "itemDictionaryCreditText": "「これ何ゴミ？」の品目別検索データは、札幌市「家庭ごみ50音分別辞典」の内容を、札幌市の了解を得て利用しています。最新の内容は札幌市公式サイトでご確認ください。",
   "datasetUrl": "https://ckan.pf-sapporo.jp/dataset/garbage_collection_calendar",
   "datasetSlug": "garbage_collection_calendar",
   "apiBaseUrl": "https://ckan.pf-sapporo.jp/api/3/action/datastore_search",
