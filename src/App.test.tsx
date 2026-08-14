@@ -141,6 +141,24 @@ describe("App", () => {
     expect(utterance.text).toContain("Plastic containers & packaging");
   });
 
+  it("finds a category by an English keyword in the item search when the UI language is English", async () => {
+    const user = userEvent.setup({ delay: null });
+    render(<App />);
+
+    await selectArea(user);
+    await user.selectOptions(screen.getByLabelText("言語"), "en");
+
+    const heading = await screen.findByText("What bin does this go in?");
+    const panel = heading.closest("section") as HTMLElement;
+
+    // The 50-on item dictionary is Japanese-only and disabled in English mode; this only works
+    // because categories.json's own keywords now carry English synonyms too (see spray_can subItem).
+    await user.type(within(panel).getByPlaceholderText("e.g. spray can"), "spray can");
+    await user.click(within(panel).getByText("Search"));
+
+    expect(await within(panel).findByText("Burnable garbage")).toBeInTheDocument();
+  });
+
   it("auto-detects the ward from geolocation and leaves the district for manual selection", async () => {
     const getCurrentPosition = vi.fn((success: PositionCallback) => {
       success({

@@ -196,7 +196,33 @@
         "和だんす(1ｍおよび0.1ｍ３以内のもの)",
         "ワックス",
         "和服",
-        "割りばし"
+        "割りばし",
+        "ice cream stick",
+        "cooking oil",
+        "photo album",
+        "clothing",
+        "instant photo",
+        "fallen leaves",
+        "diaper",
+        "wooden toy",
+        "curtain",
+        "paper diaper",
+        "paper cup",
+        "paper plate",
+        "gum",
+        "wood",
+        "socks",
+        "floor cushion",
+        "photo",
+        "towel",
+        "cigarette butt",
+        "futon",
+        "futon cover",
+        "mask",
+        "cotton swab",
+        "blanket",
+        "clothes",
+        "disposable chopsticks"
       ]
     },
     {
@@ -741,7 +767,45 @@
         "ワイングラス",
         "輪ゴム",
         "ワゴン(1ｍおよび0.1ｍ３以内のもの)",
-        "ワックスのかん"
+        "ワックスのかん",
+        "iron",
+        "razor",
+        "camera",
+        "shoes",
+        "wallet",
+        "clock",
+        "calculator",
+        "telephone",
+        "toaster",
+        "pot",
+        "kitchen knife",
+        "hair dryer",
+        "vacuum cleaner",
+        "electric fan",
+        "microwave",
+        "umbrella",
+        "umbrella stand",
+        "mirror",
+        "vase",
+        "thermometer",
+        "scale",
+        "contact lenses",
+        "sunglasses",
+        "suitcase",
+        "water bottle",
+        "electric kettle",
+        "radio",
+        "remote control",
+        "scissors",
+        "bucket",
+        "headphones",
+        "helmet",
+        "lunch box",
+        "toothbrush",
+        "alarm clock",
+        "glasses",
+        "sewing machine",
+        "kettle"
       ]
     },
     {
@@ -798,7 +862,27 @@
         "モバイルバッテリー",
         "ヨーグルトの容器(びん)",
         "リチウムイオン電池",
-        "ワインのびん"
+        "ワインのびん",
+        "aluminum can",
+        "sake bottle",
+        "dry-cell battery",
+        "milk bottle",
+        "fluorescent tube",
+        "light bulb",
+        "coffee can",
+        "rechargeable battery",
+        "steel can",
+        "spray can",
+        "drink bottle",
+        "battery",
+        "nickel-cadmium battery",
+        "nickel-metal hydride battery",
+        "beer can",
+        "beer bottle",
+        "button battery",
+        "power bank",
+        "lithium-ion battery",
+        "wine bottle"
       ]
     },
     {
@@ -886,7 +970,17 @@
         "ワイシャツの台紙(紙製)",
         "ワイシャツの蝶（ちょう）キーパー・サポーター(紙製)",
         "輪ゴムの外箱(紙製)",
-        "割りばしの袋(紙製)"
+        "割りばしの袋(紙製)",
+        "cardstock",
+        "paper carton",
+        "paper bag",
+        "milk carton",
+        "magazine",
+        "newspaper",
+        "cardboard",
+        "flyer",
+        "postcard",
+        "book"
       ]
     },
     {
@@ -1018,7 +1112,14 @@
         "ワイシャツの外袋・フック(プラ類)",
         "ワイシャツの蝶（ちょう）キーパー・サポーター(プラ製)",
         "わさびのチューブ(プラ製)",
-        "割りばしの袋(プラ製)"
+        "割りばしの袋(プラ製)",
+        "PET bottle",
+        "food tray",
+        "egg carton",
+        "shampoo bottle",
+        "plastic bag",
+        "plastic wrap",
+        "PET bottle cap"
       ]
     },
     {
@@ -1079,7 +1180,17 @@
         "ホームタンク(屋外用、灯油タンク)",
         "床暖房パネル",
         "ランニングマシーン",
-        "リヤカー"
+        "リヤカー",
+        "wheelchair",
+        "bicycle",
+        "sofa",
+        "chest of drawers",
+        "dresser",
+        "desk",
+        "bed",
+        "tatami mat",
+        "surfboard",
+        "guitar"
       ]
     },
     {
@@ -1110,7 +1221,15 @@
         "冷蔵庫",
         "冷凍庫",
         "冷凍ストッカー",
-        "冷凍冷蔵庫"
+        "冷凍冷蔵庫",
+        "clothes dryer",
+        "air conditioner",
+        "LCD TV",
+        "washing machine",
+        "CRT TV",
+        "plasma TV",
+        "refrigerator",
+        "freezer"
       ]
     },
     {
@@ -1134,7 +1253,12 @@
         "ノートパソコン",
         "パソコン",
         "パソコン用ディスプレイ(モニター)",
-        "モニター（パソコン用）"
+        "モニター（パソコン用）",
+        "computer display",
+        "laptop",
+        "computer",
+        "PC",
+        "monitor"
       ]
     },
     {
@@ -1173,7 +1297,14 @@
         "ハンドヘルドゲーム（ミニ電子ゲーム)",
         "PHS",
         "ビデオカメラ",
-        "ビデオデッキ"
+        "ビデオデッキ",
+        "game console",
+        "mobile phone",
+        "smartphone",
+        "tablet",
+        "digital camera",
+        "electric toothbrush",
+        "video camera"
       ]
     },
     {
@@ -1205,7 +1336,15 @@
         "発炎筒・発煙筒(未使用品)",
         "バッテリー(鉛蓄電池)(自動車、バイク用など)",
         "ピアノ",
-        "プロパンガスボンベ"
+        "プロパンガスボンベ",
+        "motorcycle",
+        "gasoline",
+        "car",
+        "fire extinguisher",
+        "tire",
+        "kerosene",
+        "piano",
+        "propane gas cylinder"
       ]
     }
   ],
